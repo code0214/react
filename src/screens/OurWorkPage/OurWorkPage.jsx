@@ -52,7 +52,7 @@ function getCardResponse(){
           <div className="text-wrapper-2">OUR WORK</div>
           <div className="div-2">
             <div className="content-hovered">
-              <img className="image" alt="Image" src="/img/image-15.png" />
+              <img className="image" alt="Image" src="./img/image-15.png" />
               <div className="title">
                 <Number variant={getCardResponse()} />
                 <div className="div-2">
@@ -117,13 +117,13 @@ function getCardResponse(){
         <div className="div-6">
           <div className="text-wrapper-5">ARE YOU READY TO</div>
           <div className="frame">
-            <img className="line" alt="Line" src="/img/line-10.svg" />
+            <img className="line" alt="Line" src="./img/line-10.svg" />
             <div className="text-wrapper-5">WORK</div>
-            <img className="line" alt="Line" src="/img/line-10.svg" />
+            <img className="line" alt="Line" src="./img/line-10.svg" />
           </div>
           <div className="frame">
             <div className="text-wrapper-5">WITH</div>
-            <img className="line" alt="Line" src="/img/line-9.svg" />
+            <img className="line" alt="Line" src="./img/line-9.svg" />
             <div className="US">
               <div className="div-wrapper">
                 <div className="text-wrapper-6">US</div>
@@ -142,9 +142,9 @@ function getCardResponse(){
                 <div className="dropdown-container">
                   <div className="select-dropdown">
                     <div className="text-wrapper-7">Select</div>
-                    <img className="mdi-menu-down" alt="Mdi menu down" src="/img/mdi-menu-down.svg" />
+                    <img className="mdi-menu-down" alt="Mdi menu down" src="./img/mdi-menu-down.svg" />
                   </div>
-                  <img className="img" alt="Line" src="/img/line-2-1.svg" />
+                  <img className="img" alt="Line" src="./img/line-2-1.svg" />
                 </div>
               </div>
               <div className="div-3">
@@ -153,7 +153,7 @@ function getCardResponse(){
                 </div>
                 <div className="div-4">
                   <div className="text-wrapper-8">Enter Your Name</div>
-                  <img className="img" alt="Line" src="/img/line-1-1.svg" />
+                  <img className="img" alt="Line" src="./img/line-1-1.svg" />
                 </div>
               </div>
               <div className="div-3">
@@ -162,7 +162,7 @@ function getCardResponse(){
                 </div>
                 <div className="div-4">
                   <div className="text-wrapper-8">Enter Your Email</div>
-                  <img className="img" alt="Line" src="/img/line-1-1.svg" />
+                  <img className="img" alt="Line" src="./img/line-1-1.svg" />
                 </div>
               </div>
               <div className="div-3">
@@ -171,7 +171,7 @@ function getCardResponse(){
                 </div>
                 <div className="div-4">
                   <div className="text-wrapper-8">Enter Your Phone</div>
-                  <img className="img" alt="Line" src="/img/line-1-1.svg" />
+                  <img className="img" alt="Line" src="./img/line-1-1.svg" />
                 </div>
               </div>
               <div className="div-3">
@@ -181,9 +181,9 @@ function getCardResponse(){
                 <div className="div-4">
                   <div className="select-dropdown">
                     <p className="text-wrapper-7">What did you have in mind?</p>
-                    <img className="mdi-menu-down" alt="Mdi menu down" src="/img/mdi-menu-down.svg" />
+                    <img className="mdi-menu-down" alt="Mdi menu down" src="./img/mdi-menu-down.svg" />
                   </div>
-                  <img className="img" alt="Line" src="/img/line-2.svg" />
+                  <img className="img" alt="Line" src="./img/line-2.svg" />
                 </div>
               </div>
               <div className="message">
@@ -192,7 +192,7 @@ function getCardResponse(){
                 </div>
                 <div className="div-4">
                   <p className="text-wrapper-8">Tell us about your amazing idea!</p>
-                  <img className="img" alt="Line" src="/img/line-1.svg" />
+                  <img className="img" alt="Line" src="./img/line-1.svg" />
                 </div>
               </div>
             </div>
@@ -203,7 +203,7 @@ function getCardResponse(){
       <div className="frame-2">
         <div className="footer-navbar">
           <div className="footer-logo-section">
-            <img className="AVY-LOGO-2" alt="Avy LOGO" src="/img/avy-logo-4.png" />
+            <img className="AVY-LOGO-2" alt="Avy LOGO" src="./img/avy-logo-4.png" />
           </div>
           <div className="div">
             <div className="frame-4">
@@ -249,7 +249,7 @@ function getCardResponse(){
             </p>
             <div className="frame">
               <div className="text-wrapper-9">TERMS &amp; CONDITIONS</div>
-              <img className="line-2" alt="Line" src="/img/line-21.svg" />
+              <img className="line-2" alt="Line" src="./img/line-21.svg" />
               <div className="text-wrapper-9">PRIVACY POLICY</div>
             </div>
           </div>
