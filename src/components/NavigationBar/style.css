@@ -1,0 +1,66 @@
+.navigation-bar {
+  align-items: center;
+  /* display: inline-flex; */
+  flex-direction: column;
+  padding: 24px 60px;
+  position: relative;
+  justify-content: space-between;
+}
+
+.navigation-bar .content {
+  align-items: center;
+  /* display: flex; */
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.navigation-bar .AVY-LOGO {
+  height: 48px;
+  object-fit: cover;
+  position: relative;
+  width: 48px;
+}
+
+.navigation-bar .navbar-button-instance {
+  flex: 0 0 auto !important;
+}
+
+.navigation-bar .navigation {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 12px;
+}
+
+.navigation-bar .mdi-menu {
+  height: 48px;
+  position: relative;
+  width: 48px;
+}
+
+.navigation-bar.burger {
+  background-color: var(--white);
+  gap: 10px;
+}
+
+.navigation-bar.white {
+  /* background-color: var(--white); */
+  gap: 10px;
+}
+
+.navigation-bar.homepage-hero {
+  background-color: var(--surface);
+}
+
+.navigation-bar.burger .content {
+  background-color: var(--white);
+}
+
+.navigation-bar.white .content {
+  /* background-color: var(--white); */
+}
+
+.navigation-bar.homepage-hero .content {
+  background-color: var(--surface);
+}

@@ -1,0 +1,68 @@
+.state-homepage-hero-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 24px 60px;
+  position: relative;
+}
+
+.state-homepage-hero-wrapper .content {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 1320px;
+}
+
+.state-homepage-hero-wrapper .AVY-LOGO {
+  height: 48px;
+  object-fit: cover;
+  position: relative;
+  width: 48px;
+}
+
+.state-homepage-hero-wrapper .navbar-button-instance {
+  flex: 0 0 auto !important;
+}
+
+.state-homepage-hero-wrapper .navigation {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 12px;
+  left: 404px;
+  position: absolute;
+  top: 0;
+}
+
+.state-homepage-hero-wrapper .mdi-menu {
+  height: 48px;
+  position: relative;
+  width: 48px;
+}
+
+.state-homepage-hero-wrapper.burger {
+  background-color: var(--white);
+  gap: 10px;
+}
+
+.state-homepage-hero-wrapper.white {
+  background-color: var(--white);
+  gap: 10px;
+}
+
+.state-homepage-hero-wrapper.homepage-hero {
+  background-color: var(--surface);
+}
+
+.state-homepage-hero-wrapper.burger .content {
+  background-color: var(--white);
+}
+
+.state-homepage-hero-wrapper.white .content {
+  background-color: var(--white);
+}
+
+.state-homepage-hero-wrapper.homepage-hero .content {
+  background-color: var(--surface);
+}

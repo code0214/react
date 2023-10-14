@@ -1,0 +1,86 @@
+.element {
+  background-color: #dbdce2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.element .overlap-wrapper {
+  background-color: var(--surface);
+  height: 920px;
+  width: 1440px;
+}
+
+.element .overlap {
+  height: 838px;
+  position: relative;
+  top: 82px;
+}
+
+.element .overlap-group {
+  height: 838px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.element .avy-website-banner {
+  height: 816px;
+  left: 1236px;
+  position: absolute;
+  top: 22px;
+  width: 204px;
+}
+
+.element .rectangle {
+  background-color: var(--black);
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 798px;
+  width: 1440px;
+}
+
+.element .unsplash {
+  height: 838px;
+  left: 720px;
+  position: absolute;
+  top: 0;
+  width: 624px;
+}
+
+.element .button-instance {
+  left: 583px !important;
+  position: absolute !important;
+  top: 680px !important;
+}
+
+.element .text-wrapper {
+  color: var(--black);
+  font-family: var(--desktop-headline-h1-font-family);
+  font-size: var(--desktop-headline-h1-font-size);
+  font-style: var(--desktop-headline-h1-font-style);
+  font-weight: var(--desktop-headline-h1-font-weight);
+  left: 208px;
+  letter-spacing: var(--desktop-headline-h1-letter-spacing);
+  line-height: var(--desktop-headline-h1-line-height);
+  position: absolute;
+  top: 15px;
+  width: 512px;
+}
+
+.element .div {
+  color: var(--black);
+  font-family: var(--desktop-headline-h2-font-family);
+  font-size: var(--desktop-headline-h2-font-size);
+  font-style: var(--desktop-headline-h2-font-style);
+  font-weight: var(--desktop-headline-h2-font-weight);
+  left: 208px;
+  letter-spacing: var(--desktop-headline-h2-letter-spacing);
+  line-height: var(--desktop-headline-h2-line-height);
+  position: absolute;
+  top: 211px;
+  width: 512px;
+}

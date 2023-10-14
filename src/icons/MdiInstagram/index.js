@@ -1,0 +1,1 @@
+export { MdiInstagram } from "./MdiInstagram";

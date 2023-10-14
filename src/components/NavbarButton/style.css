@@ -1,0 +1,30 @@
+.navbar-button {
+  align-items: center;
+  border-radius: 60px;
+  display: inline-flex;
+  justify-content: center;
+  padding: 12px 24px;
+  position: relative;
+}
+
+.navbar-button .LABEL {
+  font-family: var(--desktop-label-medium-font-family);
+  font-size: var(--desktop-label-medium-font-size);
+  font-style: var(--desktop-label-medium-font-style);
+  font-weight: var(--desktop-label-medium-font-weight);
+  letter-spacing: var(--desktop-label-medium-letter-spacing);
+  line-height: var(--desktop-label-medium-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.navbar-button .default {
+  color: var(--black);
+}
+
+.navbar-button .hovered {
+  color: var(--primary);
+}

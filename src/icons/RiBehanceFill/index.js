@@ -1,0 +1,1 @@
+export { RiBehanceFill } from "./RiBehanceFill";

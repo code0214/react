@@ -1,0 +1,47 @@
+.number {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.number .element {
+  color: var(--white);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.number.desktop {
+  height: 60px;
+  padding: 10px 12px;
+  width: 60px;
+}
+
+.number.mobile {
+  height: 40px;
+  padding: 8px 12px;
+  width: 40px;
+}
+
+.number.desktop .element {
+  font-family: var(--desktop-display-medium-font-family);
+  font-size: var(--desktop-display-medium-font-size);
+  font-style: var(--desktop-display-medium-font-style);
+  font-weight: var(--desktop-display-medium-font-weight);
+  letter-spacing: var(--desktop-display-medium-letter-spacing);
+  line-height: var(--desktop-display-medium-line-height);
+}
+
+.number.mobile .element {
+  font-family: var(--mobile-display-medium-font-family);
+  font-size: var(--mobile-display-medium-font-size);
+  font-style: var(--mobile-display-medium-font-style);
+  font-weight: var(--mobile-display-medium-font-weight);
+  letter-spacing: var(--mobile-display-medium-letter-spacing);
+  line-height: var(--mobile-display-medium-line-height);
+}

@@ -1,0 +1,23 @@
+{
+  "sourceType": "unambiguous",
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "chrome": 100
+        },
+        "jsc": {
+          "transform": {
+            "react": {
+              "throwIfNamespace": false
+            }
+          }
+        }
+      }
+    ],
+    "@babel/preset-typescript",
+    "@babel/preset-react"
+  ],
+  "plugins": []
+}

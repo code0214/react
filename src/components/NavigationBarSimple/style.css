@@ -1,0 +1,129 @@
+.navigation-bar {
+    align-items: flex-start;
+    /* display: inline-flex; */
+    flex-direction: column;
+    padding: 24px 60px;
+    position: relative;
+    display: flex;
+  }
+  
+  .navigation-bar .content {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  
+  .navigation-bar .AVY-LOGO {
+    height: 48px;
+    object-fit: cover;
+    position: relative;
+    width: 48px;
+  }
+  
+  .navigation-bar .navbar-button-instance {
+    flex: 0 0 auto !important;
+  }
+  
+  .navigation-bar .navigation {
+    align-items: flex-start;
+    /* display: inline-flex; */
+    gap: 12px;
+    /* left: 404px; */
+    /* position: absolute; */
+    /* top: 0; */
+  }
+  
+  .navigation-bar .mdi-menu {
+    height: 48px;
+    position: relative;
+    width: 48px;
+  }
+  
+  .navigation-bar.burger {
+    background-color: var(--white);
+    gap: 10px;
+  }
+  
+  .navigation-bar.white {
+    /* background-color: var(--white); */
+    gap: 10px;
+  }
+  
+  .navigation-bar.homepage-hero {
+    background-color: var(--surface);
+  }
+  
+  .navigation-bar.burger .content {
+    background-color: var(--white);
+  }
+  
+  .navigation-bar.white .content {
+    /* background-color: var(--white); */
+  }
+  
+  .navigation-bar.homepage-hero .content {
+    background-color: var(--surface);
+  }
+
+  @media screen and (max-width: 390px) {
+    .navigation-bar {
+      align-items: flex-start;
+      display: inline-flex;
+      flex-direction: column;
+      padding: 8px 16px;
+      gap: 10px;
+      position: relative;
+    }
+    
+    .navigation-bar .content {
+      align-items: center;
+      display: flex;
+      flex: 0 0 auto;
+      justify-content: space-between;
+      position: relative;
+      width: 358px;
+    }
+    
+    .navigation-bar .AVY-LOGO {
+      height: 24px;
+      object-fit: cover;
+      position: relative;
+      width: 24px;
+    }
+    
+    .navigation-bar .mdi-menu {
+      height: 32px;
+      position: relative;
+      width: 32px;
+    }
+    
+    .navigation-bar.white {
+      background-color: var(--white);
+    }
+    
+    .navigation-bar.homepage-hero {
+      background-color: var(--surface);
+    }
+    
+    .navigation-bar.white .content {
+      background-color: var(--white);
+    }
+    
+    .navigation-bar.homepage-hero .content {
+      background-color: var(--surface);
+    }
+  }
+
+  .home-page-hi-fi .scrollbar {
+    background-color: var(--primary);
+    border-radius: 60px;
+    height: 120px;
+    /* left: 1428px; */
+    position: absolute;
+    /* top: 1007px; */
+    width: 12px;
+    right: 0;
+  }

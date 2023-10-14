@@ -1,0 +1,179 @@
+.cards-how-we-think {
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+
+.cards-how-we-think .card {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.cards-how-we-think .text {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.cards-how-we-think .card-title {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.cards-how-we-think .div {
+  align-self: stretch;
+  color: var(--black);
+  font-family: var(--desktop-display-medium-font-family);
+  font-size: var(--desktop-display-medium-font-size);
+  font-style: var(--desktop-display-medium-font-style);
+  font-weight: var(--desktop-display-medium-font-weight);
+  letter-spacing: var(--desktop-display-medium-letter-spacing);
+  line-height: var(--desktop-display-medium-line-height);
+  position: relative;
+}
+
+.cards-how-we-think .text-wrapper-2 {
+  align-self: stretch;
+  color: var(--secondary);
+  font-family: var(--desktop-body-medium-font-family);
+  font-size: var(--desktop-body-medium-font-size);
+  font-style: var(--desktop-body-medium-font-style);
+  font-weight: var(--desktop-body-medium-font-weight);
+  letter-spacing: var(--desktop-body-medium-letter-spacing);
+  line-height: var(--desktop-body-medium-line-height);
+  position: relative;
+}
+
+.cards-how-we-think .client {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.cards-how-we-think .text-wrapper-3 {
+  color: var(--black);
+  font-family: var(--desktop-body-medium-font-family);
+  font-size: var(--desktop-body-medium-font-size);
+  font-style: var(--desktop-body-medium-font-style);
+  font-weight: var(--desktop-body-medium-font-weight);
+  letter-spacing: var(--desktop-body-medium-letter-spacing);
+  line-height: var(--desktop-body-medium-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.cards-how-we-think .text-wrapper-4 {
+  color: var(--black);
+  font-family: var(--desktop-body-medium-font-family);
+  font-size: var(--desktop-body-medium-font-size);
+  font-style: var(--desktop-body-medium-font-style);
+  font-weight: var(--desktop-body-medium-font-weight);
+  letter-spacing: var(--desktop-body-medium-letter-spacing);
+  line-height: var(--desktop-body-medium-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.cards-how-we-think .p {
+  align-self: stretch;
+  color: var(--black);
+  font-family: var(--mobile-display-medium-font-family);
+  font-size: var(--mobile-display-medium-font-size);
+  font-style: var(--mobile-display-medium-font-style);
+  font-weight: var(--mobile-display-medium-font-weight);
+  letter-spacing: var(--mobile-display-medium-letter-spacing);
+  line-height: var(--mobile-display-medium-line-height);
+  position: relative;
+}
+
+.cards-how-we-think .text-wrapper-5 {
+  align-self: stretch;
+  color: var(--secondary);
+  font-family: var(--mobile-body-medium-font-family);
+  font-size: var(--mobile-body-medium-font-size);
+  font-style: var(--mobile-body-medium-font-style);
+  font-weight: var(--mobile-body-medium-font-weight);
+  letter-spacing: var(--mobile-body-medium-letter-spacing);
+  line-height: var(--mobile-body-medium-line-height);
+  position: relative;
+}
+
+.cards-how-we-think .text-wrapper-6 {
+  color: var(--black);
+  font-family: var(--mobile-body-medium-font-family);
+  font-size: var(--mobile-body-medium-font-size);
+  font-style: var(--mobile-body-medium-font-style);
+  font-weight: var(--mobile-body-medium-font-weight);
+  letter-spacing: var(--mobile-body-medium-letter-spacing);
+  line-height: var(--mobile-body-medium-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.cards-how-we-think .text-wrapper-7 {
+  color: var(--black);
+  font-family: var(--mobile-body-medium-font-family);
+  font-size: var(--mobile-body-medium-font-size);
+  font-style: var(--mobile-body-medium-font-style);
+  font-weight: var(--mobile-body-medium-font-weight);
+  letter-spacing: var(--mobile-body-medium-letter-spacing);
+  line-height: var(--mobile-body-medium-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.cards-how-we-think.variant-0-desktop {
+  display: inline-flex;
+  gap: 12px;
+}
+
+.cards-how-we-think.variant-0-mobile {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  max-width: 744px;
+  width: 100%;
+}
+
+.cards-how-we-think.variant-0-desktop .card {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  gap: 24px;
+  height: 420px;
+  max-width: 744px;
+  width: 660px;
+}
+
+.cards-how-we-think.variant-0-mobile .card {
+  align-self: stretch;
+  flex: 0 0 auto;
+  gap: 40px;
+  padding: 24px;
+  width: 100%;
+}
