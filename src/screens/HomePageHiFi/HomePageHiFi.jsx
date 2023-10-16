@@ -67,6 +67,7 @@ function getCardResponse(){
 
   return (
     <div className="home-page-hi-fi">
+      <p>slafkj;asldkfj;laksdfj;l</p>
       <div className="div-3">
         <div className="HERO">
           <NavigationBar className="design-component-instance-node" state={getNavResponse()} />
