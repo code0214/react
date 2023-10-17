@@ -61,7 +61,7 @@ function getCardResponse(){
             <div className="content-container">
               <div className="article">
                 <div className="content-2">
-                  <img className="rectangle" alt="Rectangle" src="./img/rectangle-98-4.png" />
+                  <img className="rectangle" alt="Rectangle" src="/img/rectangle-98-4.png" />
                   <div className="text-2">
                     <p className="p">
                       AVY Pruthi, Nuneaton business owner – Coventry &amp; Warwickshire Chamber workshops
@@ -69,7 +69,7 @@ function getCardResponse(){
                     <div className="date-button">
                       <div className="date-category">
                         <div className="text-wrapper-9">30 June 2021</div>
-                        <img className="line-2" alt="Line" src="./img/line-27.svg" />
+                        <img className="line-2" alt="Line" src="/img/line-27.svg" />
                         <div className="text-wrapper-9">Business</div>
                       </div>
                       <Link to="/insightContent"><Button className="design-component-instance-node" text="READ ARTICLE" /></Link> 
@@ -79,15 +79,15 @@ function getCardResponse(){
               </div>
               <div className="content-wrapper">
                 <div className="content-2">
-                  <img className="rectangle" alt="Rectangle" src="./img/rectangle-98-3.png" />
+                  <img className="rectangle" alt="Rectangle" src="/img/rectangle-98-3.png" />
                   <div className="text-2">
                     <p className="p">Daily Logo Challenge for 50 days</p>
                     <div className="date-button">
                       <div className="date-category">
                         <div className="text-wrapper-9">30 June 2021</div>
-                        <img className="line-2" alt="Line" src="./img/line-27.svg" />
+                        <img className="line-2" alt="Line" src="/img/line-27.svg" />
                         <div className="text-wrapper-9">Design</div>
-                        <img className="line-2" alt="Line" src="./img/line-27.svg" />
+                        <img className="line-2" alt="Line" src="/img/line-27.svg" />
                         <div className="text-wrapper-9">Logo Identity</div>
                       </div>
                       <Button className="design-component-instance-node" text="READ ARTICLE" />
@@ -97,13 +97,13 @@ function getCardResponse(){
               </div>
               <div className="content-wrapper">
                 <div className="content-2">
-                  <img className="rectangle" alt="Rectangle" src="./img/rectangle-98-2.png" />
+                  <img className="rectangle" alt="Rectangle" src="/img/rectangle-98-2.png" />
                   <div className="text-2">
                     <p className="p">Bringing a Business to Life: Chamber of Commerce, AVY Pruthi</p>
                     <div className="date-button">
                       <div className="date-category">
                         <div className="text-wrapper-9">30 June 2021</div>
-                        <img className="line-2" alt="Line" src="./img/line-27.svg" />
+                        <img className="line-2" alt="Line" src="/img/line-27.svg" />
                         <div className="text-wrapper-9">Business</div>
                       </div>
                       <Button className="design-component-instance-node" text="READ ARTICLE" />
@@ -113,15 +113,15 @@ function getCardResponse(){
               </div>
               <div className="content-wrapper">
                 <div className="content-2">
-                  <img className="rectangle" alt="Rectangle" src="./img/rectangle-98-1.png" />
+                  <img className="rectangle" alt="Rectangle" src="/img/rectangle-98-1.png" />
                   <div className="text-2">
                     <p className="p">Our new Trustpilot partnership, and how it’ll help your business</p>
                     <div className="date-button">
                       <div className="date-category">
                         <div className="text-wrapper-9">30 June 2021</div>
-                        <img className="line-2" alt="Line" src="./img/line-27.svg" />
+                        <img className="line-2" alt="Line" src="/img/line-27.svg" />
                         <div className="text-wrapper-9">Business</div>
-                        <img className="line-2" alt="Line" src="./img/line-27.svg" />
+                        <img className="line-2" alt="Line" src="/img/line-27.svg" />
                         <div className="text-wrapper-9">Partners</div>
                       </div>
                       <Button className="design-component-instance-node" text="READ ARTICLE" />
@@ -131,17 +131,17 @@ function getCardResponse(){
               </div>
               <div className="content-wrapper">
                 <div className="content-2">
-                  <img className="rectangle" alt="Rectangle" src="./img/rectangle-98.png" />
+                  <img className="rectangle" alt="Rectangle" src="/img/rectangle-98.png" />
                   <div className="text-2">
                     <p className="p">Ogilvy lose the Philips international creative account after 10 years.</p>
                     <div className="date-button">
                       <div className="date-category">
                         <div className="text-wrapper-9">26 March 2021</div>
-                        <img className="line-2" alt="Line" src="./img/line-27.svg" />
+                        <img className="line-2" alt="Line" src="/img/line-27.svg" />
                         <div className="text-wrapper-9">Business</div>
-                        <img className="line-2" alt="Line" src="./img/line-27.svg" />
+                        <img className="line-2" alt="Line" src="/img/line-27.svg" />
                         <div className="text-wrapper-9">Design</div>
-                        <img className="line-2" alt="Line" src="./img/line-27.svg" />
+                        <img className="line-2" alt="Line" src="/img/line-27.svg" />
                         <div className="text-wrapper-9">Market</div>
                       </div>
                       <Button className="design-component-instance-node" text="READ ARTICLE" />

@@ -46,21 +46,21 @@ function getCardResponse(){
           <NavigationBar className="navigation-bar-instance" state={getNavResponse()} />
         </div>
         <div className="div-4">
-          <img className="rectangle" alt="Rectangle" src="./img/rectangle-99.png" />
+          <img className="rectangle" alt="Rectangle" src="/img/rectangle-99.png" />
           {/* <div className="div-4"> */}
             <div className="div-5">
               <p className="AVY-pruthi-nuneaton">
-                AVY Pruthi, Nuneaton <br />  business owner – Coventry <br /> &amp;  Warwickshire Chamber <br /> workshops
+                AVY Pruthi, Nuneaton business owner – Coventry &amp;  Warwickshire Chamber workshops
               </p>
               <div className="date-category-share">
                 <div className="div-7">
                   <div className="text-wrapper-6">30 June 2021</div>
-                  <img className="line-2" alt="Line" src="./img/line-26.svg" />
+                  <img className="line-2" alt="Line" src="/img/line-26.svg" />
                   <div className="text-wrapper-6">Business</div>
                 </div>
                 <div className="share">
                   <div className="text-wrapper-7">Share:</div>
-                  <img className="social" alt="Social" src="./img/social.svg" />
+                  <img className="social" alt="Social" src="/img/social.svg" />
                 </div>
               </div>
             </div>
@@ -90,38 +90,38 @@ function getCardResponse(){
         <div className="text-wrapper-8">LATEST INSIGHTS</div>
         <div className="div-6">
           <div className="latest-insights">
-            <img className="rectangle-2" alt="Rectangle" src="./img/rectangle-103-2.png" />
+            <img className="rectangle-2" alt="Rectangle" src="/img/rectangle-103-2.png" />
             <div className="text-2">
               <p className="p">Daily Logo Challenge for 50 days</p>
               <div className="div-7">
                 <div className="text-wrapper-6">30 June 2021</div>
-                <img className="line-2" alt="Line" src="./img/line-26.svg" />
+                <img className="line-2" alt="Line" src="/img/line-26.svg" />
                 <div className="text-wrapper-6">Design</div>
-                <img className="line-2" alt="Line" src="./img/line-26.svg" />
+                <img className="line-2" alt="Line" src="/img/line-26.svg" />
                 <div className="text-wrapper-6">Logo Identity</div>
               </div>
             </div>
           </div>
           <div className="latest-insights">
-            <img className="rectangle-2" alt="Rectangle" src="./img/rectangle-103-1.png" />
+            <img className="rectangle-2" alt="Rectangle" src="/img/rectangle-103-1.png" />
             <div className="text-2">
               <p className="p">Bringing a Business to Life: Chamber of Commerce, AVY Pruthi</p>
               <div className="div-7">
                 <div className="text-wrapper-6">30 June 2021</div>
-                <img className="line-2" alt="Line" src="./img/line-26.svg" />
+                <img className="line-2" alt="Line" src="/img/line-26.svg" />
                 <div className="text-wrapper-6">Business</div>
               </div>
             </div>
           </div>
           <div className="latest-insights">
-            <img className="rectangle-2" alt="Rectangle" src="./img/rectangle-103.png" />
+            <img className="rectangle-2" alt="Rectangle" src="/img/rectangle-103.png" />
             <div className="text-2">
               <p className="p">Our new Trustpilot partnership, and how it’ll help your business</p>
               <div className="div-7">
                 <div className="text-wrapper-6">30 June 2021</div>
-                <img className="line-2" alt="Line" src="./img/line-26.svg" />
+                <img className="line-2" alt="Line" src="/img/line-26.svg" />
                 <div className="text-wrapper-6">Business</div>
-                <img className="line-2" alt="Line" src="./img/line-26.svg" />
+                <img className="line-2" alt="Line" src="/img/line-26.svg" />
                 <div className="text-wrapper-6">Partners</div>
               </div>
             </div>

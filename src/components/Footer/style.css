@@ -58,7 +58,7 @@
   justify-content: center;
   padding: 40px;
   position: relative;
-  width: 30%;
+  width: 22%;
 }
 
 .FOOTER .LET-s-STAY-CONNECTED {
@@ -80,7 +80,7 @@
   border: 1px solid;
   border-color: var(--black);
   display: flex;
-  gap: 36px;
+  gap: 257px;
   justify-content: center;
   padding: 40px 0px;
   position: relative;
@@ -141,22 +141,21 @@
   align-items: center;
   display: inline-flex;
   gap: 257px;
-  justify-content: end;
+  justify-content: space-between;
   width: 70%;
   /* left: 539px;
   position: absolute;
   top: 180px; */
 }
 
-/* .FOOTER .frame-section {
+.FOOTER .frame-section {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
   flex: 0 0 auto;
-  gap: 0px;
+  gap: 257px;
   position: relative;
-  width: 0;
-} */
+}
 
 .FOOTER .div-2 {
   align-items: flex-start;
@@ -316,8 +315,17 @@
   .FOOTER .logo {
     align-self: stretch;
     flex: 0 0 auto;
-    position: relative;
     width: 100%;
+
+    align-items: center;
+    background-color: var(--white);
+    border: 1px solid;
+    border-color: var(--black);
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    padding: 40px 0px;
+    position: relative;
   }
   
   .FOOTER .icon-instance-node {

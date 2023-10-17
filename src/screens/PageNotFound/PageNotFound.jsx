@@ -9,11 +9,11 @@ export const PageNotFound = () => {
       <div className="overlap-wrapper">
         <div className="overlap">
           <div className="overlap-group">
-            <img className="unsplash" alt="Unsplash" src="./img/unsplash-xcz78dlxtes-traced.svg" />
+            <img className="unsplash" alt="Unsplash" src="/img/unsplash-xcz78dlxtes-traced.svg" />
             <img
               className="avy-website-banner"
               alt="Avy website banner"
-              src="./img/avy-website-banner-pattern-white-1.svg"
+              src="/img/avy-website-banner-pattern-white-1.svg"
             />
             <div className="rectangle" />
             <Link to="/"><Button className="button-instance" text="BACK TO HOMEPAGE" /></Link> 

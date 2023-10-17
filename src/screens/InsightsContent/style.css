@@ -31,6 +31,7 @@
   gap: 40px;
   position: relative;
   width: 100%;
+  padding: 0 60px;
 }
 
 .insights-content .latest {
@@ -71,7 +72,7 @@
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
-  gap: 720px;
+  /* gap: 720px; */
   position: relative;
   width: 100%;
   justify-content: space-between;
@@ -83,7 +84,7 @@
   flex: 0 0 auto;
   flex-direction: column;
   gap: 24px;
-  width: 33%;
+  width: 32%;
   position: relative;
   /* width: 100%; */
 }
@@ -103,7 +104,7 @@
   flex: 0 0 auto;
   gap: 24px;
   position: relative;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .insights-content .text-wrapper-6 {
@@ -176,7 +177,7 @@
   line-height: var(--desktop-display-medium-line-height);
   margin-top: -1px;
   position: relative;
-  width: 936px;
+  width: 100%;
 }
 
 .insights-content .rectangle-2 {

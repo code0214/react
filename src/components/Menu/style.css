@@ -6,10 +6,6 @@
     width: 100%;
   }
 
-  .menu .show {
-    display: block;
-  }
-  
   .menu .hide {
     display: none;
   }

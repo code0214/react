@@ -16,9 +16,9 @@ export const CardsHowWeThink = ({ variant, className, numberText = "01", numberD
           <div className="text">
             <div className="card-title">
               <Number divClassName={numberDivClassName} text={numberText} variant="desktop" />
-              <p className="div">
+              <div className="div">
                 Lörem ipsum rilåning ångerrösta teraning, i rerina mudöl: fasade. Du kan vara drabbad?
-              </p>
+              </div>
               <div className="text-wrapper-2">Lorem Ipsum</div>
             </div>
             <div className="client">
@@ -32,9 +32,9 @@ export const CardsHowWeThink = ({ variant, className, numberText = "01", numberD
           <>
             <div className="card-title">
               <Number text={numberText} variant="mobile" />
-              <p className="p">
+              <div className="p">
                 Lörem ipsum rilåning ångerrösta teraning, i rerina mudöl: fasade. Du kan vara drabbad?
-              </p>
+              </div>
               <div className="text-wrapper-5">Lorem Ipsum</div>
             </div>
             <div className="client">

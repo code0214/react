@@ -27174,26 +27174,28 @@ var _footer = require("../../components/Footer");
 var _formButton = require("../../components/FormButton");
 var _headline = require("../../components/Headline");
 var _number = require("../../components/Number");
-var _stateHomepageHeroWrapper = require("../../components/StateHomepageHeroWrapper");
 var _navigationBar = require("../../components/NavigationBar");
-// import { NavigationBar } from "../../icons/NavigationBar";
-var _navigationBarSimple = require("../../components/NavigationBarSimple");
-var _menuTitle = require("../../components/MenuTitle");
 var _menu = require("../../components/Menu");
 var _styleCss = require("./style.css");
-var _propTypes = require("prop-types");
 var _s = $RefreshSig$();
 const HomePageHiFi = ()=>{
     _s();
-    // const [menu, setMenu] = useState("");
-    // const menuSet = (menu) => {
-    //   setMenu(menu);
-    // };
-    // function menuSet (newState) {
-    //   setMenu(newState);
-    // }
+    const [showBurgerMenu, setShowBurgerMenu] = (0, _react.useState)(true);
+    // useEffect(() => {
+    //   function handleScroll() {
+    //     if(window.scrollY > 0) {
+    //       setShowBurgerMenu(false);
+    //     } else {
+    //       setShowBurgerMenu(true);
+    //     }
+    //   }
+    //   console.log(window.scrollY);
+    //   window.addEventListener('scroll', handleScroll);
+    //   return() => {
+    //     window.removeEventListener('scroll', handleScroll);
+    //   };
+    // }, []);
     const [screenSize, setScreenSize] = (0, _react.useState)(getCurrentDimension());
-    // const [responseVal, setResponseVal] = useState("");
     function getCurrentDimension() {
         return {
             width: window.innerWidth,
@@ -27201,10 +27203,9 @@ const HomePageHiFi = ()=>{
         };
     }
     (0, _react.useEffect)(()=>{
+        console.log("sdkflskdflkdf");
         const updateDimension = ()=>{
             setScreenSize(getCurrentDimension);
-        // const newContent = getContent(screenSize.width);
-        // setResponseVal(newContent);
         };
         window.addEventListener("resize", updateDimension);
         return ()=>{
@@ -27235,7 +27236,7 @@ const HomePageHiFi = ()=>{
                                 state: getNavResponse()
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 72,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27255,7 +27256,7 @@ const HomePageHiFi = ()=>{
                                                                 children: "WE ARE"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                lineNumber: 77,
+                                                                lineNumber: 78,
                                                                 columnNumber: 19
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27266,7 +27267,7 @@ const HomePageHiFi = ()=>{
                                                                         children: "AVY"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                        lineNumber: 79,
+                                                                        lineNumber: 80,
                                                                         columnNumber: 21
                                                                     }, undefined),
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27274,19 +27275,19 @@ const HomePageHiFi = ()=>{
                                                                         children: "\xae"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                        lineNumber: 80,
+                                                                        lineNumber: 81,
                                                                         columnNumber: 21
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                lineNumber: 78,
+                                                                lineNumber: 79,
                                                                 columnNumber: 19
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 76,
+                                                        lineNumber: 77,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27294,37 +27295,37 @@ const HomePageHiFi = ()=>{
                                                         children: "We ignite collaboration with ambitious brands & businesses, marketers, and executives, crafting. Jaw-dropping creative solutions across industries"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 83,
+                                                        lineNumber: 84,
                                                         columnNumber: 17
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 75,
+                                                lineNumber: 76,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                 className: "unsplash",
                                                 alt: "Unsplash",
-                                                src: "./img/unsplash-xcz78dlxtes.png"
+                                                src: "/img/unsplash-xcz78dlxtes.png"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 88,
+                                                lineNumber: 89,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                 className: "avy-website-banner",
                                                 alt: "Avy website banner",
-                                                src: "./img/avy-website-banner-pattern-2.svg"
+                                                src: "/img/avy-website-banner-pattern-2.svg"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 89,
+                                                lineNumber: 90,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 74,
+                                        lineNumber: 75,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27335,7 +27336,7 @@ const HomePageHiFi = ()=>{
                                                 children: "CORE SERVICES:"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 96,
+                                                lineNumber: 97,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27347,10 +27348,10 @@ const HomePageHiFi = ()=>{
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                 className: "line-3",
                                                                 alt: "Line",
-                                                                src: "./img/line-15.svg"
+                                                                src: "/img/line-15.svg"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                lineNumber: 99,
+                                                                lineNumber: 100,
                                                                 columnNumber: 19
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27361,7 +27362,7 @@ const HomePageHiFi = ()=>{
                                                                         children: "Design"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                        lineNumber: 101,
+                                                                        lineNumber: 102,
                                                                         columnNumber: 21
                                                                     }, undefined),
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27369,28 +27370,28 @@ const HomePageHiFi = ()=>{
                                                                         children: "01"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                        lineNumber: 102,
+                                                                        lineNumber: 103,
                                                                         columnNumber: 21
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                lineNumber: 100,
+                                                                lineNumber: 101,
                                                                 columnNumber: 19
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                 className: "line-4",
                                                                 alt: "Line",
-                                                                src: "./img/line-15.svg"
+                                                                src: "/img/line-15.svg"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                lineNumber: 104,
+                                                                lineNumber: 105,
                                                                 columnNumber: 19
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 98,
+                                                        lineNumber: 99,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27404,7 +27405,7 @@ const HomePageHiFi = ()=>{
                                                                         children: "Brand Strategy"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                        lineNumber: 108,
+                                                                        lineNumber: 109,
                                                                         columnNumber: 21
                                                                     }, undefined),
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27412,28 +27413,28 @@ const HomePageHiFi = ()=>{
                                                                         children: "02"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                        lineNumber: 109,
+                                                                        lineNumber: 110,
                                                                         columnNumber: 21
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                lineNumber: 107,
+                                                                lineNumber: 108,
                                                                 columnNumber: 19
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                 className: "line-4",
                                                                 alt: "Line",
-                                                                src: "./img/line-15.svg"
+                                                                src: "/img/line-15.svg"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                lineNumber: 111,
+                                                                lineNumber: 112,
                                                                 columnNumber: 19
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 106,
+                                                        lineNumber: 107,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27447,7 +27448,7 @@ const HomePageHiFi = ()=>{
                                                                         children: "Motion Design & Animation"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                        lineNumber: 115,
+                                                                        lineNumber: 116,
                                                                         columnNumber: 21
                                                                     }, undefined),
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27455,52 +27456,52 @@ const HomePageHiFi = ()=>{
                                                                         children: "03"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                        lineNumber: 116,
+                                                                        lineNumber: 117,
                                                                         columnNumber: 21
                                                                     }, undefined)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                lineNumber: 114,
+                                                                lineNumber: 115,
                                                                 columnNumber: 19
                                                             }, undefined),
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                 className: "line-4",
                                                                 alt: "Line",
-                                                                src: "./img/line-15.svg"
+                                                                src: "/img/line-15.svg"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                lineNumber: 118,
+                                                                lineNumber: 119,
                                                                 columnNumber: 19
                                                             }, undefined)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 113,
+                                                        lineNumber: 114,
                                                         columnNumber: 17
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 97,
+                                                lineNumber: 98,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 95,
+                                        lineNumber: 96,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 73,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 71,
+                        lineNumber: 72,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27511,27 +27512,20 @@ const HomePageHiFi = ()=>{
                                 state: "burger"
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 125,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "scrollbar"
-                            }, void 0, false, {
-                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 126,
+                                lineNumber: 131,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menu.Menu), {
-                                state: "hide"
+                                state: "show"
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 127,
+                                lineNumber: 132,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 124,
+                        lineNumber: 125,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27545,7 +27539,7 @@ const HomePageHiFi = ()=>{
                                 visible: false
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 130,
+                                lineNumber: 135,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27562,20 +27556,20 @@ const HomePageHiFi = ()=>{
                                                         '"THE DIFFERENCE ',
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 135,
+                                                            lineNumber: 140,
                                                             columnNumber: 39
                                                         }, undefined),
                                                         " BETWEEN ORDINARY AND EXTRAORDINARY ",
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 135,
+                                                            lineNumber: 140,
                                                             columnNumber: 80
                                                         }, undefined),
                                                         ' IS THAT LITTLE EXTRA."'
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 134,
+                                                    lineNumber: 139,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27583,18 +27577,18 @@ const HomePageHiFi = ()=>{
                                                     children: "– JIMMY JOHNSON"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 137,
+                                                    lineNumber: 142,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 133,
+                                            lineNumber: 138,
                                             columnNumber: 15
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 132,
+                                        lineNumber: 137,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27603,69 +27597,76 @@ const HomePageHiFi = ()=>{
                                             "We transform your ideas into reality through cutting-edge design, branding, and motion. We're not just experts; we're passionate strategists and visionary storytellers committed to excellence. ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 142,
+                                                lineNumber: 147,
                                                 columnNumber: 109
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 143,
+                                                lineNumber: 148,
                                                 columnNumber: 15
                                             }, undefined),
                                             "Our collaborative ethos thrives in today's creative ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 144,
+                                                lineNumber: 149,
                                                 columnNumber: 71
                                             }, undefined),
                                             "landscape, serving startups and enterprises.",
                                             " ",
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 145,
+                                                lineNumber: 150,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 146,
+                                                lineNumber: 151,
                                                 columnNumber: 15
                                             }, undefined),
                                             "Let's embark on your creative journey to happiness together."
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 140,
+                                        lineNumber: 145,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 131,
+                                lineNumber: 136,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 129,
+                        lineNumber: 134,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 70,
+                lineNumber: 71,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "div-3 how-we-think",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headline.Headline), {
-                        className: "headline-instance",
-                        state: "default",
-                        text: "HOW",
-                        text1: "WE THINK",
-                        text2: "LOREM IPSUM"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "how-we-think-headline",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headline.Headline), {
+                            className: "headline-instance",
+                            state: "default",
+                            text: "HOW",
+                            text1: "WE THINK",
+                            text2: "LOREM IPSUM"
+                        }, void 0, false, {
+                            fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                            lineNumber: 159,
+                            columnNumber: 11
+                        }, undefined)
                     }, void 0, false, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 153,
+                        lineNumber: 158,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27679,7 +27680,7 @@ const HomePageHiFi = ()=>{
                                         variant: getCardResponse()
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 156,
+                                        lineNumber: 163,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardsHowWeThink.CardsHowWeThink), {
@@ -27689,7 +27690,7 @@ const HomePageHiFi = ()=>{
                                         variant: getCardResponse()
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 159,
+                                        lineNumber: 166,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardsHowWeThink.CardsHowWeThink), {
@@ -27699,13 +27700,13 @@ const HomePageHiFi = ()=>{
                                         variant: getCardResponse()
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 165,
+                                        lineNumber: 172,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 155,
+                                lineNumber: 162,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27715,24 +27716,24 @@ const HomePageHiFi = ()=>{
                                     text: "CONTACT US FOR MORE WORK"
                                 }, void 0, false, {
                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                    lineNumber: 173,
+                                    lineNumber: 180,
                                     columnNumber: 13
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 172,
+                                lineNumber: 179,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 154,
+                        lineNumber: 161,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 152,
+                lineNumber: 157,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27746,7 +27747,7 @@ const HomePageHiFi = ()=>{
                         text2: "WE OFFER"
                     }, void 0, false, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 180,
+                        lineNumber: 187,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27758,25 +27759,25 @@ const HomePageHiFi = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line-5",
                                         alt: "Line",
-                                        src: "./img/line-23-2.svg"
+                                        src: "/img/line-23-2.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 183,
+                                        lineNumber: 190,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line-6",
                                         alt: "Line",
-                                        src: "./img/line-24-2.svg"
+                                        src: "/img/line-24-2.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 184,
+                                        lineNumber: 191,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 182,
+                                lineNumber: 189,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27787,7 +27788,7 @@ const HomePageHiFi = ()=>{
                                         variant: getCardResponse()
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 187,
+                                        lineNumber: 194,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27795,13 +27796,13 @@ const HomePageHiFi = ()=>{
                                         children: "DESIGN"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 188,
+                                        lineNumber: 195,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 186,
+                                lineNumber: 193,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27815,7 +27816,7 @@ const HomePageHiFi = ()=>{
                                                 children: "EXHIBITION STAND DESIGN"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 192,
+                                                lineNumber: 199,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27823,13 +27824,13 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 193,
+                                                lineNumber: 200,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 191,
+                                        lineNumber: 198,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27841,14 +27842,14 @@ const HomePageHiFi = ()=>{
                                                     "POWERPOINT",
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 200,
+                                                        lineNumber: 207,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     "PRESENTATION DESIGN"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 198,
+                                                lineNumber: 205,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27856,13 +27857,13 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 203,
+                                                lineNumber: 210,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 197,
+                                        lineNumber: 204,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27874,14 +27875,14 @@ const HomePageHiFi = ()=>{
                                                     "POWERPOINT",
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 210,
+                                                        lineNumber: 217,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     "PRESENTATION DESIGN"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 208,
+                                                lineNumber: 215,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27889,13 +27890,13 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 213,
+                                                lineNumber: 220,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 207,
+                                        lineNumber: 214,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27907,14 +27908,14 @@ const HomePageHiFi = ()=>{
                                                     "POWERPOINT",
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 220,
+                                                        lineNumber: 227,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     "PRESENTATION DESIGN"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 218,
+                                                lineNumber: 225,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27922,13 +27923,13 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 223,
+                                                lineNumber: 230,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 217,
+                                        lineNumber: 224,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27940,14 +27941,14 @@ const HomePageHiFi = ()=>{
                                                     "POWERPOINT",
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 230,
+                                                        lineNumber: 237,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     "PRESENTATION DESIGN"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 228,
+                                                lineNumber: 235,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27955,25 +27956,25 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 233,
+                                                lineNumber: 240,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 227,
+                                        lineNumber: 234,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 190,
+                                lineNumber: 197,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 181,
+                        lineNumber: 188,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27988,7 +27989,7 @@ const HomePageHiFi = ()=>{
                                         variant: getCardResponse()
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 241,
+                                        lineNumber: 248,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27996,13 +27997,13 @@ const HomePageHiFi = ()=>{
                                         children: "BRANDING"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 242,
+                                        lineNumber: 249,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 240,
+                                lineNumber: 247,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28011,25 +28012,25 @@ const HomePageHiFi = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line-7",
                                         alt: "Line",
-                                        src: "./img/line-23.svg"
+                                        src: "/img/line-23.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 245,
+                                        lineNumber: 252,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line-8",
                                         alt: "Line",
-                                        src: "./img/line-24.svg"
+                                        src: "/img/line-24.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 246,
+                                        lineNumber: 253,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 244,
+                                lineNumber: 251,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28043,46 +28044,21 @@ const HomePageHiFi = ()=>{
                                                 children: "BRANDING DESIGN"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 250,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "text-wrapper-23",
-                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 251,
-                                                columnNumber: 15
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 249,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "content-4",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-24",
-                                                children: "LOREM IPSUM"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 256,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "text-wrapper-23",
-                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
                                                 lineNumber: 257,
                                                 columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "text-wrapper-23",
+                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 258,
+                                                columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 255,
+                                        lineNumber: 256,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28091,23 +28067,23 @@ const HomePageHiFi = ()=>{
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                 className: "text-wrapper-24",
                                                 children: "LOREM IPSUM"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 262,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "text-wrapper-23",
-                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
                                                 lineNumber: 263,
                                                 columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "text-wrapper-23",
+                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 264,
+                                                columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 261,
+                                        lineNumber: 262,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28116,23 +28092,23 @@ const HomePageHiFi = ()=>{
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                 className: "text-wrapper-24",
                                                 children: "LOREM IPSUM"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 268,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "text-wrapper-23",
-                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
                                                 lineNumber: 269,
                                                 columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "text-wrapper-23",
+                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 270,
+                                                columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 267,
+                                        lineNumber: 268,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28143,7 +28119,7 @@ const HomePageHiFi = ()=>{
                                                 children: "LOREM IPSUM"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 274,
+                                                lineNumber: 275,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28151,25 +28127,50 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 275,
+                                                lineNumber: 276,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 273,
+                                        lineNumber: 274,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "content-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-24",
+                                                children: "LOREM IPSUM"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 281,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "text-wrapper-23",
+                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 282,
+                                                columnNumber: 15
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                        lineNumber: 280,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 248,
+                                lineNumber: 255,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 239,
+                        lineNumber: 246,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28184,7 +28185,7 @@ const HomePageHiFi = ()=>{
                                         variant: getCardResponse()
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 283,
+                                        lineNumber: 290,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28192,13 +28193,13 @@ const HomePageHiFi = ()=>{
                                         children: "MOTION"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 284,
+                                        lineNumber: 291,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 282,
+                                lineNumber: 289,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28207,25 +28208,25 @@ const HomePageHiFi = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line-7",
                                         alt: "Line",
-                                        src: "./img/line-23.svg"
+                                        src: "/img/line-23.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 287,
+                                        lineNumber: 294,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line-8",
                                         alt: "Line",
-                                        src: "./img/line-24.svg"
+                                        src: "/img/line-24.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 288,
+                                        lineNumber: 295,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 286,
+                                lineNumber: 293,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28239,46 +28240,21 @@ const HomePageHiFi = ()=>{
                                                 children: "MOTION DESIGN"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 292,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "text-wrapper-23",
-                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 293,
-                                                columnNumber: 15
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 291,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "content-4",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-24",
-                                                children: "LOREM IPSUM"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 298,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "text-wrapper-23",
-                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
                                                 lineNumber: 299,
                                                 columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "text-wrapper-23",
+                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 300,
+                                                columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 297,
+                                        lineNumber: 298,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28287,23 +28263,23 @@ const HomePageHiFi = ()=>{
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                 className: "text-wrapper-24",
                                                 children: "LOREM IPSUM"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 304,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "text-wrapper-23",
-                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
                                                 lineNumber: 305,
                                                 columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "text-wrapper-23",
+                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 306,
+                                                columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 303,
+                                        lineNumber: 304,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28312,23 +28288,23 @@ const HomePageHiFi = ()=>{
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                 className: "text-wrapper-24",
                                                 children: "LOREM IPSUM"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 310,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "text-wrapper-23",
-                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
                                                 lineNumber: 311,
                                                 columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "text-wrapper-23",
+                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 312,
+                                                columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 309,
+                                        lineNumber: 310,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28339,7 +28315,7 @@ const HomePageHiFi = ()=>{
                                                 children: "LOREM IPSUM"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 316,
+                                                lineNumber: 317,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28347,31 +28323,56 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 317,
+                                                lineNumber: 318,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 315,
+                                        lineNumber: 316,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "content-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-24",
+                                                children: "LOREM IPSUM"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 323,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "text-wrapper-23",
+                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 324,
+                                                columnNumber: 15
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                        lineNumber: 322,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 290,
+                                lineNumber: 297,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 281,
+                        lineNumber: 288,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 179,
+                lineNumber: 186,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28385,7 +28386,7 @@ const HomePageHiFi = ()=>{
                         text2: "THINGS"
                     }, void 0, false, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 325,
+                        lineNumber: 332,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28396,7 +28397,7 @@ const HomePageHiFi = ()=>{
                                 variant: "research"
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 327,
+                                lineNumber: 334,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardsHowWeDo.CardsHowWeDo), {
@@ -28404,7 +28405,7 @@ const HomePageHiFi = ()=>{
                                 variant: "design"
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 328,
+                                lineNumber: 335,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardsHowWeDo.CardsHowWeDo), {
@@ -28412,7 +28413,7 @@ const HomePageHiFi = ()=>{
                                 variant: "develop"
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 329,
+                                lineNumber: 336,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28425,15 +28426,15 @@ const HomePageHiFi = ()=>{
                                                 className: "div-7",
                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                     className: "testing-img",
-                                                    src: "./img/testing.jpg"
+                                                    src: "/img/testing.jpg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 354,
+                                                    lineNumber: 361,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 353,
+                                                lineNumber: 360,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28441,13 +28442,13 @@ const HomePageHiFi = ()=>{
                                                 children: "TESTING"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 356,
+                                                lineNumber: 363,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 352,
+                                        lineNumber: 359,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28455,25 +28456,25 @@ const HomePageHiFi = ()=>{
                                         children: "L\xf6rem ipsum preteng teradat om metromani. Rera visa or vask. Vagt homossa p\xe5 destism visa vur\xe4ledes. Krong kuddbok. Barista press \xf6d byl jed\xe5de."
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 358,
+                                        lineNumber: 365,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 351,
+                                lineNumber: 358,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 326,
+                        lineNumber: 333,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 324,
+                lineNumber: 331,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28487,7 +28488,7 @@ const HomePageHiFi = ()=>{
                         text2: "WORKED WITH"
                     }, void 0, false, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 366,
+                        lineNumber: 373,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28501,7 +28502,7 @@ const HomePageHiFi = ()=>{
                                         children: "WHO WE'VE DONE IT FOR"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 369,
+                                        lineNumber: 376,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28512,7 +28513,7 @@ const HomePageHiFi = ()=>{
                                                 children: "INDUSTRIES:"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 371,
+                                                lineNumber: 378,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28523,7 +28524,7 @@ const HomePageHiFi = ()=>{
                                                         children: "MANUFACTURING"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 373,
+                                                        lineNumber: 380,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28531,7 +28532,7 @@ const HomePageHiFi = ()=>{
                                                         children: "F&B"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 374,
+                                                        lineNumber: 381,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28539,7 +28540,7 @@ const HomePageHiFi = ()=>{
                                                         children: "TECH"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 375,
+                                                        lineNumber: 382,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28547,7 +28548,7 @@ const HomePageHiFi = ()=>{
                                                         children: "FINTECH"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 376,
+                                                        lineNumber: 383,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28555,7 +28556,7 @@ const HomePageHiFi = ()=>{
                                                         children: "FINANCE"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 377,
+                                                        lineNumber: 384,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28563,7 +28564,7 @@ const HomePageHiFi = ()=>{
                                                         children: "GAMING"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 378,
+                                                        lineNumber: 385,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28571,7 +28572,7 @@ const HomePageHiFi = ()=>{
                                                         children: "HVAC"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 379,
+                                                        lineNumber: 386,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28579,7 +28580,7 @@ const HomePageHiFi = ()=>{
                                                         children: "WATER, GAS, & UTILITIES"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 380,
+                                                        lineNumber: 387,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28587,7 +28588,7 @@ const HomePageHiFi = ()=>{
                                                         children: "EDUCATION"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 381,
+                                                        lineNumber: 388,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28595,25 +28596,25 @@ const HomePageHiFi = ()=>{
                                                         children: "TRANSPORTATION"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 382,
+                                                        lineNumber: 389,
                                                         columnNumber: 17
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 372,
+                                                lineNumber: 379,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 370,
+                                        lineNumber: 377,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 368,
+                                lineNumber: 375,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28627,69 +28628,69 @@ const HomePageHiFi = ()=>{
                                                 children: "XXXXXX"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 388,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-32",
-                                                children: "XXXXXX"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 389,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-32",
-                                                children: "XXXXXX"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 390,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-32",
-                                                children: "XXXXXX"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 391,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-32",
-                                                children: "XXXXXX"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 392,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-32",
-                                                children: "XXXXXX"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 393,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-32",
-                                                children: "XXXXXX"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 394,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-32",
-                                                children: "XXXXXX"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
                                                 lineNumber: 395,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-32",
+                                                children: "XXXXXX"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 396,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-32",
+                                                children: "XXXXXX"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 397,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-32",
+                                                children: "XXXXXX"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 398,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-32",
+                                                children: "XXXXXX"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 399,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-32",
+                                                children: "XXXXXX"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 400,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-32",
+                                                children: "XXXXXX"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 401,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-32",
+                                                children: "XXXXXX"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 402,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 387,
+                                        lineNumber: 394,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
@@ -28697,25 +28698,25 @@ const HomePageHiFi = ()=>{
                                         text: "WORK WITH US"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 397,
+                                        lineNumber: 404,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 386,
+                                lineNumber: 393,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 367,
+                        lineNumber: 374,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 365,
+                lineNumber: 372,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28726,7 +28727,7 @@ const HomePageHiFi = ()=>{
                         children: "INSIGHTS"
                     }, void 0, false, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 402,
+                        lineNumber: 409,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28748,7 +28749,7 @@ const HomePageHiFi = ()=>{
                                                             children: "30 June 2021"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 408,
+                                                            lineNumber: 415,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28756,33 +28757,33 @@ const HomePageHiFi = ()=>{
                                                             children: "AVY Pruthi, Nuneaton business owner – Coven..."
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 409,
+                                                            lineNumber: 416,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 407,
+                                                    lineNumber: 414,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 406,
+                                                lineNumber: 413,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                 className: "button-2",
                                                 alt: "Button",
-                                                src: "./img/button-3.svg"
+                                                src: "/img/button-3.svg"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 412,
+                                                lineNumber: 419,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 405,
+                                        lineNumber: 412,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28798,7 +28799,7 @@ const HomePageHiFi = ()=>{
                                                             children: "28 June 2021"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 417,
+                                                            lineNumber: 424,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28806,33 +28807,33 @@ const HomePageHiFi = ()=>{
                                                             children: "Daily Logo Challenge for 50 days"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 418,
+                                                            lineNumber: 425,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 416,
+                                                    lineNumber: 423,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 415,
+                                                lineNumber: 422,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                 className: "button-2",
                                                 alt: "Button",
-                                                src: "./img/button-2.svg"
+                                                src: "/img/button-2.svg"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 421,
+                                                lineNumber: 428,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 414,
+                                        lineNumber: 421,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28848,7 +28849,7 @@ const HomePageHiFi = ()=>{
                                                             children: "18 June 2021"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 426,
+                                                            lineNumber: 433,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28856,33 +28857,33 @@ const HomePageHiFi = ()=>{
                                                             children: "Bringing a Business to Life: Chamber of Comm..."
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 427,
+                                                            lineNumber: 434,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 425,
+                                                    lineNumber: 432,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 424,
+                                                lineNumber: 431,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                 className: "button-2",
                                                 alt: "Button",
-                                                src: "./img/button-1.svg"
+                                                src: "/img/button-1.svg"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 430,
+                                                lineNumber: 437,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 423,
+                                        lineNumber: 430,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28898,7 +28899,7 @@ const HomePageHiFi = ()=>{
                                                             children: "05 May 2021"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 435,
+                                                            lineNumber: 442,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28906,39 +28907,39 @@ const HomePageHiFi = ()=>{
                                                             children: "Our new Trustpilot partnership, and how it'll h..."
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 436,
+                                                            lineNumber: 443,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 434,
+                                                    lineNumber: 441,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 433,
+                                                lineNumber: 440,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                 className: "button-2",
                                                 alt: "Button",
-                                                src: "./img/button.svg"
+                                                src: "/img/button.svg"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 439,
+                                                lineNumber: 446,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 432,
+                                        lineNumber: 439,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 404,
+                                lineNumber: 411,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
@@ -28946,19 +28947,19 @@ const HomePageHiFi = ()=>{
                                 text: "READ MORE"
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 442,
+                                lineNumber: 449,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 403,
+                        lineNumber: 410,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 401,
+                lineNumber: 408,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28972,14 +28973,14 @@ const HomePageHiFi = ()=>{
                                 "NOW LET'S FIND OUT ",
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                    lineNumber: 447,
+                                    lineNumber: 454,
                                     columnNumber: 65
                                 }, undefined),
                                 " ABOUT YOU"
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                            lineNumber: 447,
+                            lineNumber: 454,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28993,7 +28994,7 @@ const HomePageHiFi = ()=>{
                                             children: "L\xd6REM IPSUM"
                                         }, void 0, false, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 450,
+                                            lineNumber: 457,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29001,7 +29002,7 @@ const HomePageHiFi = ()=>{
                                             children: "L\xd6REM IPSUM"
                                         }, void 0, false, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 451,
+                                            lineNumber: 458,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29009,13 +29010,13 @@ const HomePageHiFi = ()=>{
                                             children: "L\xd6REM IPSUM"
                                         }, void 0, false, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 452,
+                                            lineNumber: 459,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                    lineNumber: 449,
+                                    lineNumber: 456,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
@@ -29023,24 +29024,24 @@ const HomePageHiFi = ()=>{
                                     text: "START SURVEY"
                                 }, void 0, false, {
                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                    lineNumber: 454,
+                                    lineNumber: 461,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                            lineNumber: 448,
+                            lineNumber: 455,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                    lineNumber: 446,
+                    lineNumber: 453,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 445,
+                lineNumber: 452,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29054,7 +29055,7 @@ const HomePageHiFi = ()=>{
                                 children: "ARE YOU READY TO"
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 460,
+                                lineNumber: 467,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29063,10 +29064,10 @@ const HomePageHiFi = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line-10",
                                         alt: "Line",
-                                        src: "./img/line-10.svg"
+                                        src: "/img/line-10.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 462,
+                                        lineNumber: 469,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29074,22 +29075,22 @@ const HomePageHiFi = ()=>{
                                         children: "WORK"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 463,
+                                        lineNumber: 470,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line-10",
                                         alt: "Line",
-                                        src: "./img/line-10.svg"
+                                        src: "/img/line-10.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 464,
+                                        lineNumber: 471,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 461,
+                                lineNumber: 468,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29100,16 +29101,16 @@ const HomePageHiFi = ()=>{
                                         children: "WITH"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 467,
+                                        lineNumber: 474,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line-10",
                                         alt: "Line",
-                                        src: "./img/line-9.svg"
+                                        src: "/img/line-9.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 468,
+                                        lineNumber: 475,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29122,12 +29123,12 @@ const HomePageHiFi = ()=>{
                                                     children: "US"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 471,
+                                                    lineNumber: 478,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 470,
+                                                lineNumber: 477,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29135,25 +29136,25 @@ const HomePageHiFi = ()=>{
                                                 children: "?"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 473,
+                                                lineNumber: 480,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 469,
+                                        lineNumber: 476,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 466,
+                                lineNumber: 473,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 459,
+                        lineNumber: 466,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29174,12 +29175,12 @@ const HomePageHiFi = ()=>{
                                                         children: "SUBJECT"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 482,
+                                                        lineNumber: 489,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 481,
+                                                    lineNumber: 488,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29193,43 +29194,43 @@ const HomePageHiFi = ()=>{
                                                                     children: "Select"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                    lineNumber: 486,
+                                                                    lineNumber: 493,
                                                                     columnNumber: 21
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                     className: "mdi-menu-down",
                                                                     alt: "Mdi menu down",
-                                                                    src: "./img/mdi-menu-down.svg"
+                                                                    src: "/img/mdi-menu-down.svg"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                    lineNumber: 487,
+                                                                    lineNumber: 494,
                                                                     columnNumber: 21
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 485,
+                                                            lineNumber: 492,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "line-11",
                                                             alt: "Line",
-                                                            src: "./img/line-2-1.svg"
+                                                            src: "/img/line-2-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 489,
+                                                            lineNumber: 496,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 484,
+                                                    lineNumber: 491,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 480,
+                                            lineNumber: 487,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29242,12 +29243,12 @@ const HomePageHiFi = ()=>{
                                                         children: "NAME"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 494,
+                                                        lineNumber: 501,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 493,
+                                                    lineNumber: 500,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29258,28 +29259,28 @@ const HomePageHiFi = ()=>{
                                                             children: "Enter Your Name"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 497,
+                                                            lineNumber: 504,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "line-11",
                                                             alt: "Line",
-                                                            src: "./img/line-1-1.svg"
+                                                            src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 498,
+                                                            lineNumber: 505,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 496,
+                                                    lineNumber: 503,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 492,
+                                            lineNumber: 499,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29292,12 +29293,12 @@ const HomePageHiFi = ()=>{
                                                         children: "EMAIL"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 503,
+                                                        lineNumber: 510,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 502,
+                                                    lineNumber: 509,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29308,28 +29309,28 @@ const HomePageHiFi = ()=>{
                                                             children: "Enter Your Email"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 506,
+                                                            lineNumber: 513,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "line-11",
                                                             alt: "Line",
-                                                            src: "./img/line-1-1.svg"
+                                                            src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 507,
+                                                            lineNumber: 514,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 505,
+                                                    lineNumber: 512,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 501,
+                                            lineNumber: 508,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29342,12 +29343,12 @@ const HomePageHiFi = ()=>{
                                                         children: "PHONE"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 512,
+                                                        lineNumber: 519,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 511,
+                                                    lineNumber: 518,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29358,28 +29359,28 @@ const HomePageHiFi = ()=>{
                                                             children: "Enter Your Phone"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 515,
+                                                            lineNumber: 522,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "line-11",
                                                             alt: "Line",
-                                                            src: "./img/line-1-1.svg"
+                                                            src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 516,
+                                                            lineNumber: 523,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 514,
+                                                    lineNumber: 521,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 510,
+                                            lineNumber: 517,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29392,12 +29393,12 @@ const HomePageHiFi = ()=>{
                                                         children: "BUDGET"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 521,
+                                                        lineNumber: 528,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 520,
+                                                    lineNumber: 527,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29411,43 +29412,43 @@ const HomePageHiFi = ()=>{
                                                                     children: "What did you have in mind?"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                    lineNumber: 525,
+                                                                    lineNumber: 532,
                                                                     columnNumber: 21
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                     className: "mdi-menu-down",
                                                                     alt: "Mdi menu down",
-                                                                    src: "./img/mdi-menu-down.svg"
+                                                                    src: "/img/mdi-menu-down.svg"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                    lineNumber: 526,
+                                                                    lineNumber: 533,
                                                                     columnNumber: 21
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 524,
+                                                            lineNumber: 531,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "line-11",
                                                             alt: "Line",
-                                                            src: "./img/line-2.svg"
+                                                            src: "/img/line-2.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 528,
+                                                            lineNumber: 535,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 523,
+                                                    lineNumber: 530,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 519,
+                                            lineNumber: 526,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29460,12 +29461,12 @@ const HomePageHiFi = ()=>{
                                                         children: "MESSAGE"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 533,
+                                                        lineNumber: 540,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 532,
+                                                    lineNumber: 539,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29476,34 +29477,34 @@ const HomePageHiFi = ()=>{
                                                             children: "Tell us about your amazing idea!"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 536,
+                                                            lineNumber: 543,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "line-11",
                                                             alt: "Line",
-                                                            src: "./img/line-1.svg"
+                                                            src: "/img/line-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 537,
+                                                            lineNumber: 544,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 535,
+                                                    lineNumber: 542,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 531,
+                                            lineNumber: 538,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                    lineNumber: 479,
+                                    lineNumber: 486,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _formButton.FormButton), {
@@ -29512,39 +29513,39 @@ const HomePageHiFi = ()=>{
                                     text: "SEND"
                                 }, void 0, false, {
                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                    lineNumber: 541,
+                                    lineNumber: 548,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                            lineNumber: 478,
+                            lineNumber: 485,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 477,
+                        lineNumber: 484,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 458,
+                lineNumber: 465,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footer.Footer), {}, void 0, false, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 545,
+                lineNumber: 552,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-        lineNumber: 69,
+        lineNumber: 70,
         columnNumber: 5
     }, undefined);
 };
-_s(HomePageHiFi, "kVb1ZBm/gH7fHeJwbfILT5iOTyM=");
+_s(HomePageHiFi, "E1qie8ECu0HBqsx7Cc3Z+zDlwco=");
 _c = HomePageHiFi;
 var _c;
 $RefreshReg$(_c, "HomePageHiFi");
@@ -29554,7 +29555,7 @@ $RefreshReg$(_c, "HomePageHiFi");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../components/Button":"bNbfl","../../components/CardsHowWeDo":"hm1LO","../../components/CardsHowWeThink":"6MgZW","../../components/Footer":"cjGwk","../../components/FormButton":"jUv46","../../components/Headline":"ePcXz","../../components/Number":"4okBB","../../components/StateHomepageHeroWrapper":"3wFpx","../../components/NavigationBar":"eO2KR","../../components/NavigationBarSimple":"kovac","../../components/MenuTitle":"h2IvW","../../components/Menu":"cAuPj","./style.css":"lTZQL","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bNbfl":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../components/Button":"bNbfl","../../components/CardsHowWeDo":"hm1LO","../../components/CardsHowWeThink":"6MgZW","../../components/Footer":"cjGwk","../../components/FormButton":"jUv46","../../components/Headline":"ePcXz","../../components/Number":"4okBB","../../components/NavigationBar":"eO2KR","../../components/Menu":"cAuPj","./style.css":"lTZQL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bNbfl":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Button", ()=>(0, _button.Button));
@@ -31423,7 +31424,7 @@ const CardsHowWeThink = ({ variant, className, numberText = "01", numberDivClass
                                     lineNumber: 18,
                                     columnNumber: 15
                                 }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "div",
                                     children: "L\xf6rem ipsum ril\xe5ning \xe5ngerr\xf6sta teraning, i rerina mud\xf6l: fasade. Du kan vara drabbad?"
                                 }, void 0, false, {
@@ -31489,7 +31490,7 @@ const CardsHowWeThink = ({ variant, className, numberText = "01", numberDivClass
                                     lineNumber: 34,
                                     columnNumber: 15
                                 }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "p",
                                     children: "L\xf6rem ipsum ril\xe5ning \xe5ngerr\xf6sta teraning, i rerina mud\xf6l: fasade. Du kan vara drabbad?"
                                 }, void 0, false, {
@@ -32290,204 +32291,7 @@ $RefreshReg$(_c, "Headline");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","./style.css":"496a8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"496a8":[function() {},{}],"3wFpx":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "StateHomepageHeroWrapper", ()=>(0, _stateHomepageHeroWrapper.StateHomepageHeroWrapper));
-var _stateHomepageHeroWrapper = require("./StateHomepageHeroWrapper");
-
-},{"./StateHomepageHeroWrapper":"bZxYV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bZxYV":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$d31a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$d31a.prelude(module);
-
-try {
-/*
-We're constantly improving the code you see. 
-Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
-*/ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "StateHomepageHeroWrapper", ()=>StateHomepageHeroWrapper);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _propTypes = require("prop-types");
-var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _navbarButton = require("../NavbarButton");
-var _styleCss = require("./style.css");
-const StateHomepageHeroWrapper = ({ state, className })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `state-homepage-hero-wrapper ${state} ${className}`,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "content",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    className: "AVY-LOGO",
-                    alt: "Avy LOGO",
-                    src: "/img/avy-logo-3.png"
-                }, void 0, false, {
-                    fileName: "src/components/StateHomepageHeroWrapper/StateHomepageHeroWrapper.jsx",
-                    lineNumber: 15,
-                    columnNumber: 9
-                }, undefined),
-                [
-                    "homepage-hero",
-                    "white"
-                ].includes(state) && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarButton.NavbarButton), {
-                            className: "navbar-button-instance",
-                            property1: "default",
-                            text: "CONTACT US"
-                        }, void 0, false, {
-                            fileName: "src/components/StateHomepageHeroWrapper/StateHomepageHeroWrapper.jsx",
-                            lineNumber: 18,
-                            columnNumber: 13
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "navigation",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarButton.NavbarButton), {
-                                    className: "navbar-button-instance",
-                                    property1: "default",
-                                    text: "ABOUT"
-                                }, void 0, false, {
-                                    fileName: "src/components/StateHomepageHeroWrapper/StateHomepageHeroWrapper.jsx",
-                                    lineNumber: 20,
-                                    columnNumber: 15
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarButton.NavbarButton), {
-                                    className: "navbar-button-instance",
-                                    property1: "default",
-                                    text: "OUR WORK"
-                                }, void 0, false, {
-                                    fileName: "src/components/StateHomepageHeroWrapper/StateHomepageHeroWrapper.jsx",
-                                    lineNumber: 21,
-                                    columnNumber: 15
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarButton.NavbarButton), {
-                                    className: "navbar-button-instance",
-                                    property1: "default",
-                                    text: "INSIGHTS"
-                                }, void 0, false, {
-                                    fileName: "src/components/StateHomepageHeroWrapper/StateHomepageHeroWrapper.jsx",
-                                    lineNumber: 22,
-                                    columnNumber: 15
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navbarButton.NavbarButton), {
-                                    className: "navbar-button-instance",
-                                    property1: "default",
-                                    text: "SHOP"
-                                }, void 0, false, {
-                                    fileName: "src/components/StateHomepageHeroWrapper/StateHomepageHeroWrapper.jsx",
-                                    lineNumber: 23,
-                                    columnNumber: 15
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/StateHomepageHeroWrapper/StateHomepageHeroWrapper.jsx",
-                            lineNumber: 19,
-                            columnNumber: 13
-                        }, undefined)
-                    ]
-                }, void 0, true),
-                state === "burger" && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    className: "mdi-menu",
-                    alt: "Mdi menu",
-                    src: "/img/mdi-menu.svg"
-                }, void 0, false, {
-                    fileName: "src/components/StateHomepageHeroWrapper/StateHomepageHeroWrapper.jsx",
-                    lineNumber: 28,
-                    columnNumber: 32
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/StateHomepageHeroWrapper/StateHomepageHeroWrapper.jsx",
-            lineNumber: 14,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/components/StateHomepageHeroWrapper/StateHomepageHeroWrapper.jsx",
-        lineNumber: 13,
-        columnNumber: 5
-    }, undefined);
-};
-_c = StateHomepageHeroWrapper;
-StateHomepageHeroWrapper.propTypes = {
-    state: (0, _propTypesDefault.default).oneOf([
-        "burger",
-        "white",
-        "homepage-hero"
-    ])
-};
-var _c;
-$RefreshReg$(_c, "StateHomepageHeroWrapper");
-
-  $parcel$ReactRefreshHelpers$d31a.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","../NavbarButton":"gWjSD","./style.css":"iP1kK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gWjSD":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "NavbarButton", ()=>(0, _navbarButton.NavbarButton));
-var _navbarButton = require("./NavbarButton");
-
-},{"./NavbarButton":"f5lkT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"f5lkT":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$18bd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$18bd.prelude(module);
-
-try {
-/*
-We're constantly improving the code you see. 
-Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
-*/ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "NavbarButton", ()=>NavbarButton);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _propTypes = require("prop-types");
-var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _styleCss = require("./style.css");
-const NavbarButton = ({ property1, className, text = "LABEL" })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `navbar-button ${className}`,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: `LABEL ${property1}`,
-            children: text
-        }, void 0, false, {
-            fileName: "src/components/NavbarButton/NavbarButton.jsx",
-            lineNumber: 13,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
-        fileName: "src/components/NavbarButton/NavbarButton.jsx",
-        lineNumber: 12,
-        columnNumber: 5
-    }, undefined);
-};
-_c = NavbarButton;
-NavbarButton.propTypes = {
-    property1: (0, _propTypesDefault.default).oneOf([
-        "hovered",
-        "default"
-    ]),
-    text: (0, _propTypesDefault.default).string
-};
-var _c;
-$RefreshReg$(_c, "NavbarButton");
-
-  $parcel$ReactRefreshHelpers$18bd.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","./style.css":"8oc6E","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8oc6E":[function() {},{}],"iP1kK":[function() {},{}],"eO2KR":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","./style.css":"496a8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"496a8":[function() {},{}],"eO2KR":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "NavigationBar", ()=>(0, _navigationBar.NavigationBar));
@@ -32515,7 +32319,7 @@ const NavigationBar = ({ state, className })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: `navigation-bar ${state} ${className}`,
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "content",
+            className: "navigation-content",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     className: "AVY-LOGO",
@@ -38499,108 +38303,17 @@ function getDoneFetcher(data) {
     return fetcher;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1bYCB":[function() {},{}],"kovac":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gWjSD":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "NavigationBarSimple", ()=>(0, _navigationBarSimple.NavigationBarSimple));
-var _navigationBarSimple = require("./NavigationBarSimple");
+parcelHelpers.export(exports, "NavbarButton", ()=>(0, _navbarButton.NavbarButton));
+var _navbarButton = require("./NavbarButton");
 
-},{"./NavigationBarSimple":"kIP9S","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kIP9S":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$526a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./NavbarButton":"f5lkT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"f5lkT":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$18bd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$526a.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "NavigationBarSimple", ()=>NavigationBarSimple);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _propTypes = require("prop-types");
-var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _styleCss = require("./style.css");
-var _s = $RefreshSig$();
-const NavigationBarSimple = ({ state, className }, { onUpdate })=>{
-    _s();
-    const [toggle, setToggle] = (0, _react.useState)(false);
-    // const toggleShow = () => {
-    //     setToggle(!toggle);
-    //     toggle === true ? props.onUpdate("show") : props.onUpdate("hide");
-    //     console.log('toggle', toggle);
-    // }
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `navigation-bar ${state} ${className}`,
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "content",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "AVY-LOGO",
-                        alt: "Avy LOGO",
-                        src: state === "white" ? "/img/avy-logo-2.png" : "image.png"
-                    }, void 0, false, {
-                        fileName: "src/components/NavigationBarSimple/NavigationBarSimple.jsx",
-                        lineNumber: 16,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        className: "mdi-menu",
-                        alt: "Mdi menu",
-                        src: state === "white" ? "/img/mdi-menu.svg" : "image.svg"
-                    }, void 0, false, {
-                        fileName: "src/components/NavigationBarSimple/NavigationBarSimple.jsx",
-                        lineNumber: 17,
-                        columnNumber: 17
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/NavigationBarSimple/NavigationBarSimple.jsx",
-                lineNumber: 15,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "scrollbar"
-            }, void 0, false, {
-                fileName: "src/components/NavigationBarSimple/NavigationBarSimple.jsx",
-                lineNumber: 19,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/NavigationBarSimple/NavigationBarSimple.jsx",
-        lineNumber: 14,
-        columnNumber: 9
-    }, undefined);
-};
-_s(NavigationBarSimple, "KMOoc8w16Lq5ZnA3xKzfamBycFo=");
-_c = NavigationBarSimple;
-NavigationBarSimple.propTypes = {
-    state: (0, _propTypesDefault.default).oneOf([
-        "white",
-        "homepage-hero"
-    ])
-};
-var _c;
-$RefreshReg$(_c, "NavigationBarSimple");
-
-  $parcel$ReactRefreshHelpers$526a.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","./style.css":"3bmBD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3bmBD":[function() {},{}],"h2IvW":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "MenuTitle", ()=>(0, _menuTitle.MenuTitle));
-var _menuTitle = require("./MenuTitle");
-
-},{"./MenuTitle":"cYwid","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cYwid":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$4b87 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$4b87.prelude(module);
+$parcel$ReactRefreshHelpers$18bd.prelude(module);
 
 try {
 /*
@@ -38608,47 +38321,47 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "MenuTitle", ()=>MenuTitle);
+parcelHelpers.export(exports, "NavbarButton", ()=>NavbarButton);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _propTypes = require("prop-types");
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _styleCss = require("./style.css");
-const MenuTitle = ({ state, className, text = "TITLE" })=>{
+const NavbarButton = ({ property1, className, text = "LABEL" })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `menu-title ${state} ${className}`,
+        className: `navbar-button ${className}`,
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "TITLE",
+            className: `LABEL ${property1}`,
             children: text
         }, void 0, false, {
-            fileName: "src/components/MenuTitle/MenuTitle.jsx",
+            fileName: "src/components/NavbarButton/NavbarButton.jsx",
             lineNumber: 13,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
-        fileName: "src/components/MenuTitle/MenuTitle.jsx",
+        fileName: "src/components/NavbarButton/NavbarButton.jsx",
         lineNumber: 12,
         columnNumber: 5
     }, undefined);
 };
-_c = MenuTitle;
-MenuTitle.propTypes = {
-    state: (0, _propTypesDefault.default).oneOf([
-        "menu-white",
-        "menu-black"
+_c = NavbarButton;
+NavbarButton.propTypes = {
+    property1: (0, _propTypesDefault.default).oneOf([
+        "hovered",
+        "default"
     ]),
     text: (0, _propTypesDefault.default).string
 };
 var _c;
-$RefreshReg$(_c, "MenuTitle");
+$RefreshReg$(_c, "NavbarButton");
 
-  $parcel$ReactRefreshHelpers$4b87.postlude(module);
+  $parcel$ReactRefreshHelpers$18bd.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","./style.css":"lTJkO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lTJkO":[function() {},{}],"cAuPj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","./style.css":"8oc6E","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8oc6E":[function() {},{}],"1bYCB":[function() {},{}],"cAuPj":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Menu", ()=>(0, _menu.Menu));
@@ -38844,7 +38557,65 @@ $RefreshReg$(_c, "Menu");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../components/MenuTitle":"h2IvW","./style.css":"xdMvJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"xdMvJ":[function() {},{}],"lTZQL":[function() {},{}],"2kQhy":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../components/MenuTitle":"h2IvW","./style.css":"xdMvJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h2IvW":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MenuTitle", ()=>(0, _menuTitle.MenuTitle));
+var _menuTitle = require("./MenuTitle");
+
+},{"./MenuTitle":"cYwid","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cYwid":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$4b87 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$4b87.prelude(module);
+
+try {
+/*
+We're constantly improving the code you see. 
+Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
+*/ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MenuTitle", ()=>MenuTitle);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _propTypes = require("prop-types");
+var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _styleCss = require("./style.css");
+const MenuTitle = ({ state, className, text = "TITLE" })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: `menu-title ${state} ${className}`,
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "TITLE",
+            children: text
+        }, void 0, false, {
+            fileName: "src/components/MenuTitle/MenuTitle.jsx",
+            lineNumber: 13,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/MenuTitle/MenuTitle.jsx",
+        lineNumber: 12,
+        columnNumber: 5
+    }, undefined);
+};
+_c = MenuTitle;
+MenuTitle.propTypes = {
+    state: (0, _propTypesDefault.default).oneOf([
+        "menu-white",
+        "menu-black"
+    ]),
+    text: (0, _propTypesDefault.default).string
+};
+var _c;
+$RefreshReg$(_c, "MenuTitle");
+
+  $parcel$ReactRefreshHelpers$4b87.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react":"21dqq","./style.css":"lTJkO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lTJkO":[function() {},{}],"xdMvJ":[function() {},{}],"lTZQL":[function() {},{}],"2kQhy":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$f00f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -38862,6 +38633,8 @@ var _ourWorkPage = require("./screens/OurWorkPage/OurWorkPage");
 var _insightsPage = require("./screens/InsightsPage/InsightsPage");
 var _insightsContent = require("./screens/InsightsContent/InsightsContent");
 var _pageNotFound = require("./screens/PageNotFound/PageNotFound");
+var _workOverlay = require("./screens/WorkOverlay");
+var _contactUsOverlay = require("./screens/ContactUsOverlay/ContactUsOverlay");
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
@@ -38871,7 +38644,7 @@ const App = ()=>{
                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homePageHiFi.HomePageHiFi), {}, void 0, false, void 0, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 13,
+                    lineNumber: 15,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -38879,7 +38652,7 @@ const App = ()=>{
                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutUsPage.AboutUsPage), {}, void 0, false, void 0, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 14,
+                    lineNumber: 16,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -38887,7 +38660,7 @@ const App = ()=>{
                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ourWorkPage.OurWorkPage), {}, void 0, false, void 0, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 15,
+                    lineNumber: 17,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -38895,7 +38668,7 @@ const App = ()=>{
                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _insightsPage.InsightsPage), {}, void 0, false, void 0, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 16,
+                    lineNumber: 18,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -38903,7 +38676,7 @@ const App = ()=>{
                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _insightsContent.InsightsContent), {}, void 0, false, void 0, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 17,
+                    lineNumber: 19,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -38911,18 +38684,34 @@ const App = ()=>{
                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _pageNotFound.PageNotFound), {}, void 0, false, void 0, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 18,
+                    lineNumber: 20,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/workoverlay",
+                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _workOverlay.WorkOverlay), {}, void 0, false, void 0, void 0)
+                }, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 21,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "/contactus",
+                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactUsOverlay.ContactUsOverlay), {}, void 0, false, void 0, void 0)
+                }, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 22,
                     columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/App.js",
-            lineNumber: 12,
+            lineNumber: 14,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/App.js",
-        lineNumber: 11,
+        lineNumber: 13,
         columnNumber: 9
     }, undefined);
 };
@@ -38936,7 +38725,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./screens/HomePageHiFi":"fDJx5","./screens/AboutUsPage":"daGOL","./screens/OurWorkPage/OurWorkPage":"ey0xB","./screens/InsightsPage/InsightsPage":"lDWFj","./screens/InsightsContent/InsightsContent":"j5coK","./screens/PageNotFound/PageNotFound":"hpTHP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"daGOL":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./screens/HomePageHiFi":"fDJx5","./screens/AboutUsPage":"daGOL","./screens/OurWorkPage/OurWorkPage":"ey0xB","./screens/InsightsPage/InsightsPage":"lDWFj","./screens/InsightsContent/InsightsContent":"j5coK","./screens/PageNotFound/PageNotFound":"hpTHP","./screens/WorkOverlay":"3xq6K","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./screens/ContactUsOverlay/ContactUsOverlay":"g5dNU"}],"daGOL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "AboutUsPage", ()=>(0, _aboutUsPage.AboutUsPage));
@@ -39097,7 +38886,7 @@ const AboutUsPage = ()=>{
                                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "unsplash",
                                                             alt: "Unsplash",
-                                                            src: "./img/unsplash-xcz78dlxtes.png"
+                                                            src: "/img/unsplash-xcz78dlxtes.png"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                             lineNumber: 70,
@@ -39117,7 +38906,7 @@ const AboutUsPage = ()=>{
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                 className: "line-2",
                                                 alt: "Line",
-                                                src: "./img/line-23.svg"
+                                                src: "/img/line-23.svg"
                                             }, void 0, false, {
                                                 fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                 lineNumber: 73,
@@ -39616,7 +39405,7 @@ const AboutUsPage = ()=>{
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                 className: "line-3",
                                                                 alt: "Line",
-                                                                src: "./img/line-20-2.svg"
+                                                                src: "/img/line-20-2.svg"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                                 lineNumber: 201,
@@ -39633,7 +39422,7 @@ const AboutUsPage = ()=>{
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                 className: "line-3",
                                                                 alt: "Line",
-                                                                src: "./img/line-20-2.svg"
+                                                                src: "/img/line-20-2.svg"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                                 lineNumber: 203,
@@ -39730,7 +39519,7 @@ const AboutUsPage = ()=>{
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                 className: "line-3",
                                                                 alt: "Line",
-                                                                src: "./img/line-19-1.svg"
+                                                                src: "/img/line-19-1.svg"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                                 lineNumber: 228,
@@ -39747,7 +39536,7 @@ const AboutUsPage = ()=>{
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                 className: "line-3",
                                                                 alt: "Line",
-                                                                src: "./img/line-20-1.svg"
+                                                                src: "/img/line-20-1.svg"
                                                             }, void 0, false, {
                                                                 fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                                 lineNumber: 230,
@@ -39861,7 +39650,7 @@ const AboutUsPage = ()=>{
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                         className: "line-4",
                                                                         alt: "Line",
-                                                                        src: "./img/line-20-2.svg"
+                                                                        src: "/img/line-20-2.svg"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                                         lineNumber: 259,
@@ -39878,7 +39667,7 @@ const AboutUsPage = ()=>{
                                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                         className: "line-5",
                                                                         alt: "Line",
-                                                                        src: "./img/line-20-2.svg"
+                                                                        src: "/img/line-20-2.svg"
                                                                     }, void 0, false, {
                                                                         fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                                         lineNumber: 261,
@@ -39980,7 +39769,7 @@ const AboutUsPage = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "button-container",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
-                                    className: "button-instance",
+                                    className: "button design-component-instance-node",
                                     text: "SHOW MORE (+5)"
                                 }, void 0, false, {
                                     fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
@@ -40032,7 +39821,7 @@ const AboutUsPage = ()=>{
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                     className: "img-2",
                                                     alt: "Doodle ed normal",
-                                                    src: "./img/doodle-ed-normal.svg"
+                                                    src: "/img/doodle-ed-normal.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                     lineNumber: 302,
@@ -40096,7 +39885,7 @@ const AboutUsPage = ()=>{
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                     className: "img-2",
                                                     alt: "Avy website team",
-                                                    src: "./img/avy-website-team-doodles-kay.svg"
+                                                    src: "/img/avy-website-team-doodles-kay.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                     lineNumber: 315,
@@ -40169,7 +39958,7 @@ const AboutUsPage = ()=>{
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                     className: "img-2",
                                                     alt: "Avy website team",
-                                                    src: "./img/avy-website-team-doodles-marlene.svg"
+                                                    src: "/img/avy-website-team-doodles-marlene.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                     lineNumber: 330,
@@ -40233,7 +40022,7 @@ const AboutUsPage = ()=>{
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                     className: "img-2",
                                                     alt: "Doodle sample avy",
-                                                    src: "./img/doodle-sample-avy-mouseover.svg"
+                                                    src: "/img/doodle-sample-avy-mouseover.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                     lineNumber: 343,
@@ -40321,7 +40110,7 @@ const AboutUsPage = ()=>{
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                     className: "img-2",
                                                     alt: "Doodle shiraz normal",
-                                                    src: "./img/doodle-shiraz-normal.svg"
+                                                    src: "/img/doodle-shiraz-normal.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                     lineNumber: 364,
@@ -40394,7 +40183,7 @@ const AboutUsPage = ()=>{
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                     className: "img-2",
                                                     alt: "Avy website team",
-                                                    src: "./img/avy-website-team-doodles-bijo.svg"
+                                                    src: "/img/avy-website-team-doodles-bijo.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                     lineNumber: 379,
@@ -40458,7 +40247,7 @@ const AboutUsPage = ()=>{
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                     className: "img-2",
                                                     alt: "Avy website team",
-                                                    src: "./img/avy-website-team-doodles-rakka.svg"
+                                                    src: "/img/avy-website-team-doodles-rakka.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                     lineNumber: 392,
@@ -40626,7 +40415,7 @@ const AboutUsPage = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line-6",
                                         alt: "Line",
-                                        src: "./img/line-10.svg"
+                                        src: "/img/line-10.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                         lineNumber: 423,
@@ -40643,7 +40432,7 @@ const AboutUsPage = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line-6",
                                         alt: "Line",
-                                        src: "./img/line-10.svg"
+                                        src: "/img/line-10.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                         lineNumber: 425,
@@ -40669,7 +40458,7 @@ const AboutUsPage = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line-6",
                                         alt: "Line",
-                                        src: "./img/line-9.svg"
+                                        src: "/img/line-9.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                         lineNumber: 429,
@@ -40762,7 +40551,7 @@ const AboutUsPage = ()=>{
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                     className: "mdi-menu-down",
                                                                     alt: "Mdi menu down",
-                                                                    src: "./img/mdi-menu-down.svg"
+                                                                    src: "/img/mdi-menu-down.svg"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                                     lineNumber: 448,
@@ -40777,7 +40566,7 @@ const AboutUsPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "line-2",
                                                             alt: "Line",
-                                                            src: "./img/line-2-1.svg"
+                                                            src: "/img/line-2-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                             lineNumber: 450,
@@ -40827,7 +40616,7 @@ const AboutUsPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "line-2",
                                                             alt: "Line",
-                                                            src: "./img/line-1-1.svg"
+                                                            src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                             lineNumber: 459,
@@ -40877,7 +40666,7 @@ const AboutUsPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "line-2",
                                                             alt: "Line",
-                                                            src: "./img/line-1-1.svg"
+                                                            src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                             lineNumber: 468,
@@ -40927,7 +40716,7 @@ const AboutUsPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "line-2",
                                                             alt: "Line",
-                                                            src: "./img/line-1-1.svg"
+                                                            src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                             lineNumber: 477,
@@ -40988,7 +40777,7 @@ const AboutUsPage = ()=>{
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                     className: "mdi-menu-down",
                                                                     alt: "Mdi menu down",
-                                                                    src: "./img/mdi-menu-down.svg"
+                                                                    src: "/img/mdi-menu-down.svg"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                                     lineNumber: 487,
@@ -41003,7 +40792,7 @@ const AboutUsPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "line-2",
                                                             alt: "Line",
-                                                            src: "./img/line-2.svg"
+                                                            src: "/img/line-2.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                             lineNumber: 489,
@@ -41061,7 +40850,7 @@ const AboutUsPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "line-2",
                                                             alt: "Line",
-                                                            src: "./img/line-1.svg"
+                                                            src: "/img/line-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/AboutUsPage/AboutUsPage.jsx",
                                                             lineNumber: 498,
@@ -41203,7 +40992,7 @@ const OurWorkPage = ()=>{
                         className: "OUR-WORK",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "text-wrapper-2",
+                                className: "our-work",
                                 children: "OUR WORK"
                             }, void 0, false, {
                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
@@ -41211,7 +41000,7 @@ const OurWorkPage = ()=>{
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "div-2",
+                                className: "content",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         className: "content-hovered",
@@ -41219,7 +41008,7 @@ const OurWorkPage = ()=>{
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                 className: "image",
                                                 alt: "Image",
-                                                src: "./img/image-15.png"
+                                                src: "/img/image-15.png"
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                                 lineNumber: 55,
@@ -41236,7 +41025,7 @@ const OurWorkPage = ()=>{
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "div-2",
+                                                        className: "sub-title",
                                                         children: [
                                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                                 className: "text-wrapper-3",
@@ -41287,7 +41076,7 @@ const OurWorkPage = ()=>{
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "div-2",
+                                                    className: "sub-title",
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                             className: "text-wrapper-3",
@@ -41337,7 +41126,7 @@ const OurWorkPage = ()=>{
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "div-2",
+                                                    className: "sub-title",
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                             className: "text-wrapper-3",
@@ -41387,7 +41176,7 @@ const OurWorkPage = ()=>{
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "div-2",
+                                                    className: "sub-title",
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                             className: "text-wrapper-3",
@@ -41437,7 +41226,7 @@ const OurWorkPage = ()=>{
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "div-2",
+                                                    className: "sub-title",
                                                     children: [
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                             className: "text-wrapper-3",
@@ -41507,7 +41296,7 @@ const OurWorkPage = ()=>{
                             className: "text-button",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "text",
+                                    className: "lorem",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                             className: "l-rem-ipsum",
@@ -41584,7 +41373,7 @@ const OurWorkPage = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line",
                                         alt: "Line",
-                                        src: "./img/line-10.svg"
+                                        src: "/img/line-10.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                         lineNumber: 120,
@@ -41601,7 +41390,7 @@ const OurWorkPage = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line",
                                         alt: "Line",
-                                        src: "./img/line-10.svg"
+                                        src: "/img/line-10.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                         lineNumber: 122,
@@ -41627,7 +41416,7 @@ const OurWorkPage = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "line",
                                         alt: "Line",
-                                        src: "./img/line-9.svg"
+                                        src: "/img/line-9.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                         lineNumber: 126,
@@ -41720,7 +41509,7 @@ const OurWorkPage = ()=>{
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                     className: "mdi-menu-down",
                                                                     alt: "Mdi menu down",
-                                                                    src: "./img/mdi-menu-down.svg"
+                                                                    src: "/img/mdi-menu-down.svg"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                                                     lineNumber: 145,
@@ -41735,7 +41524,7 @@ const OurWorkPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "img",
                                                             alt: "Line",
-                                                            src: "./img/line-2-1.svg"
+                                                            src: "/img/line-2-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                                             lineNumber: 147,
@@ -41785,7 +41574,7 @@ const OurWorkPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "img",
                                                             alt: "Line",
-                                                            src: "./img/line-1-1.svg"
+                                                            src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                                             lineNumber: 156,
@@ -41835,7 +41624,7 @@ const OurWorkPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "img",
                                                             alt: "Line",
-                                                            src: "./img/line-1-1.svg"
+                                                            src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                                             lineNumber: 165,
@@ -41885,7 +41674,7 @@ const OurWorkPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "img",
                                                             alt: "Line",
-                                                            src: "./img/line-1-1.svg"
+                                                            src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                                             lineNumber: 174,
@@ -41938,7 +41727,7 @@ const OurWorkPage = ()=>{
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                     className: "mdi-menu-down",
                                                                     alt: "Mdi menu down",
-                                                                    src: "./img/mdi-menu-down.svg"
+                                                                    src: "/img/mdi-menu-down.svg"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                                                     lineNumber: 184,
@@ -41953,7 +41742,7 @@ const OurWorkPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "img",
                                                             alt: "Line",
-                                                            src: "./img/line-2.svg"
+                                                            src: "/img/line-2.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                                             lineNumber: 186,
@@ -42003,7 +41792,7 @@ const OurWorkPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "img",
                                                             alt: "Line",
-                                                            src: "./img/line-1.svg"
+                                                            src: "/img/line-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                                             lineNumber: 195,
@@ -42061,16 +41850,33 @@ const OurWorkPage = ()=>{
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "footer-logo-section",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    className: "AVY-LOGO-2",
-                                    alt: "Avy LOGO",
-                                    src: "./img/avy-logo-4.png"
-                                }, void 0, false, {
-                                    fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                    lineNumber: 206,
-                                    columnNumber: 13
-                                }, undefined)
-                            }, void 0, false, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "our-worker-logo",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            className: "AVY-LOGO-2",
+                                            alt: "Avy LOGO",
+                                            src: "/img/avy-logo-4.png"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                            lineNumber: 207,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                        lineNumber: 206,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "AVY-CONSULTANCY-Website",
+                                        children: "AVY\xa9 CONSULTANCY.DESIGN, BRAND & MOTION"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                        lineNumber: 209,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                 lineNumber: 205,
                                 columnNumber: 11
@@ -42089,7 +41895,7 @@ const OurWorkPage = ()=>{
                                                         children: "ABOUT"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 211,
+                                                        lineNumber: 216,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42097,13 +41903,13 @@ const OurWorkPage = ()=>{
                                                         children: "OUR WORK"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 212,
+                                                        lineNumber: 217,
                                                         columnNumber: 17
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 210,
+                                                lineNumber: 215,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42114,7 +41920,7 @@ const OurWorkPage = ()=>{
                                                         children: "INSIGHTS"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 215,
+                                                        lineNumber: 220,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42122,19 +41928,19 @@ const OurWorkPage = ()=>{
                                                         children: "SHOP"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 216,
+                                                        lineNumber: 221,
                                                         columnNumber: 17
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 214,
+                                                lineNumber: 219,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 209,
+                                        lineNumber: 214,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42148,7 +41954,7 @@ const OurWorkPage = ()=>{
                                                         children: "CONTACT US"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 221,
+                                                        lineNumber: 226,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42156,13 +41962,13 @@ const OurWorkPage = ()=>{
                                                         children: "TESTIMONIALS"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 222,
+                                                        lineNumber: 227,
                                                         columnNumber: 17
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 220,
+                                                lineNumber: 225,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42173,7 +41979,7 @@ const OurWorkPage = ()=>{
                                                         children: "Hello@avy.me"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 225,
+                                                        lineNumber: 230,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42181,25 +41987,25 @@ const OurWorkPage = ()=>{
                                                         children: "+44 7365 536 636"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 226,
+                                                        lineNumber: 231,
                                                         columnNumber: 17
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 224,
+                                                lineNumber: 229,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 219,
+                                        lineNumber: 224,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                lineNumber: 208,
+                                lineNumber: 213,
                                 columnNumber: 11
                             }, undefined)
                         ]
@@ -42222,19 +42028,19 @@ const OurWorkPage = ()=>{
                                                 "LET’S STAY",
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 236,
+                                                    lineNumber: 241,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 "CONNECTED"
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 234,
+                                            lineNumber: 239,
                                             columnNumber: 15
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 233,
+                                        lineNumber: 238,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42245,7 +42051,7 @@ const OurWorkPage = ()=>{
                                                 color: "#1A1A1A"
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 241,
+                                                lineNumber: 246,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _riBehanceFill.RiBehanceFill), {
@@ -42253,7 +42059,7 @@ const OurWorkPage = ()=>{
                                                 color: "#1A1A1A"
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 242,
+                                                lineNumber: 247,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mdiInstagram1.MdiInstagram1), {
@@ -42261,30 +42067,30 @@ const OurWorkPage = ()=>{
                                                 color: "#1A1A1A"
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 243,
+                                                lineNumber: 248,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 240,
+                                        lineNumber: 245,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                lineNumber: 232,
+                                lineNumber: 237,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "frame-3",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        className: "AVY-CONSULTANCY",
+                                        className: "AVY-CONSULTANCY-Mobile",
                                         children: "AVY\xa9 CONSULTANCY.DESIGN, BRAND & MOTION"
                                     }, void 0, false, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 247,
+                                        lineNumber: 252,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42295,16 +42101,16 @@ const OurWorkPage = ()=>{
                                                 children: "TERMS & CONDITIONS"
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 251,
+                                                lineNumber: 256,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                 className: "line-2",
                                                 alt: "Line",
-                                                src: "./img/line-21.svg"
+                                                src: "/img/line-21.svg"
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 252,
+                                                lineNumber: 257,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42312,25 +42118,25 @@ const OurWorkPage = ()=>{
                                                 children: "PRIVACY POLICY"
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 253,
+                                                lineNumber: 258,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 250,
+                                        lineNumber: 255,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                lineNumber: 246,
+                                lineNumber: 251,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                        lineNumber: 231,
+                        lineNumber: 236,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -42515,7 +42321,7 @@ const InsightsPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "rectangle",
                                                             alt: "Rectangle",
-                                                            src: "./img/rectangle-98-4.png"
+                                                            src: "/img/rectangle-98-4.png"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/InsightsPage/InsightsPage.jsx",
                                                             lineNumber: 64,
@@ -42549,7 +42355,7 @@ const InsightsPage = ()=>{
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                                     className: "line-2",
                                                                                     alt: "Line",
-                                                                                    src: "./img/line-27.svg"
+                                                                                    src: "/img/line-27.svg"
                                                                                 }, void 0, false, {
                                                                                     fileName: "src/screens/InsightsPage/InsightsPage.jsx",
                                                                                     lineNumber: 72,
@@ -42615,7 +42421,7 @@ const InsightsPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "rectangle",
                                                             alt: "Rectangle",
-                                                            src: "./img/rectangle-98-3.png"
+                                                            src: "/img/rectangle-98-3.png"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/InsightsPage/InsightsPage.jsx",
                                                             lineNumber: 82,
@@ -42649,7 +42455,7 @@ const InsightsPage = ()=>{
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                                     className: "line-2",
                                                                                     alt: "Line",
-                                                                                    src: "./img/line-27.svg"
+                                                                                    src: "/img/line-27.svg"
                                                                                 }, void 0, false, {
                                                                                     fileName: "src/screens/InsightsPage/InsightsPage.jsx",
                                                                                     lineNumber: 88,
@@ -42666,7 +42472,7 @@ const InsightsPage = ()=>{
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                                     className: "line-2",
                                                                                     alt: "Line",
-                                                                                    src: "./img/line-27.svg"
+                                                                                    src: "/img/line-27.svg"
                                                                                 }, void 0, false, {
                                                                                     fileName: "src/screens/InsightsPage/InsightsPage.jsx",
                                                                                     lineNumber: 90,
@@ -42725,7 +42531,7 @@ const InsightsPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "rectangle",
                                                             alt: "Rectangle",
-                                                            src: "./img/rectangle-98-2.png"
+                                                            src: "/img/rectangle-98-2.png"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/InsightsPage/InsightsPage.jsx",
                                                             lineNumber: 100,
@@ -42759,7 +42565,7 @@ const InsightsPage = ()=>{
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                                     className: "line-2",
                                                                                     alt: "Line",
-                                                                                    src: "./img/line-27.svg"
+                                                                                    src: "/img/line-27.svg"
                                                                                 }, void 0, false, {
                                                                                     fileName: "src/screens/InsightsPage/InsightsPage.jsx",
                                                                                     lineNumber: 106,
@@ -42818,7 +42624,7 @@ const InsightsPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "rectangle",
                                                             alt: "Rectangle",
-                                                            src: "./img/rectangle-98-1.png"
+                                                            src: "/img/rectangle-98-1.png"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/InsightsPage/InsightsPage.jsx",
                                                             lineNumber: 116,
@@ -42852,7 +42658,7 @@ const InsightsPage = ()=>{
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                                     className: "line-2",
                                                                                     alt: "Line",
-                                                                                    src: "./img/line-27.svg"
+                                                                                    src: "/img/line-27.svg"
                                                                                 }, void 0, false, {
                                                                                     fileName: "src/screens/InsightsPage/InsightsPage.jsx",
                                                                                     lineNumber: 122,
@@ -42869,7 +42675,7 @@ const InsightsPage = ()=>{
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                                     className: "line-2",
                                                                                     alt: "Line",
-                                                                                    src: "./img/line-27.svg"
+                                                                                    src: "/img/line-27.svg"
                                                                                 }, void 0, false, {
                                                                                     fileName: "src/screens/InsightsPage/InsightsPage.jsx",
                                                                                     lineNumber: 124,
@@ -42928,7 +42734,7 @@ const InsightsPage = ()=>{
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                             className: "rectangle",
                                                             alt: "Rectangle",
-                                                            src: "./img/rectangle-98.png"
+                                                            src: "/img/rectangle-98.png"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/InsightsPage/InsightsPage.jsx",
                                                             lineNumber: 134,
@@ -42962,7 +42768,7 @@ const InsightsPage = ()=>{
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                                     className: "line-2",
                                                                                     alt: "Line",
-                                                                                    src: "./img/line-27.svg"
+                                                                                    src: "/img/line-27.svg"
                                                                                 }, void 0, false, {
                                                                                     fileName: "src/screens/InsightsPage/InsightsPage.jsx",
                                                                                     lineNumber: 140,
@@ -42979,7 +42785,7 @@ const InsightsPage = ()=>{
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                                     className: "line-2",
                                                                                     alt: "Line",
-                                                                                    src: "./img/line-27.svg"
+                                                                                    src: "/img/line-27.svg"
                                                                                 }, void 0, false, {
                                                                                     fileName: "src/screens/InsightsPage/InsightsPage.jsx",
                                                                                     lineNumber: 142,
@@ -42996,7 +42802,7 @@ const InsightsPage = ()=>{
                                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                                                     className: "line-2",
                                                                                     alt: "Line",
-                                                                                    src: "./img/line-27.svg"
+                                                                                    src: "/img/line-27.svg"
                                                                                 }, void 0, false, {
                                                                                     fileName: "src/screens/InsightsPage/InsightsPage.jsx",
                                                                                     lineNumber: 144,
@@ -43167,7 +42973,7 @@ const InsightsContent = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                 className: "rectangle",
                                 alt: "Rectangle",
-                                src: "./img/rectangle-99.png"
+                                src: "/img/rectangle-99.png"
                             }, void 0, false, {
                                 fileName: "src/screens/InsightsContent/InsightsContent.jsx",
                                 lineNumber: 49,
@@ -43178,28 +42984,8 @@ const InsightsContent = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         className: "AVY-pruthi-nuneaton",
-                                        children: [
-                                            "AVY Pruthi, Nuneaton ",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                                fileName: "src/screens/InsightsContent/InsightsContent.jsx",
-                                                lineNumber: 53,
-                                                columnNumber: 38
-                                            }, undefined),
-                                            "  business owner – Coventry ",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                                fileName: "src/screens/InsightsContent/InsightsContent.jsx",
-                                                lineNumber: 53,
-                                                columnNumber: 72
-                                            }, undefined),
-                                            " &  Warwickshire Chamber ",
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                                                fileName: "src/screens/InsightsContent/InsightsContent.jsx",
-                                                lineNumber: 53,
-                                                columnNumber: 107
-                                            }, undefined),
-                                            " workshops"
-                                        ]
-                                    }, void 0, true, {
+                                        children: "AVY Pruthi, Nuneaton business owner – Coventry &  Warwickshire Chamber workshops"
+                                    }, void 0, false, {
                                         fileName: "src/screens/InsightsContent/InsightsContent.jsx",
                                         lineNumber: 52,
                                         columnNumber: 15
@@ -43221,7 +43007,7 @@ const InsightsContent = ()=>{
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                         className: "line-2",
                                                         alt: "Line",
-                                                        src: "./img/line-26.svg"
+                                                        src: "/img/line-26.svg"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/InsightsContent/InsightsContent.jsx",
                                                         lineNumber: 58,
@@ -43255,7 +43041,7 @@ const InsightsContent = ()=>{
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                         className: "social",
                                                         alt: "Social",
-                                                        src: "./img/social.svg"
+                                                        src: "/img/social.svg"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/InsightsContent/InsightsContent.jsx",
                                                         lineNumber: 63,
@@ -43356,7 +43142,7 @@ const InsightsContent = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "rectangle-2",
                                         alt: "Rectangle",
-                                        src: "./img/rectangle-103-2.png"
+                                        src: "/img/rectangle-103-2.png"
                                     }, void 0, false, {
                                         fileName: "src/screens/InsightsContent/InsightsContent.jsx",
                                         lineNumber: 93,
@@ -43387,7 +43173,7 @@ const InsightsContent = ()=>{
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                         className: "line-2",
                                                         alt: "Line",
-                                                        src: "./img/line-26.svg"
+                                                        src: "/img/line-26.svg"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/InsightsContent/InsightsContent.jsx",
                                                         lineNumber: 98,
@@ -43404,7 +43190,7 @@ const InsightsContent = ()=>{
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                         className: "line-2",
                                                         alt: "Line",
-                                                        src: "./img/line-26.svg"
+                                                        src: "/img/line-26.svg"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/InsightsContent/InsightsContent.jsx",
                                                         lineNumber: 100,
@@ -43442,7 +43228,7 @@ const InsightsContent = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "rectangle-2",
                                         alt: "Rectangle",
-                                        src: "./img/rectangle-103-1.png"
+                                        src: "/img/rectangle-103-1.png"
                                     }, void 0, false, {
                                         fileName: "src/screens/InsightsContent/InsightsContent.jsx",
                                         lineNumber: 106,
@@ -43473,7 +43259,7 @@ const InsightsContent = ()=>{
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                         className: "line-2",
                                                         alt: "Line",
-                                                        src: "./img/line-26.svg"
+                                                        src: "/img/line-26.svg"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/InsightsContent/InsightsContent.jsx",
                                                         lineNumber: 111,
@@ -43511,7 +43297,7 @@ const InsightsContent = ()=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                         className: "rectangle-2",
                                         alt: "Rectangle",
-                                        src: "./img/rectangle-103.png"
+                                        src: "/img/rectangle-103.png"
                                     }, void 0, false, {
                                         fileName: "src/screens/InsightsContent/InsightsContent.jsx",
                                         lineNumber: 117,
@@ -43542,7 +43328,7 @@ const InsightsContent = ()=>{
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                         className: "line-2",
                                                         alt: "Line",
-                                                        src: "./img/line-26.svg"
+                                                        src: "/img/line-26.svg"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/InsightsContent/InsightsContent.jsx",
                                                         lineNumber: 122,
@@ -43559,7 +43345,7 @@ const InsightsContent = ()=>{
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                         className: "line-2",
                                                         alt: "Line",
-                                                        src: "./img/line-26.svg"
+                                                        src: "/img/line-26.svg"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/InsightsContent/InsightsContent.jsx",
                                                         lineNumber: 124,
@@ -43657,7 +43443,7 @@ const PageNotFound = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                 className: "unsplash",
                                 alt: "Unsplash",
-                                src: "./img/unsplash-xcz78dlxtes-traced.svg"
+                                src: "/img/unsplash-xcz78dlxtes-traced.svg"
                             }, void 0, false, {
                                 fileName: "src/screens/PageNotFound/PageNotFound.jsx",
                                 lineNumber: 12,
@@ -43666,7 +43452,7 @@ const PageNotFound = ()=>{
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                 className: "avy-website-banner",
                                 alt: "Avy website banner",
-                                src: "./img/avy-website-banner-pattern-white-1.svg"
+                                src: "/img/avy-website-banner-pattern-white-1.svg"
                             }, void 0, false, {
                                 fileName: "src/screens/PageNotFound/PageNotFound.jsx",
                                 lineNumber: 13,
@@ -43742,6 +43528,805 @@ $RefreshReg$(_c, "PageNotFound");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../components/Button":"bNbfl","react-router-dom":"9xmpe","./style.css":"7SK4L","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7SK4L":[function() {},{}]},["igKGj","1xC6H","8lqZg"], "8lqZg", "parcelRequireb8e7")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../components/Button":"bNbfl","react-router-dom":"9xmpe","./style.css":"7SK4L","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7SK4L":[function() {},{}],"3xq6K":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "WorkOverlay", ()=>(0, _workOverlay.WorkOverlay));
+var _workOverlay = require("./WorkOverlay");
+
+},{"./WorkOverlay":"9mmCb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9mmCb":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$0b43 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$0b43.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "WorkOverlay", ()=>WorkOverlay);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _button = require("../../components/Button");
+var _styleCss = require("./style.css");
+const WorkOverlay = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "frame",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "headline",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "content-container",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "title-button",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "project-title",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "text-wrapper2",
+                                            children: "BLK PIZZA"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                            lineNumber: 12,
+                                            columnNumber: 19
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "div",
+                                            children: "BRANDING"
+                                        }, void 0, false, {
+                                            fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                            lineNumber: 13,
+                                            columnNumber: 19
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                    lineNumber: 11,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
+                                    button: "hover-state",
+                                    className: "button-instance",
+                                    text: "CLOSE"
+                                }, void 0, false, {
+                                    fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                    lineNumber: 15,
+                                    columnNumber: 17
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                            lineNumber: 10,
+                            columnNumber: 15
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                        lineNumber: 9,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "rectangle"
+                    }, void 0, false, {
+                        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                        lineNumber: 18,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                lineNumber: 8,
+                columnNumber: 11
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "div-2",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "project-overview",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "div-3",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "text-wrapper-2",
+                                        children: "PROJECT"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                        lineNumber: 23,
+                                        columnNumber: 17
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "text-wrapper-3",
+                                        children: [
+                                            "CLIENT: LOREM IPSUM",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                                lineNumber: 26,
+                                                columnNumber: 19
+                                            }, undefined),
+                                            "YEAR: 2023"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                        lineNumber: 24,
+                                        columnNumber: 17
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                lineNumber: 22,
+                                columnNumber: 15
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "div-3",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "text-wrapper-2",
+                                        children: "SERVICES:"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                        lineNumber: 31,
+                                        columnNumber: 17
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "text-wrapper-3",
+                                        children: "BRANDING"
+                                    }, void 0, false, {
+                                        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                        lineNumber: 32,
+                                        columnNumber: 17
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                lineNumber: 30,
+                                columnNumber: 15
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                        lineNumber: 21,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "div-4",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-wrapper-2",
+                                children: "CHALLENGE"
+                            }, void 0, false, {
+                                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                lineNumber: 36,
+                                columnNumber: 15
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "text-wrapper-3",
+                                children: "L\xf6rem ipsum dem\xf6dade m\xe4rk-dna: pension\xe4rskuv\xf6s \xe4n aras ovina. Trumpifiering intraskade nende i tuspeska tekagon. Reskapet aberen vyr agnostigen, i ter. Pegt gigan\xf6sm elykovament."
+                            }, void 0, false, {
+                                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                lineNumber: 37,
+                                columnNumber: 15
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                        lineNumber: 35,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "element-image",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                className: "image",
+                                alt: "Image",
+                                src: "/img/image-16.png"
+                            }, void 0, false, {
+                                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                lineNumber: 43,
+                                columnNumber: 15
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                className: "img",
+                                alt: "Image",
+                                src: "/img/image-19.png"
+                            }, void 0, false, {
+                                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                lineNumber: 44,
+                                columnNumber: 15
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                className: "img",
+                                alt: "Image",
+                                src: "/img/image-20.png"
+                            }, void 0, false, {
+                                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                lineNumber: 45,
+                                columnNumber: 15
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                        lineNumber: 42,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "div-4",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-wrapper-2",
+                                children: "APPROACH"
+                            }, void 0, false, {
+                                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                lineNumber: 48,
+                                columnNumber: 15
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "text-wrapper-3",
+                                children: "L\xf6rem ipsum dem\xf6dade m\xe4rk-dna: pension\xe4rskuv\xf6s \xe4n aras ovina. Trumpifiering intraskade nende i tuspeska tekagon. Reskapet aberen vyr agnostigen, i ter. Pegt gigan\xf6sm elykovament."
+                            }, void 0, false, {
+                                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                lineNumber: 49,
+                                columnNumber: 15
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                        lineNumber: 47,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        className: "image-2",
+                        alt: "Image",
+                        src: "/img/image-21.png"
+                    }, void 0, false, {
+                        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                        lineNumber: 54,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "div-4",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-wrapper-2",
+                                children: "RESULT"
+                            }, void 0, false, {
+                                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                lineNumber: 56,
+                                columnNumber: 15
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "text-wrapper-3",
+                                children: "L\xf6rem ipsum dem\xf6dade m\xe4rk-dna: pension\xe4rskuv\xf6s \xe4n aras ovina. Trumpifiering intraskade nende i tuspeska tekagon. Reskapet aberen vyr agnostigen, i ter. Pegt gigan\xf6sm elykovament."
+                            }, void 0, false, {
+                                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                lineNumber: 57,
+                                columnNumber: 15
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                        lineNumber: 55,
+                        columnNumber: 13
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "workoverlay-footer",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "text-wrapper-4",
+                                children: "BLKPIZZA.COM"
+                            }, void 0, false, {
+                                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                lineNumber: 63,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "if-it-s-a-website",
+                                children: [
+                                    "*if it’s a website project",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                        lineNumber: 66,
+                                        columnNumber: 17
+                                    }, undefined),
+                                    "*or any link related (if any)"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                                lineNumber: 64,
+                                columnNumber: 17
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                        lineNumber: 62,
+                        columnNumber: 13
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+                lineNumber: 20,
+                columnNumber: 11
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/screens/WorkOverlay/WorkOverlay.jsx",
+        lineNumber: 7,
+        columnNumber: 9
+    }, undefined);
+};
+_c = WorkOverlay;
+var _c;
+$RefreshReg$(_c, "WorkOverlay");
+
+  $parcel$ReactRefreshHelpers$0b43.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../../components/Button":"bNbfl","./style.css":"lRXwD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lRXwD":[function() {},{}],"g5dNU":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$0c63 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$0c63.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ContactUsOverlay", ()=>ContactUsOverlay);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _button = require("../../components/Button/Button");
+var _formButton = require("../../components/FormButton/FormButton");
+var _styleCss = require("./style.css");
+const ContactUsOverlay = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "contact-us-overlay",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "headline",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "content-container",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "title-button",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "LET-s-GET-IN-TOUCH",
+                                    children: [
+                                        "LET’S",
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                            lineNumber: 14,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        "GET IN TOUCH"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                    lineNumber: 12,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
+                                    button: "hover-state",
+                                    className: "design-component-instance-node",
+                                    text: "CLOSE"
+                                }, void 0, false, {
+                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                    lineNumber: 17,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "rectangle"
+                    }, void 0, false, {
+                        fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                        lineNumber: 20,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                lineNumber: 9,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "contact-form",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "content",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "form",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "div",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "title",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-2",
+                                                children: "SUBJECT"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                lineNumber: 27,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                            lineNumber: 26,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "div-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "select-dropdown",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                            className: "text-wrapper-3",
+                                                            children: "Select"
+                                                        }, void 0, false, {
+                                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                            lineNumber: 31,
+                                                            columnNumber: 19
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                            className: "mdi-menu-down",
+                                                            alt: "Mdi menu down",
+                                                            src: "./img/mdi-menu-down.svg"
+                                                        }, void 0, false, {
+                                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                            lineNumber: 32,
+                                                            columnNumber: 19
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                    lineNumber: 30,
+                                                    columnNumber: 17
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                    className: "line",
+                                                    alt: "Line",
+                                                    src: "./img/line-2.svg"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                    lineNumber: 34,
+                                                    columnNumber: 17
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                            lineNumber: 29,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                    lineNumber: 25,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "div",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "div-wrapper",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-4",
+                                                children: "NAME"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                lineNumber: 39,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                            lineNumber: 38,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "div-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "text-wrapper-5",
+                                                    children: "Enter Your Name"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                    lineNumber: 42,
+                                                    columnNumber: 17
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                    className: "line",
+                                                    alt: "Line",
+                                                    src: "./img/line-1.svg"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                    lineNumber: 43,
+                                                    columnNumber: 17
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                            lineNumber: 41,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                    lineNumber: 37,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "div",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "div-wrapper",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-4",
+                                                children: "EMAIL"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                lineNumber: 48,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                            lineNumber: 47,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "div-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "text-wrapper-5",
+                                                    children: "Enter Your Email"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                    lineNumber: 51,
+                                                    columnNumber: 17
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                    className: "line",
+                                                    alt: "Line",
+                                                    src: "./img/line-1.svg"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                    lineNumber: 52,
+                                                    columnNumber: 17
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                            lineNumber: 50,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                    lineNumber: 46,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "div",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "div-wrapper",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-4",
+                                                children: "PHONE"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                lineNumber: 57,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                            lineNumber: 56,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "div-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "text-wrapper-5",
+                                                    children: "Enter Your Phone"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                    lineNumber: 60,
+                                                    columnNumber: 17
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                    className: "line",
+                                                    alt: "Line",
+                                                    src: "./img/line-1.svg"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                    lineNumber: 61,
+                                                    columnNumber: 17
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                            lineNumber: 59,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                    lineNumber: 55,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "div",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "title",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-2",
+                                                children: "BUDGET"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                lineNumber: 66,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                            lineNumber: 65,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "div-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                    className: "select-dropdown",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                            className: "text-wrapper-3",
+                                                            children: "What did you have in mind?"
+                                                        }, void 0, false, {
+                                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                            lineNumber: 70,
+                                                            columnNumber: 19
+                                                        }, undefined),
+                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                            className: "mdi-menu-down",
+                                                            alt: "Mdi menu down",
+                                                            src: "./img/mdi-menu-down.svg"
+                                                        }, void 0, false, {
+                                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                            lineNumber: 71,
+                                                            columnNumber: 19
+                                                        }, undefined)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                    lineNumber: 69,
+                                                    columnNumber: 17
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                    className: "line",
+                                                    alt: "Line",
+                                                    src: "./img/line-2.svg"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                    lineNumber: 73,
+                                                    columnNumber: 17
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                            lineNumber: 68,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                    lineNumber: 64,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "div",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "div-wrapper",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-4",
+                                                children: "MESSAGE"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                lineNumber: 78,
+                                                columnNumber: 17
+                                            }, undefined)
+                                        }, void 0, false, {
+                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                            lineNumber: 77,
+                                            columnNumber: 15
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            className: "div-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                    className: "text-wrapper-5",
+                                                    children: "Tell us about your amazing idea!"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                    lineNumber: 81,
+                                                    columnNumber: 17
+                                                }, undefined),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                    className: "line",
+                                                    alt: "Line",
+                                                    src: "./img/line-1.svg"
+                                                }, void 0, false, {
+                                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                                    lineNumber: 82,
+                                                    columnNumber: 17
+                                                }, undefined)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                            lineNumber: 80,
+                                            columnNumber: 15
+                                        }, undefined)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                                    lineNumber: 76,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                            lineNumber: 24,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _formButton.FormButton), {
+                            className: "design-component-instance-node",
+                            state: "default",
+                            text: "SEND"
+                        }, void 0, false, {
+                            fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                            lineNumber: 86,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                    lineNumber: 23,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+                lineNumber: 22,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/screens/ContactUsOverlay/ContactUsOverlay.jsx",
+        lineNumber: 8,
+        columnNumber: 5
+    }, undefined);
+};
+_c = ContactUsOverlay;
+var _c;
+$RefreshReg$(_c, "ContactUsOverlay");
+
+  $parcel$ReactRefreshHelpers$0c63.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./style.css":"a6nO5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../components/Button/Button":"6PHRv","../../components/FormButton/FormButton":"fAc4n"}],"a6nO5":[function() {},{}]},["igKGj","1xC6H","8lqZg"], "8lqZg", "parcelRequireb8e7")
 
 //# sourceMappingURL=index.975ef6c8.js.map

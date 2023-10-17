@@ -27,8 +27,6 @@
   width: 100%;
 }
 
-
-
 .navbar-simple {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -340,6 +338,7 @@
 }
 
 .home-page-hi-fi .content-button {
+  padding-right: 60px;
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -347,6 +346,8 @@
   gap: 40px;
   position: relative;
   width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
 }
 
 .home-page-hi-fi .content-container {
@@ -355,6 +356,7 @@
   flex: 0 0 auto;
   margin-right: -660px;
   position: relative;
+  
 }
 
 .home-page-hi-fi .design-component-instance-node {
@@ -558,8 +560,11 @@
   display: inline-flex;
   flex: 0 0 auto;
   gap: 216px;
-  margin-right: -1152px;
+  /* margin-right: -1152px; */
   position: relative;
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%;
 }
 
 .home-page-hi-fi .cards-how-we-do-2 {
@@ -671,16 +676,17 @@
 .home-page-hi-fi .text-wrapper-26 {
   color: var(--black);
   flex: 1;
-  font-family: var(--mobile-body-large-font-family);
-  font-size: var(--mobile-body-large-font-size);
-  font-style: var(--mobile-body-large-font-style);
-  font-weight: var(--mobile-body-large-font-weight);
-  letter-spacing: var(--mobile-body-large-letter-spacing);
-  line-height: var(--mobile-body-large-line-height);
+  font-family: var(--desktop-body-large-font-family);
+  font-size: var(--desktop-body-large-font-size);
+  font-style: var(--desktop-body-large-font-style);
+  font-weight: var(--desktop-body-large-font-weight);
+  letter-spacing: var(--desktop-body-large-letter-spacing);
+  line-height: var(--desktop-body-large-line-height);
   margin-top: -1px;
   position: relative;
   text-align: center;
   width: 262px;
+  white-space: break-spaces;
 }
 
 .home-page-hi-fi .overlap-group-5 {
@@ -1339,6 +1345,9 @@
 
 .home-page-hi-fi .how-we-think {
   padding-left: 60px;
+  /* padding-right: 60px; */
+}
+.home-page-hi-fi .how-we-think-headline {
   padding-right: 60px;
 }
 

@@ -45,6 +45,7 @@
   letter-spacing: var(--desktop-display-medium-letter-spacing);
   line-height: var(--desktop-display-medium-line-height);
   position: relative;
+  white-space: break-spaces;
 }
 
 .cards-how-we-think .text-wrapper-2 {

@@ -9,7 +9,7 @@ import "./style.css";
 export const NavigationBar = ({ state, className }) => {
   return (
     <div className={`navigation-bar ${state} ${className}`}>
-      <div className="content">
+      <div className="navigation-content">
         <img className="AVY-LOGO" alt="Avy LOGO" src="/img/avy-logo-2.png" />
         {["homepage-hero", "white"].includes(state) && (
           <>

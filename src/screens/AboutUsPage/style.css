@@ -289,6 +289,9 @@
   flex-direction: column;
   gap: 40px;
   margin-right: -819px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%;
 }
 
 .about-us-page .content-2 {
@@ -422,6 +425,7 @@
   height: 200px;
   letter-spacing: var(--desktop-body-small-letter-spacing);
   line-height: var(--desktop-body-small-line-height);
+  white-space: break-spaces;
 }
 
 .about-us-page .num {

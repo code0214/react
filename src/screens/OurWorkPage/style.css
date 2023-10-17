@@ -32,7 +32,7 @@
   padding: 0 60px 0 60px;
 }
 
-.our-work-page .text-wrapper-2 {
+.our-work-page .our-work {
   color: var(--black);
   font-family: var(--desktop-headline-h1-font-family);
   font-size: var(--desktop-headline-h1-font-size);
@@ -45,11 +45,11 @@
   width: 1320px;
 }
 
-.our-work-page .div-2 {
+.our-work-page .content {
   /* align-items: center; */
-  display: inline-flex;
+  /* display: flex; */
   flex: 0 0 auto;
-  flex-direction: column;
+  /* flex-direction: column; */
   position: relative;
   width: 100%;
 }
@@ -182,7 +182,7 @@
   width: 50%;
 }
 
-.our-work-page .text {
+.our-work-page .lorem {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -255,6 +255,7 @@
   margin-top: -16px;
   position: relative;
   width: 100%;
+  justify-content: center;
 }
 
 .our-work-page .line {
@@ -281,6 +282,13 @@
   gap: 10px;
   padding: 24px 17px;
   position: relative;
+}
+
+.our-work-page .div {
+  width: 75%;
+  padding: 26px;
+  display: inline-flex;
+  gap: 210px;
 }
 
 .our-work-page .text-wrapper-6 {
@@ -440,7 +448,6 @@
 
 .our-work-page .frame-2 {
   background-color: #ffffff;
-  height: 372px;
   position: relative;
   width: 100%;
   padding: 0 60px 0 60px;
@@ -476,7 +483,7 @@
   border-color: var(--black);
   border-left-style: solid;
   border-left-width: 1px;
-  border-radius: 8px 0px 0px 0px;
+  /* border-radius: 8px 0px 0px 0px; */
   border-top-style: solid;
   border-top-width: 1px;
   display: inline-flex;
@@ -504,9 +511,21 @@
 .our-work-page .logo {
   position: relative;
   width: 75%;
+  border: 1px solid black;
+  padding: 63px 0;
+  justify-content: space-around;
+  display: inline-flex;
+  /* border-radius: 0 8px 0 0; */
+
 }
 
-.our-work-page .AVY-CONSULTANCY {
+.our-work-page .our-worker-logo {
+  justify-content: center;
+  display: grid;
+  justify-content: center;
+}
+
+.our-work-page .AVY-CONSULTANCY-Website {
   color: var(--black);
   font-family: var(--desktop-label-medium-font-family);
   font-size: var(--desktop-label-medium-font-size);
@@ -533,6 +552,10 @@
   top: 348px; */
 }
 
+.our-work-page .AVY-CONSULTANCY-Mobile {
+  display: none;
+}
+
 .our-work-page .text-wrapper-9 {
   color: var(--black);
   font-family: var(--desktop-label-medium-font-family);
@@ -557,8 +580,8 @@
 .our-work-page .frame-4 {
   align-items: center;
   display: inline-flex;
-  gap: 170px;
-  padding-left: 200px
+  gap: 210px;
+  /* padding-left: 200px */
   /* left: 437px; */
   /* position: absolute; */
   /* top: 68px; */
@@ -658,7 +681,7 @@
     padding: 0 16px 0 16px;
   }
   
-  .our-work-page .text-wrapper-2 {
+  .our-work-page .our-work {
     color: var(--black);
     font-family: Montserrat;
     font-size: 72px;
@@ -670,7 +693,7 @@
     width: 100%;
   }
   
-  .our-work-page .div-2 {
+  .our-work-page .content {
     /* align-items: center; */
     display: inline-flex;
     flex: 0 0 auto;
@@ -803,7 +826,7 @@
     width: 50%;
   }
   
-  .our-work-page .text {
+  .our-work-page .lorem {
     align-items: flex-start;
     display: flex;
     flex: 0 0 auto;
@@ -1078,7 +1101,7 @@
     align-items: center;
     display: inline-flex;
     flex: 0 0 auto;
-    gap: 24px;
+    /* gap: 24px; */
     position: relative;
     padding-top: 0px;
     padding-left: 0px;
@@ -1159,7 +1182,7 @@
     width: 100%;
   }
   
-  .our-work-page .AVY-CONSULTANCY {
+  .our-work-page .AVY-CONSULTANCY-Website {
     color: var(--black);
     font-family: var(--mobile-label-small-font-family);
     font-size: var(--mobile-label-small-font-size);
@@ -1170,16 +1193,27 @@
     margin-top: -1px;
     position: relative;
     width: 358px;
+    display: none;
   }
   
   .our-work-page .frame-3 {
     align-items: flex-start;
     align-self: stretch;
-    display: block;
+    display: grid;
     flex: 0 0 auto;
     gap: 24px;
     position: relative;
     width: 100%;
+  }
+
+  .our-work-page .AVY-CONSULTANCY-Mobile {
+    display: block;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+
   }
   
   .our-work-page .text-wrapper-9 {

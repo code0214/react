@@ -280,6 +280,7 @@
   position: relative;
   text-align: center;
   width: 360px;
+  white-space: break-spaces;
 }
 
 .cards-how-we-do .research {

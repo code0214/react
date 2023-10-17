@@ -6,27 +6,31 @@ import { Footer } from "../../components/Footer";
 import { FormButton } from "../../components/FormButton";
 import { Headline } from "../../components/Headline";
 import { Number } from "../../components/Number";
-import { StateHomepageHeroWrapper } from "../../components/StateHomepageHeroWrapper";
 import { NavigationBar } from "../../components/NavigationBar";
-// import { NavigationBar } from "../../icons/NavigationBar";
-import { NavigationBarSimple } from "../../components/NavigationBarSimple";
-import { MenuTitle } from "../../components/MenuTitle";
 import { Menu } from '../../components/Menu';
 import "./style.css";
-import { func } from "prop-types";
 
 export const HomePageHiFi = () => {
-  // const [menu, setMenu] = useState("");
-  // const menuSet = (menu) => {
-  //   setMenu(menu);
-  // };
+  const [showBurgerMenu, setShowBurgerMenu] = useState(true);
 
-  // function menuSet (newState) {
-  //   setMenu(newState);
-  // }
+  // useEffect(() => {
+  //   function handleScroll() {
+  //     if(window.scrollY > 0) {
+  //       setShowBurgerMenu(false);
+  //     } else {
+  //       setShowBurgerMenu(true);
+  //     }
+  //   }
+  //   console.log(window.scrollY);
+
+  //   window.addEventListener('scroll', handleScroll);
+
+  //   return() => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
   const [screenSize, setScreenSize] = useState(getCurrentDimension());
-  // const [responseVal, setResponseVal] = useState("");
    
   function getCurrentDimension() {
     return {
@@ -36,10 +40,9 @@ export const HomePageHiFi = () => {
   }
 
   useEffect(() => {
+    console.log('sdkflskdflkdf')
     const updateDimension = () => {
       setScreenSize(getCurrentDimension);
-      // const newContent = getContent(screenSize.width);
-      // setResponseVal(newContent);
     }
     window.addEventListener('resize', updateDimension);
 
@@ -63,8 +66,6 @@ function getCardResponse(){
     return "mobile";
   }
 }
-  
-
   return (
     <div className="home-page-hi-fi">
       <div className="div-3">
@@ -85,46 +86,50 @@ function getCardResponse(){
                   Jaw-dropping creative solutions across industries
                 </p>
               </div>
-              <img className="unsplash" alt="Unsplash" src="./img/unsplash-xcz78dlxtes.png" />
+              <img className="unsplash" alt="Unsplash" src="/img/unsplash-xcz78dlxtes.png" />
               <img
                 className="avy-website-banner"
                 alt="Avy website banner"
-                src="./img/avy-website-banner-pattern-2.svg"
+                src="/img/avy-website-banner-pattern-2.svg"
               />
             </div>
             <div className="service-list">
               <div className="text-wrapper-17">CORE SERVICES:</div>
               <div className="div-4">
                 <div className="div-4">
-                  <img className="line-3" alt="Line" src="./img/line-15.svg" />
+                  <img className="line-3" alt="Line" src="/img/line-15.svg" />
                   <div className="div-5">
                     <div className="text-wrapper-18">Design</div>
                     <div className="text-wrapper-19">01</div>
                   </div>
-                  <img className="line-4" alt="Line" src="./img/line-15.svg" />
+                  <img className="line-4" alt="Line" src="/img/line-15.svg" />
                 </div>
                 <div className="div-4">
                   <div className="div-5">
                     <div className="text-wrapper-18">Brand Strategy</div>
                     <div className="text-wrapper-19">02</div>
                   </div>
-                  <img className="line-4" alt="Line" src="./img/line-15.svg" />
+                  <img className="line-4" alt="Line" src="/img/line-15.svg" />
                 </div>
                 <div className="div-4">
                   <div className="div-5">
                     <div className="text-wrapper-18">Motion Design &amp; Animation</div>
                     <div className="text-wrapper-19">03</div>
                   </div>
-                  <img className="line-4" alt="Line" src="./img/line-15.svg" />
+                  <img className="line-4" alt="Line" src="/img/line-15.svg" />
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className="navbar-simple">
+          {/* {showBurgerMenu ? (
           <NavigationBar className="design-component-instance-node" state="burger" />
-          <div className="scrollbar" />
-          <Menu state="hide"/>
+          ): (
+            <Menu state="show" />
+          )} */}
+          <NavigationBar className="design-component-instance-node" state="burger" />
+          <Menu state="show" />
         </div>
         <div className="ABOUT">
           <Headline className="headline-instance" hasDiv={false} state="default" text="LET&#39;S BEGIN" visible={false} />
@@ -150,7 +155,9 @@ function getCardResponse(){
         </div>
       </div>
       <div className="div-3 how-we-think">
-        <Headline className="headline-instance" state="default" text="HOW" text1="WE THINK" text2="LOREM IPSUM" />
+        <div className="how-we-think-headline">
+          <Headline className="headline-instance" state="default" text="HOW" text1="WE THINK" text2="LOREM IPSUM" />
+        </div>
         <div className="content-button">
           <div className="content-container">
             <CardsHowWeThink 
@@ -180,8 +187,8 @@ function getCardResponse(){
         <Headline className="headline-instance" state="default" text="SERVICES" text1="THAT" text2="WE OFFER" />
         <div className="content-2">
           <div className="service-line">
-            <img className="line-5" alt="Line" src="./img/line-23-2.svg" />
-            <img className="line-6" alt="Line" src="./img/line-24-2.svg" />
+            <img className="line-5" alt="Line" src="/img/line-23-2.svg" />
+            <img className="line-6" alt="Line" src="/img/line-24-2.svg" />
           </div>
           <div className="title">
             <Number text="01" variant={getCardResponse()} />
@@ -242,8 +249,8 @@ function getCardResponse(){
             <div className="text-wrapper-21">BRANDING</div>
           </div>
           <div className="service-line">
-            <img className="line-7" alt="Line" src="./img/line-23.svg" />
-            <img className="line-8" alt="Line" src="./img/line-24.svg" />
+            <img className="line-7" alt="Line" src="/img/line-23.svg" />
+            <img className="line-8" alt="Line" src="/img/line-24.svg" />
           </div>
           <div className="services">
             <div className="content-4">
@@ -284,8 +291,8 @@ function getCardResponse(){
             <div className="text-wrapper-21">MOTION</div>
           </div>
           <div className="service-line">
-            <img className="line-7" alt="Line" src="./img/line-23.svg" />
-            <img className="line-8" alt="Line" src="./img/line-24.svg" />
+            <img className="line-7" alt="Line" src="/img/line-23.svg" />
+            <img className="line-8" alt="Line" src="/img/line-24.svg" />
           </div>
           <div className="services">
             <div className="content-4">
@@ -351,7 +358,7 @@ function getCardResponse(){
           <div className="cards-how-we-do-2">
             <div className="cards-inside-2">
               <div className="div-7">
-                <img className="testing-img" src="./img/testing.jpg" />
+                <img className="testing-img" src="/img/testing.jpg" />
               </div>
               <div className="text-wrapper-25">TESTING</div>
             </div>
@@ -409,7 +416,7 @@ function getCardResponse(){
                   <p className="text-wrapper-35">AVY Pruthi, Nuneaton business owner – Coven...</p>
                 </div>
               </div>
-              <img className="button-2" alt="Button" src="./img/button-3.svg" />
+              <img className="button-2" alt="Button" src="/img/button-3.svg" />
             </div>
             <div className="div-10">
               <div className="date-text-container">
@@ -418,7 +425,7 @@ function getCardResponse(){
                   <p className="text-wrapper-35">Daily Logo Challenge for 50 days</p>
                 </div>
               </div>
-              <img className="button-2" alt="Button" src="./img/button-2.svg" />
+              <img className="button-2" alt="Button" src="/img/button-2.svg" />
             </div>
             <div className="div-10">
               <div className="date-text-container">
@@ -427,7 +434,7 @@ function getCardResponse(){
                   <p className="text-wrapper-35">Bringing a Business to Life: Chamber of Comm...</p>
                 </div>
               </div>
-              <img className="button-2" alt="Button" src="./img/button-1.svg" />
+              <img className="button-2" alt="Button" src="/img/button-1.svg" />
             </div>
             <div className="div-10">
               <div className="date-text-container">
@@ -436,7 +443,7 @@ function getCardResponse(){
                   <p className="text-wrapper-35">Our new Trustpilot partnership, and how it&#39;ll h...</p>
                 </div>
               </div>
-              <img className="button-2" alt="Button" src="./img/button.svg" />
+              <img className="button-2" alt="Button" src="/img/button.svg" />
             </div>
           </div>
           <Button className="design-component-instance-node" text="READ MORE" />
@@ -459,13 +466,13 @@ function getCardResponse(){
         <div className="div-9 mobile-responsive">
           <div className="text-wrapper-37">ARE YOU READY TO</div>
           <div className="frame-5">
-            <img className="line-10" alt="Line" src="./img/line-10.svg" />
+            <img className="line-10" alt="Line" src="/img/line-10.svg" />
             <div className="text-wrapper-37">WORK</div>
-            <img className="line-10" alt="Line" src="./img/line-10.svg" />
+            <img className="line-10" alt="Line" src="/img/line-10.svg" />
           </div>
           <div className="frame-5">
             <div className="text-wrapper-37">WITH</div>
-            <img className="line-10" alt="Line" src="./img/line-9.svg" />
+            <img className="line-10" alt="Line" src="/img/line-9.svg" />
             <div className="US">
               <div className="frame-6">
                 <div className="text-wrapper-38">US</div>
@@ -484,9 +491,9 @@ function getCardResponse(){
                 <div className="dropdown-container">
                   <div className="div-5">
                     <div className="text-wrapper-39">Select</div>
-                    <img className="mdi-menu-down" alt="Mdi menu down" src="./img/mdi-menu-down.svg" />
+                    <img className="mdi-menu-down" alt="Mdi menu down" src="/img/mdi-menu-down.svg" />
                   </div>
-                  <img className="line-11" alt="Line" src="./img/line-2-1.svg" />
+                  <img className="line-11" alt="Line" src="/img/line-2-1.svg" />
                 </div>
               </div>
               <div className="div-11">
@@ -495,7 +502,7 @@ function getCardResponse(){
                 </div>
                 <div className="div-12">
                   <div className="text-wrapper-40">Enter Your Name</div>
-                  <img className="line-11" alt="Line" src="./img/line-1-1.svg" />
+                  <img className="line-11" alt="Line" src="/img/line-1-1.svg" />
                 </div>
               </div>
               <div className="div-11">
@@ -504,7 +511,7 @@ function getCardResponse(){
                 </div>
                 <div className="div-12">
                   <div className="text-wrapper-40">Enter Your Email</div>
-                  <img className="line-11" alt="Line" src="./img/line-1-1.svg" />
+                  <img className="line-11" alt="Line" src="/img/line-1-1.svg" />
                 </div>
               </div>
               <div className="div-11">
@@ -513,7 +520,7 @@ function getCardResponse(){
                 </div>
                 <div className="div-12">
                   <div className="text-wrapper-40">Enter Your Phone</div>
-                  <img className="line-11" alt="Line" src="./img/line-1-1.svg" />
+                  <img className="line-11" alt="Line" src="/img/line-1-1.svg" />
                 </div>
               </div>
               <div className="div-11">
@@ -523,9 +530,9 @@ function getCardResponse(){
                 <div className="div-12">
                   <div className="div-5">
                     <p className="text-wrapper-39">What did you have in mind?</p>
-                    <img className="mdi-menu-down" alt="Mdi menu down" src="./img/mdi-menu-down.svg" />
+                    <img className="mdi-menu-down" alt="Mdi menu down" src="/img/mdi-menu-down.svg" />
                   </div>
-                  <img className="line-11" alt="Line" src="./img/line-2.svg" />
+                  <img className="line-11" alt="Line" src="/img/line-2.svg" />
                 </div>
               </div>
               <div className="message">
@@ -534,7 +541,7 @@ function getCardResponse(){
                 </div>
                 <div className="div-12">
                   <p className="text-wrapper-40">Tell us about your amazing idea!</p>
-                  <img className="line-11" alt="Line" src="./img/line-1.svg" />
+                  <img className="line-11" alt="Line" src="/img/line-1.svg" />
                 </div>
               </div>
             </div>
