@@ -2202,17 +2202,17 @@
 .home-page-hi-fi .image {
   animation-name: img;
   animation-duration: 2s;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease;
   animation-delay: 2s;
 }
 
 @keyframes img {
   0% {
-    top: -150px;
+    transform: translateX(100%);
   }
 
   100% {
-    top: 0;
+    transform: translateX(0);
   }
 }
 
@@ -3715,7 +3715,7 @@
     align-items: center;
     gap: 24px;
     width: 100%;
-    padding-right: 16px;
+    padding-right: 0;
     display: flex;
     position: relative;
   }

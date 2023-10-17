@@ -171,13 +171,12 @@
   animation-name: img;
   animation-duration: 2s;
   animation-delay: 2s;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease;
 }
 
 @keyframes img {
-  0% {top: -150px}
-  /* 50%{transform: scale(1.2);} */
-  100% {top: 0;}
+  0% { transform: translateX(100%);}
+  100% {transform: translateX(0);}
 }
 
 .home-page-hi-fi .unsplash {
@@ -1714,7 +1713,7 @@ line-height: 40px;
     gap: 24px;
     position: relative;
     width: 100%;
-    padding-right: 16px;
+    padding-right: 0px;
   }
   
   .home-page-hi-fi .content-container {

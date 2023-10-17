@@ -32423,7 +32423,7 @@ const NavigationBar = ({ state, className })=>{
                 state === "burger" && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     className: "mdi-menu",
                     alt: "Mdi menu",
-                    src: "/img/mdi-menu.svg"
+                    src: "./img/mdi-menu.svg"
                 }, void 0, false, {
                     fileName: "src/components/NavigationBar/NavigationBar.jsx",
                     lineNumber: 26,

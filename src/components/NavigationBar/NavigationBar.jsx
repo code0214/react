@@ -23,7 +23,7 @@ export const NavigationBar = ({ state, className }) => {
           </>
         )}
 
-        {state === "burger" && <img className="mdi-menu" alt="Mdi menu" src="/img/mdi-menu.svg" />}
+        {state === "burger" && <img className="mdi-menu" alt="Mdi menu" src="./img/mdi-menu.svg" />}
       </div>
     </div>
   );
