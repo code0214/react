@@ -21,7 +21,6 @@ export const HomePageHiFi = () => {
   //       setShowBurgerMenu(true);
   //     }
   //   }
-  //   console.log(window.scrollY);
 
   //   window.addEventListener('scroll', handleScroll);
 
@@ -40,7 +39,6 @@ export const HomePageHiFi = () => {
   }
 
   useEffect(() => {
-    console.log('sdkflskdflkdf')
     const updateDimension = () => {
       setScreenSize(getCurrentDimension);
     }
@@ -48,10 +46,12 @@ export const HomePageHiFi = () => {
 
     return(() => {
       window.removeEventListener('resize', updateDimension)
-    })
+    });
   }, [screenSize]);
 
+
  function getNavResponse(){
+  console.log(window.scrollY)
   if(screenSize.width > 390) {
     return "white";
   } else {
@@ -86,37 +86,39 @@ function getCardResponse(){
                   Jaw-dropping creative solutions across industries
                 </p>
               </div>
-              <img className="unsplash" alt="Unsplash" src="/img/unsplash-xcz78dlxtes.png" />
-              <img
-                className="avy-website-banner"
-                alt="Avy website banner"
-                src="/img/avy-website-banner-pattern-2.svg"
-              />
+              <div className="image">
+                <img className="unsplash" alt="Unsplash" src="./img/unsplash-xcz78dlxtes.png" />
+                <img
+                  className="avy-website-banner"
+                  alt="Avy website banner"
+                  src="./img/avy-website-banner-pattern-2.svg"
+                />
+              </div>
             </div>
             <div className="service-list">
               <div className="text-wrapper-17">CORE SERVICES:</div>
               <div className="div-4">
                 <div className="div-4">
-                  <img className="line-3" alt="Line" src="/img/line-15.svg" />
+                  <img className="line-3" alt="Line" src="./img/line-15.svg" />
                   <div className="div-5">
                     <div className="text-wrapper-18">Design</div>
                     <div className="text-wrapper-19">01</div>
                   </div>
-                  <img className="line-4" alt="Line" src="/img/line-15.svg" />
+                  <img className="line-4" alt="Line" src="./img/line-15.svg" />
                 </div>
                 <div className="div-4">
                   <div className="div-5">
                     <div className="text-wrapper-18">Brand Strategy</div>
                     <div className="text-wrapper-19">02</div>
                   </div>
-                  <img className="line-4" alt="Line" src="/img/line-15.svg" />
+                  <img className="line-4" alt="Line" src="./img/line-15.svg" />
                 </div>
                 <div className="div-4">
                   <div className="div-5">
                     <div className="text-wrapper-18">Motion Design &amp; Animation</div>
                     <div className="text-wrapper-19">03</div>
                   </div>
-                  <img className="line-4" alt="Line" src="/img/line-15.svg" />
+                  <img className="line-4" alt="Line" src="./img/line-15.svg" />
                 </div>
               </div>
             </div>
@@ -129,7 +131,7 @@ function getCardResponse(){
             <Menu state="show" />
           )} */}
           <NavigationBar className="design-component-instance-node" state="burger" />
-          <Menu state="show" />
+          <Menu state="hide" />
         </div>
         <div className="ABOUT">
           <Headline className="headline-instance" hasDiv={false} state="default" text="LET&#39;S BEGIN" visible={false} />
@@ -187,8 +189,8 @@ function getCardResponse(){
         <Headline className="headline-instance" state="default" text="SERVICES" text1="THAT" text2="WE OFFER" />
         <div className="content-2">
           <div className="service-line">
-            <img className="line-5" alt="Line" src="/img/line-23-2.svg" />
-            <img className="line-6" alt="Line" src="/img/line-24-2.svg" />
+            <img className="line-5" alt="Line" src="./img/line-23-2.svg" />
+            <img className="line-6" alt="Line" src="./img/line-24-2.svg" />
           </div>
           <div className="title">
             <Number text="01" variant={getCardResponse()} />
@@ -463,11 +465,11 @@ function getCardResponse(){
         </div>
       </div>
       <div className="ready-to-work">
-        <div className="div-9 mobile-responsive">
-          <div className="text-wrapper-37">ARE YOU READY TO</div>
+        <div className="div-9">
+          <div className="text-wrapper-37 ready">ARE YOU READY TO</div>
           <div className="frame-5">
             <img className="line-10" alt="Line" src="/img/line-10.svg" />
-            <div className="text-wrapper-37">WORK</div>
+            <div className="text-wrapper-37 work">WORK</div>
             <img className="line-10" alt="Line" src="/img/line-10.svg" />
           </div>
           <div className="frame-5">

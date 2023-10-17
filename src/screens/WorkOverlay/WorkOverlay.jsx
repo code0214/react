@@ -4,7 +4,7 @@ import "./style.css";
 
 export const WorkOverlay = () => {
     return (
-        <div className="frame">
+        <div className="work-overlay">
           <div className="headline">
             <div className="content-container">
               <div className="title-button">

@@ -1,7 +1,7 @@
-.frame {
+.work-overlay {
     width: 70%;
 }
-.frame .headline {
+.work-overlay .headline {
     align-items: flex-start;
     align-self: stretch;
     display: flex;
@@ -11,7 +11,7 @@
     width: 100%;
   }
   
-  .frame .content-container {
+  .work-overlay .content-container {
     align-items: flex-start;
     align-self: stretch;
     background-color: var(--surface);
@@ -24,7 +24,7 @@
     width: 100%;
   }
   
-  .frame .title-button {
+  .work-overlay .title-button {
     align-items: flex-start;
     align-self: stretch;
     display: flex;
@@ -34,7 +34,7 @@
     /* width: 100%; */
   }
   
-  .frame .project-title {
+  .work-overlay .project-title {
     align-items: flex-start;
     display: inline-flex;
     flex: 0 0 auto;
@@ -43,7 +43,7 @@
     position: relative;
   }
   
-  .frame .text-wrapper {
+  .work-overlay .text-wrapper {
     color: white;
     font-family: Montserrat;
     font-size: 18px;
@@ -55,7 +55,7 @@
     white-space: nowrap;
     width: fit-content;
   }
-  .frame .text-wrapper2 {
+  .work-overlay .text-wrapper2 {
     color: black;
     font-family: var(--desktop-display-large-font-family);
     font-size: var(--desktop-display-large-font-size);
@@ -69,7 +69,7 @@
     width: fit-content;
   }
   
-  .frame .div {
+  .work-overlay .div {
     color: var(--secondary);
     font-family: var(--desktop-body-medium-font-family);
     font-size: var(--desktop-body-medium-font-size);
@@ -82,11 +82,11 @@
     width: fit-content;
   }
   
-  .frame .button-instance {
+  .work-overlay .button-instance {
     flex: 0 0 auto !important;
   }
   
-  .frame .rectangle {
+  .work-overlay .rectangle {
     align-self: stretch;
     background-color: var(--black);
     height: 10px;
@@ -94,7 +94,7 @@
     width: 100%;
   }
   
-  .frame .div-2 {
+  .work-overlay .div-2 {
     align-items: center;
     align-self: stretch;
     display: flex;
@@ -106,7 +106,7 @@
     width: 100%;
   }
   
-  .frame .project-overview {
+  .work-overlay .project-overview {
     align-items: flex-start;
     align-self: stretch;
     display: flex;
@@ -116,7 +116,7 @@
     width: 100%;
   }
   
-  .frame .div-3 {
+  .work-overlay .div-3 {
     align-items: flex-start;
     display: flex;
     flex: 1;
@@ -126,7 +126,7 @@
     position: relative;
   }
   
-  .frame .text-wrapper-2 {
+  .work-overlay .text-wrapper-2 {
     align-self: stretch;
     color: #000000;
     font-family: Montserrat;
@@ -137,7 +137,7 @@
     position: relative;
   }
   
-  .frame .text-wrapper-3 {
+  .work-overlay .text-wrapper-3 {
     align-self: stretch;
     color: #000000;
     font-family: Montserrat;
@@ -148,7 +148,7 @@
     position: relative;
   }
   
-  .frame .div-4 {
+  .work-overlay .div-4 {
     align-items: flex-start;
     align-self: stretch;
     display: flex;
@@ -159,7 +159,7 @@
     width: 100%;
   }
   
-  .frame .element-image {
+  .work-overlay .element-image {
     align-items: flex-start;
     align-self: stretch;
     /* display: flex; */
@@ -170,28 +170,28 @@
     width: 100%;
   }
   
-  .frame .image {
+  .work-overlay .image {
     /* height: 531.28px; */
     position: relative;
     width: 100%;
     height: auto;
   }
   
-  .frame .img {
+  .work-overlay .img {
     /* height: 258.36px; */
     position: relative;
     width:  50%;
     height: auto;
   }
   
-  .frame .image-2 {
+  .work-overlay .image-2 {
     align-self: stretch;
     height: 524px;
     position: relative;
     width: 100%;
   }
   
-  .frame .text-wrapper-4 {
+  .work-overlay .text-wrapper-4 {
     align-self: stretch;
     color: #000000;
     font-family: var(--desktop-display-large-font-family);
@@ -204,7 +204,7 @@
     text-align: center;
   }
   
-  .frame .if-it-s-a-website {
+  .work-overlay .if-it-s-a-website {
     color: var(--primary);
     font-family: var(--desktop-body-small-font-family);
     font-size: var(--desktop-body-small-font-size);
@@ -217,17 +217,17 @@
     /* top: 2275px; */
   }
 
-  .frame .workoverlay-footer {
+  .work-overlay .workoverlay-footer {
     width: 100%;
     display: flex;
     justify-content: end;
   }
 
   @media only screen and (max-width: 390px) {
-    .frame {
+    .work-overlay {
       width: 100%;
   }
-  .frame .headline {
+  .work-overlay .headline {
       align-items: flex-start;
       align-self: stretch;
       display: flex;
@@ -237,7 +237,7 @@
       width: 100%;
     }
     
-    .frame .content-container {
+    .work-overlay .content-container {
       align-items: flex-start;
       align-self: stretch;
       background-color: var(--surface);
@@ -250,7 +250,7 @@
       width: 100%;
     }
     
-    .frame .title-button {
+    .work-overlay .title-button {
       align-items: flex-start;
       align-self: stretch;
       display: flex;
@@ -260,7 +260,7 @@
       /* width: 100%; */
     }
     
-    .frame .project-title {
+    .work-overlay .project-title {
       align-items: flex-start;
       display: inline-flex;
       flex: 0 0 auto;
@@ -269,7 +269,7 @@
       position: relative;
     }
     
-    .frame .text-wrapper {
+    .work-overlay .text-wrapper {
       color: white;
       text-align: center;
       font-family: Montserrat;
@@ -282,7 +282,7 @@
       white-space: nowrap;
       width: fit-content;
     }
-    .frame .text-wrapper2 {
+    .work-overlay .text-wrapper2 {
       color: black;
       font-family: Montserrat;
       font-size: 22px;
@@ -295,7 +295,7 @@
       width: fit-content;
     }
     
-    .frame .div {
+    .work-overlay .div {
       color: var(--secondary);
       font-family: Montserrat;
       font-size: 14px;
@@ -307,11 +307,11 @@
       width: fit-content;
     }
     
-    .frame .button-instance {
+    .work-overlay .button-instance {
       flex: 0 0 auto !important;
     }
     
-    .frame .rectangle {
+    .work-overlay .rectangle {
       align-self: stretch;
       background-color: var(--black);
       height: 10px;
@@ -319,7 +319,7 @@
       width: 100%;
     }
     
-    .frame .div-2 {
+    .work-overlay .div-2 {
       align-items: center;
       align-self: stretch;
       display: flex;
@@ -331,7 +331,7 @@
       width: 100%;
     }
     
-    .frame .project-overview {
+    .work-overlay .project-overview {
       align-items: flex-start;
       align-self: stretch;
       display: grid;
@@ -341,7 +341,7 @@
       width: 100%;
     }
     
-    .frame .div-3 {
+    .work-overlay .div-3 {
       align-items: flex-start;
       display: flex;
       flex: 1;
@@ -351,7 +351,7 @@
       position: relative;
     }
     
-    .frame .text-wrapper-2 {
+    .work-overlay .text-wrapper-2 {
       align-self: stretch;
       color: #000000;
       font-family: var(--desktop-display-medium-font-family);
@@ -364,7 +364,7 @@
       position: relative;
     }
     
-    .frame .text-wrapper-3 {
+    .work-overlay .text-wrapper-3 {
       align-self: stretch;
       color: #000000;
       font-family: Montserrat;
@@ -376,7 +376,7 @@
       position: relative;
     }
     
-    .frame .div-4 {
+    .work-overlay .div-4 {
       align-items: flex-start;
       align-self: stretch;
       display: flex;
@@ -387,7 +387,7 @@
       width: 100%;
     }
     
-    .frame .element-image {
+    .work-overlay .element-image {
       align-items: flex-start;
       align-self: stretch;
       /* display: flex; */
@@ -398,28 +398,28 @@
       width: 100%;
     }
     
-    .frame .image {
+    .work-overlay .image {
       /* height: 531.28px; */
       position: relative;
       width: 100%;
       height: auto;
     }
     
-    .frame .img {
+    .work-overlay .img {
       /* height: 258.36px; */
       position: relative;
       width:  50%;
       height: auto;
     }
     
-    .frame .image-2 {
+    .work-overlay .image-2 {
       align-self: stretch;
       height: 524px;
       position: relative;
       width: 100%;
     }
     
-    .frame .text-wrapper-4 {
+    .work-overlay .text-wrapper-4 {
       align-self: stretch;
       color: #000000;
       font-family: Montserrat;
@@ -432,7 +432,7 @@
       justify-content: center;
     }
     
-    .frame .if-it-s-a-website {
+    .work-overlay .if-it-s-a-website {
       color: var(--primary);
       font-family: var(--desktop-body-small-font-family);
       font-size: var(--desktop-body-small-font-size);
@@ -446,7 +446,7 @@
       /* top: 2275px; */
     }
   
-    .frame .workoverlay-footer {
+    .work-overlay .workoverlay-footer {
       width: 100%;
       display: flex;
       justify-content: center;

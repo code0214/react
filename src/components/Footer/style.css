@@ -84,7 +84,7 @@
   justify-content: center;
   padding: 40px 0px;
   position: relative;
-  width: 70%;
+  width: 78%;
 } 
 .logo-image {
   height: 80px;
@@ -140,7 +140,7 @@
 .FOOTER .div {
   align-items: center;
   display: inline-flex;
-  gap: 257px;
+  /* gap: 257px; */
   justify-content: space-between;
   width: 70%;
   /* left: 539px;
@@ -153,8 +153,9 @@
   align-self: stretch;
   display: flex;
   flex: 0 0 auto;
-  gap: 257px;
+  /* gap: 257px; */
   position: relative;
+  width: 50%;
 }
 
 .FOOTER .div-2 {
@@ -164,6 +165,7 @@
   flex-direction: column;
   gap: 24px;
   position: relative;
+  width: 50%;
 }
 
 .FOOTER .text-wrapper-2 {
@@ -224,6 +226,7 @@
     gap: 24px;
     position: relative;
     padding-left: 16px;
+    padding-right: 16px;
   }
   
   .FOOTER .footer-nav {
@@ -235,6 +238,7 @@
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    width:100%;
   }
   
   .FOOTER .footer-logo {
@@ -260,6 +264,7 @@
     flex-direction: column;
     gap: 24px;
     position: relative;
+    width: 100%;
   }
   
   .FOOTER .social-media {
@@ -269,7 +274,7 @@
     flex: 0 0 auto;
     flex-direction: column;
     position: relative;
-    width: 358px;
+    width: 100%;
     padding-top: 0px;
   }
   
@@ -281,6 +286,7 @@
     flex-direction: column;
     gap: 24px;
     position: relative;
+    padding: 0 0;
   }
   
   .FOOTER .text {
@@ -403,6 +409,7 @@
     flex-grow: 1;
     gap: 12px;
     position: relative;
+    width:100px;
   }
   
   .FOOTER .text-wrapper-2 {

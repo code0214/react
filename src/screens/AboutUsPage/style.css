@@ -521,6 +521,7 @@
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
+  width: 100%;
 }
 
 .about-us-page .avatar {
@@ -717,7 +718,7 @@
   letter-spacing: var(--desktop-headline-h2-letter-spacing);
   line-height: var(--desktop-headline-h2-line-height);
   margin-top: -1px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   width: fit-content;
 }
 
@@ -727,13 +728,22 @@
   flex: 0 0 auto;
   gap: 40px;
   margin-top: -16px;
-  width: 1320px;
+  width: 100%;
+}
+
+.about-us-page .ready {
+  width: 100%;
+}
+
+.about-us-page .work {
+  width: 33%;
 }
 
 .about-us-page .line-6 {
   flex: 1;
   flex-grow: 1;
   height: 4px;
+  width: 33%;
 }
 
 .about-us-page .US {
@@ -795,14 +805,14 @@
   flex: 0 0 auto;
   flex-wrap: wrap;
   gap: 60px 60px;
-  width: 1144px;
+  width: 100%;
 }
 
 .about-us-page .title {
   align-items: flex-start;
   display: flex;
   gap: 10px;
-  width: 143px;
+  width: 11%;
 }
 
 .about-us-page .dropdown-container {
@@ -810,7 +820,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  width: 1001px;
+  width: 89%;
 }
 
 .about-us-page .mdi-menu-down {
@@ -821,14 +831,14 @@
 .about-us-page .div-11 {
   align-items: flex-start;
   display: flex;
-  width: 542px;
+  width: 100%;
 }
 
 .about-us-page .title-2 {
   align-items: flex-start;
   display: flex;
   gap: 10px;
-  width: 142px;
+  width: 11%;
 }
 
 .about-us-page .div-12 {
@@ -838,6 +848,7 @@
   flex-direction: column;
   flex-grow: 1;
   gap: 16px;
+  width: 89%;
 }
 
 .about-us-page .text-wrapper-23 {
@@ -855,7 +866,7 @@
 .about-us-page .message {
   align-items: flex-start;
   display: flex;
-  width: 1144px;
+  width: 100%;
 }
 
 .about-us-page .FOOTER-instance {
@@ -1182,8 +1193,8 @@
     flex: 0 0 auto;
     flex-direction: column;
     gap: 10px;
-    /* width: 100%; */
-    width: 342px;
+    width: 100%;
+    /* width: 342px; */
   }
   
   .about-us-page .card-content {
@@ -1333,7 +1344,7 @@
     flex: 0 0 auto;
     flex-direction: column;
     gap: 10px;
-    width: 342px;
+    width: 100%;
   }
   
   .about-us-page .line-4 {
@@ -1695,7 +1706,6 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: 1001px;
   }
   
   .about-us-page .mdi-menu-down {

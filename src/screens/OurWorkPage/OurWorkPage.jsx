@@ -115,10 +115,10 @@ function getCardResponse(){
       </div>
       <div className="READY-TO-WORK-WITH">
         <div className="div-6">
-          <div className="text-wrapper-5">ARE YOU READY TO</div>
+          <div className="text-wrapper-5 ready">ARE YOU READY TO</div>
           <div className="frame">
             <img className="line" alt="Line" src="/img/line-10.svg" />
-            <div className="text-wrapper-5">WORK</div>
+            <div className="text-wrapper-5 work">WORK</div>
             <img className="line" alt="Line" src="/img/line-10.svg" />
           </div>
           <div className="frame">

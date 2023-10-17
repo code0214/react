@@ -106,6 +106,7 @@
   letter-spacing: var(--mobile-display-medium-letter-spacing);
   line-height: var(--mobile-display-medium-line-height);
   position: relative;
+  white-space: break-spaces;
 }
 
 .cards-how-we-think .text-wrapper-5 {

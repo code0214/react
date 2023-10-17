@@ -42,7 +42,7 @@
   line-height: var(--desktop-headline-h1-line-height);
   margin-top: -1px;
   position: relative;
-  width: 1320px;
+  width: 100%;
 }
 
 .our-work-page .content {
@@ -231,6 +231,8 @@
   flex: 0 0 auto;
   flex-direction: column;
   position: relative;
+  width: 100%;
+  align-items: center;
 }
 
 .our-work-page .text-wrapper-5 {
@@ -243,8 +245,9 @@
   line-height: var(--desktop-headline-h2-line-height);
   margin-top: -1px;
   position: relative;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   width: fit-content;
+  text-align:  center;
 }
 
 .our-work-page .frame {
@@ -258,11 +261,20 @@
   justify-content: center;
 }
 
+.our-work-page .ready {
+  width: 100%;
+}
+
+.our-work-page .work {
+  width: 33%;
+}
+
 .our-work-page .line {
   flex: 1;
   flex-grow: 1;
   height: 4px;
   position: relative;
+  width: 33%;
 }
 
 .our-work-page .US {
@@ -288,7 +300,7 @@
   width: 75%;
   padding: 26px;
   display: inline-flex;
-  gap: 210px;
+  /* gap: 210px; */
 }
 
 .our-work-page .text-wrapper-6 {
@@ -337,7 +349,7 @@
   flex-wrap: wrap;
   gap: 60px 60px;
   position: relative;
-  width: 1144px;
+  width: 100%;
 }
 
 .our-work-page .subject {
@@ -345,6 +357,7 @@
   display: inline-flex;
   flex: 0 0 auto;
   position: relative;
+  width: 100%;
 }
 
 .our-work-page .title-3 {
@@ -352,7 +365,7 @@
   display: flex;
   gap: 10px;
   position: relative;
-  width: 143px;
+  width: 9%;
 }
 
 .our-work-page .text-wrapper-7 {
@@ -374,7 +387,7 @@
   flex-direction: column;
   gap: 16px;
   position: relative;
-  width: 1001px;
+  width: 89%;
 }
 
 .our-work-page .select-dropdown {
@@ -405,7 +418,7 @@
   align-items: flex-start;
   display: flex;
   position: relative;
-  width: 542px;
+  width: 100%;
 }
 
 .our-work-page .title-4 {
@@ -443,7 +456,7 @@
   align-items: flex-start;
   display: flex;
   position: relative;
-  width: 1144px;
+  width: 100%;
 }
 
 .our-work-page .frame-2 {
@@ -580,7 +593,8 @@
 .our-work-page .frame-4 {
   align-items: center;
   display: inline-flex;
-  gap: 210px;
+  width: 50%;
+  /* gap: 210px; */
   /* padding-left: 200px */
   /* left: 437px; */
   /* position: absolute; */
@@ -593,6 +607,7 @@
   flex: 0 0 auto;
   flex-direction: column;
   gap: 24px;
+  width: 50%;
   position: relative;
 }
 
@@ -833,7 +848,7 @@
     flex-direction: column;
     gap: 12px;
     position: relative;
-    width: 648px;
+    width: 100%;
   }
   
   .our-work-page .l-rem-ipsum {
