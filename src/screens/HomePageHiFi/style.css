@@ -81,7 +81,7 @@
 
 @keyframes weareavy {
   0% {left: 0px;
-      top: 500px;
+      top: 700px;
     }
   100% {
       left: 0px;;
@@ -338,6 +338,7 @@
   flex-direction: column;
   gap: 8px;
   position: relative;
+  width: 100%;
 }
 
 .home-page-hi-fi .THE-DIFFERENCE {
@@ -350,7 +351,7 @@
   line-height: var(--desktop-display-large-line-height);
   margin-top: -1px;
   position: relative;
-  width: 600px;
+  width: 100%;
 }
 
 .home-page-hi-fi .text-wrapper-20 {
@@ -362,7 +363,7 @@
   letter-spacing: var(--desktop-body-large-letter-spacing);
   line-height: var(--desktop-body-large-line-height);
   position: relative;
-  width: 600px;
+  width: 100%;
 }
 
 .home-page-hi-fi .we-transform-your {
@@ -910,7 +911,7 @@ line-height: 40px;
   line-height: var(--desktop-display-large-line-height);
   margin-top: -1px;
   position: relative;
-  width: 456px;
+  width: 37%;
 }
 
 .home-page-hi-fi .industries {
@@ -1069,11 +1070,13 @@ line-height: 40px;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-color: var(--black);
+  border-right: 1px solid black;
   display: flex;
   flex-direction: column;
   padding: 60px 0px;
   position: relative;
   width: 90%;
+  height: 160px;
 }
 
 .home-page-hi-fi .date-text {
@@ -1108,6 +1111,16 @@ line-height: 40px;
   margin-top: -1px;
   position: relative;
   width: 100%;
+}
+
+.home-page-hi-fi .narrow-web-btn {
+  width: 10%;
+  padding: 62px 73px;
+  border-bottom: 1px solid black;
+}
+
+.home-page-hi-fi .narrow-mobile-btn {
+  display: none;
 }
 
 .home-page-hi-fi .SURVEY {
@@ -1567,10 +1580,11 @@ line-height: 40px;
     flex: 0 0 auto;
     flex-direction: column;
     gap: 24px;
+    left: 0;
     /* padding: 16px 16px 0px; */
     /* position: relative; */
     width: 100%;
-    padding-right: 16px;
+    padding:0 16px;
     /* top: 83%; */
   }
 
@@ -2145,6 +2159,7 @@ line-height: 40px;
   flex-grow: 1;
   padding: 24px 0px;
   position: relative;
+  height: 134px;
 }
 
 .home-page-hi-fi .date-text {
@@ -2190,8 +2205,23 @@ line-height: 40px;
   flex: 0 0 auto;
   position: relative;
   width: auto;
-  height: 131px;
+  /* height: 131px; */
 }
+
+.home-page-hi-fi .narrow-web-btn {
+  width: 10%;
+  padding: 62px 73px;
+  border-bottom: 1px solid black;
+  display: none;
+}
+
+.home-page-hi-fi .narrow-mobile-btn {
+  display: block;
+  width: 13.4%;
+  border-bottom: 1px solid black;
+  padding: 57px 16px;
+}
+
 
 .home-page-hi-fi .SURVEY {
   align-items: flex-start;

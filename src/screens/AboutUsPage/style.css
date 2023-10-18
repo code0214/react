@@ -112,7 +112,7 @@
   letter-spacing: var(--desktop-display-large-letter-spacing);
   line-height: var(--desktop-display-large-line-height);
   margin-top: -1px;
-  width: 648px;
+  /* width: 648px; */
 }
 
 .about-us-page .founder-CEO-text {
@@ -182,7 +182,7 @@
   letter-spacing: var(--desktop-body-large-letter-spacing);
   line-height: var(--desktop-body-large-line-height);
   margin-top: -1px;
-  width: 648px;
+  /* width: 648px; */
 }
 
 .about-us-page .text-wrapper-10 {
@@ -193,7 +193,7 @@
   font-weight: var(--desktop-body-large-font-weight);
   letter-spacing: var(--desktop-body-large-letter-spacing);
   line-height: var(--desktop-body-large-line-height);
-  width: 648px;
+  /* width: 648px; */
 }
 
 .about-us-page .PHILLOSOPHY {
@@ -1665,7 +1665,7 @@
     gap: 10px;
     padding: 40px 24px;
     position: relative;
-    width: 340px;
+    width: 100%;
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -1698,7 +1698,7 @@
     display: flex;
     gap: 10px;
     position: relative;
-    width: 100px;
+    width: 72%;
   }
   
   .about-us-page .dropdown-container {
@@ -1716,7 +1716,7 @@
   .about-us-page .div-11 {
     align-items: flex-start;
     display: flex;
-    width: 542px;
+    width: 100%;
   }
   
   .about-us-page .title-2 {
@@ -1749,7 +1749,7 @@
   .about-us-page .message {
     align-items: flex-start;
     display: flex;
-    width: 1144px;
+    width: 100%;
   }
   
   .about-us-page .FOOTER-instance {

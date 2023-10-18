@@ -1254,7 +1254,7 @@
   position: relative;
 }
 
-.FOOTER .line {
+.FOOTER .footer-line {
   object-fit: cover;
   align-self: stretch;
   width: 1px;
@@ -1395,6 +1395,7 @@
   }
 
   .FOOTER .footer-last {
+    text-align: left;
     flex-direction: column;
     flex: none;
     align-self: stretch;
@@ -1492,7 +1493,7 @@
     position: relative;
   }
 
-  .FOOTER .line {
+  .FOOTER .footer-line {
     object-fit: cover;
     width: 1px;
     height: 16px;
@@ -1871,6 +1872,17 @@
   display: none;
 }
 
+@media screen and (width <= 390px) {
+  .navigation-bar {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8px 16px;
+    position: relative;
+  }
+}
+
 .menu-title {
   align-items: center;
   width: 253px;
@@ -2109,7 +2121,7 @@
 
 @keyframes weareavy {
   0% {
-    top: 500px;
+    top: 700px;
     left: 0;
   }
 
@@ -2371,6 +2383,7 @@
   flex: none;
   align-items: flex-start;
   gap: 8px;
+  width: 100%;
   display: inline-flex;
   position: relative;
 }
@@ -2383,7 +2396,7 @@
   font-weight: var(--desktop-display-large-font-weight);
   letter-spacing: var(--desktop-display-large-letter-spacing);
   line-height: var(--desktop-display-large-line-height);
-  width: 600px;
+  width: 100%;
   margin-top: -1px;
   position: relative;
 }
@@ -2396,7 +2409,7 @@
   font-weight: var(--desktop-body-large-font-weight);
   letter-spacing: var(--desktop-body-large-letter-spacing);
   line-height: var(--desktop-body-large-line-height);
-  width: 600px;
+  width: 100%;
   position: relative;
 }
 
@@ -2928,7 +2941,7 @@
   font-weight: var(--desktop-display-large-font-weight);
   letter-spacing: var(--desktop-display-large-letter-spacing);
   line-height: var(--desktop-display-large-line-height);
-  width: 456px;
+  width: 37%;
   margin-top: -1px;
   position: relative;
 }
@@ -3091,9 +3104,11 @@
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-color: var(--black);
+  border-right: 1px solid #000;
   flex-direction: column;
   align-items: flex-start;
   width: 90%;
+  height: 160px;
   padding: 60px 0;
   display: flex;
   position: relative;
@@ -3131,6 +3146,16 @@
   width: 100%;
   margin-top: -1px;
   position: relative;
+}
+
+.home-page-hi-fi .narrow-web-btn {
+  border-bottom: 1px solid #000;
+  width: 10%;
+  padding: 62px 73px;
+}
+
+.home-page-hi-fi .narrow-mobile-btn {
+  display: none;
 }
 
 .home-page-hi-fi .SURVEY {
@@ -3579,8 +3604,9 @@
     align-items: flex-start;
     gap: 24px;
     width: 100%;
-    padding-right: 16px;
+    padding: 0 16px;
     display: flex;
+    left: 0;
   }
 
   .home-page-hi-fi .text-wrapper-17 {
@@ -4136,6 +4162,7 @@
     flex-direction: column;
     flex: 1;
     align-items: flex-start;
+    height: 134px;
     padding: 24px 0;
     display: flex;
     position: relative;
@@ -4183,8 +4210,21 @@
     flex: none;
     align-self: stretch;
     width: auto;
-    height: 131px;
     position: relative;
+  }
+
+  .home-page-hi-fi .narrow-web-btn {
+    border-bottom: 1px solid #000;
+    width: 10%;
+    padding: 62px 73px;
+    display: none;
+  }
+
+  .home-page-hi-fi .narrow-mobile-btn {
+    border-bottom: 1px solid #000;
+    width: 13.4%;
+    padding: 57px 16px;
+    display: block;
   }
 
   .home-page-hi-fi .SURVEY {
@@ -4558,7 +4598,6 @@
   font-weight: var(--desktop-display-large-font-weight);
   letter-spacing: var(--desktop-display-large-letter-spacing);
   line-height: var(--desktop-display-large-line-height);
-  width: 648px;
   margin-top: -1px;
 }
 
@@ -4628,7 +4667,6 @@
   font-weight: var(--desktop-body-large-font-weight);
   letter-spacing: var(--desktop-body-large-letter-spacing);
   line-height: var(--desktop-body-large-line-height);
-  width: 648px;
   margin-top: -1px;
 }
 
@@ -4640,7 +4678,6 @@
   font-weight: var(--desktop-body-large-font-weight);
   letter-spacing: var(--desktop-body-large-letter-spacing);
   line-height: var(--desktop-body-large-line-height);
-  width: 648px;
 }
 
 .about-us-page .PHILLOSOPHY {
@@ -6084,7 +6121,7 @@
     align-self: stretch;
     align-items: flex-start;
     gap: 10px;
-    width: 340px;
+    width: 100%;
     margin-left: 0;
     margin-right: 0;
     padding: 40px 24px;
@@ -6118,7 +6155,7 @@
   .about-us-page .title {
     align-items: flex-start;
     gap: 10px;
-    width: 100px;
+    width: 72%;
     display: flex;
     position: relative;
   }
@@ -6137,7 +6174,7 @@
 
   .about-us-page .div-11 {
     align-items: flex-start;
-    width: 542px;
+    width: 100%;
     display: flex;
   }
 
@@ -6169,7 +6206,7 @@
 
   .about-us-page .message {
     align-items: flex-start;
-    width: 1144px;
+    width: 100%;
     display: flex;
   }
 
@@ -7758,6 +7795,7 @@
     width: 100%;
     display: flex;
     position: relative;
+    overflow-x: scroll;
   }
 
   .insights-page .text-wrapper-7 {
@@ -7873,20 +7911,20 @@
     gap: 24px;
     display: inline-flex;
     position: relative;
+    overflow-x: scroll;
   }
 
   .insights-page .text-wrapper-9 {
     color: var(--secondary);
-    font-family: var(--desktop-body-medium-font-family);
-    font-size: var(--desktop-body-medium-font-size);
-    font-style: var(--desktop-body-medium-font-style);
-    font-weight: var(--desktop-body-medium-font-weight);
-    letter-spacing: var(--desktop-body-medium-letter-spacing);
-    line-height: var(--desktop-body-medium-line-height);
     white-space: nowrap;
     width: -moz-fit-content;
     width: fit-content;
     margin-top: -1px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
     position: relative;
   }
 
@@ -8200,7 +8238,7 @@
     align-items: center;
     gap: 720px;
     width: 100%;
-    display: inline-flex;
+    display: inline-block;
     position: relative;
   }
 
@@ -8284,7 +8322,6 @@
 
   .insights-content .text-wrapper-8 {
     color: var(--black);
-    width: 936px;
     margin-top: -1px;
     font-family: Montserrat;
     font-size: 18px;

@@ -418,7 +418,12 @@ function getCardResponse(){
                   <p className="text-wrapper-35">AVY Pruthi, Nuneaton business owner – Coven...</p>
                 </div>
               </div>
-              <img className="button-2" alt="Button" src="/img/button-3.svg" />
+              <div className="narrow-web-btn">
+                <img className="button-2" alt="Button" src="./img/web-narrow-button.svg" />
+              </div>
+              <div className="narrow-mobile-btn">
+                <img className="button-2" alt="Button" src="./img/mobile-narrow-button.svg" />
+              </div>
             </div>
             <div className="div-10">
               <div className="date-text-container">
@@ -427,7 +432,12 @@ function getCardResponse(){
                   <p className="text-wrapper-35">Daily Logo Challenge for 50 days</p>
                 </div>
               </div>
-              <img className="button-2" alt="Button" src="/img/button-2.svg" />
+              <div className="narrow-web-btn">
+                <img className="button-2" alt="Button" src="./img/web-narrow-button.svg" />
+              </div>
+              <div className="narrow-mobile-btn">
+                <img className="button-2" alt="Button" src="./img/mobile-narrow-button.svg" />
+              </div>
             </div>
             <div className="div-10">
               <div className="date-text-container">
@@ -436,7 +446,12 @@ function getCardResponse(){
                   <p className="text-wrapper-35">Bringing a Business to Life: Chamber of Comm...</p>
                 </div>
               </div>
-              <img className="button-2" alt="Button" src="/img/button-1.svg" />
+              <div className="narrow-web-btn">
+                <img className="button-2" alt="Button" src="./img/web-narrow-button.svg" />
+              </div>
+              <div className="narrow-mobile-btn">
+                <img className="button-2" alt="Button" src="./img/mobile-narrow-button.svg" />
+              </div>
             </div>
             <div className="div-10">
               <div className="date-text-container">
@@ -445,7 +460,12 @@ function getCardResponse(){
                   <p className="text-wrapper-35">Our new Trustpilot partnership, and how it&#39;ll h...</p>
                 </div>
               </div>
-              <img className="button-2" alt="Button" src="/img/button.svg" />
+              <div className="narrow-web-btn">
+                <img className="button-2" alt="Button" src="./img/web-narrow-button.svg" />
+              </div>
+              <div className="narrow-mobile-btn">
+                <img className="button-2" alt="Button" src="./img/mobile-narrow-button.svg" />
+              </div>
             </div>
           </div>
           <Button className="design-component-instance-node" text="READ MORE" />

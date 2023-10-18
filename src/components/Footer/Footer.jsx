@@ -58,7 +58,7 @@ export const Footer = () => {
           <p className="AVY-CONSULTANCY">AVY© CONSULTANCY. DESIGN, BRAND &amp; MOTION</p>
           <div className="frame">
             <div className="text-wrapper">TERMS &amp; CONDITIONS</div>
-            <img className="line" alt="Line" src="/img/line-21.svg" />
+            <img className="footer-line" alt="Line" src="/img/line-21.svg" />
             <div className="text-wrapper">PRIVACY POLICY</div>
           </div>
         </div>

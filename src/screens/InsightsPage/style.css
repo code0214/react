@@ -281,6 +281,7 @@
     gap: 60px;
     position: relative;
     width: 100%;
+    overflow-x: scroll;
   }
   
   .insights-page .text-wrapper-7 {
@@ -395,16 +396,16 @@
     flex: 0 0 auto;
     gap: 24px;
     position: relative;
+    overflow-x: scroll;
   }
   
   .insights-page .text-wrapper-9 {
     color: var(--secondary);
-    font-family: var(--desktop-body-medium-font-family);
-    font-size: var(--desktop-body-medium-font-size);
-    font-style: var(--desktop-body-medium-font-style);
-    font-weight: var(--desktop-body-medium-font-weight);
-    letter-spacing: var(--desktop-body-medium-letter-spacing);
-    line-height: var(--desktop-body-medium-line-height);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
     margin-top: -1px;
     position: relative;
     white-space: nowrap;
