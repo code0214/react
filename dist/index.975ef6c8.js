@@ -27214,7 +27214,7 @@ const HomePageHiFi = ()=>{
     ]);
     function getNavResponse() {
         console.log(window.scrollY);
-        if (screenSize.width > 390) return "white";
+        if (screenSize.width > 800) return "white";
         else return "burger";
     }
     function getCardResponse() {
