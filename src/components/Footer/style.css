@@ -31,10 +31,12 @@
   display: inline-flex;
   /* left: 0; */
   /* position: absolute; */
-  padding-top: 60px;
+  border: black 1px solid;
   width: 100%;
 }
-
+.FOOTER .social{
+  padding-top: 60px;
+}
 .FOOTER .footer-last {
   padding-left: 40px;
   padding-top: 24px;
@@ -46,19 +48,13 @@
 .FOOTER .text {
   align-items: center;
   background-color: var(--white);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-color: var(--black);
-  border-left-style: solid;
-  border-left-width: 1px;
-  border-top-style: solid;
-  border-top-width: 1px;
   display: inline-flex;
   flex: 0 0 auto;
   justify-content: center;
   padding: 40px;
   position: relative;
   width: 22%;
+  border-right: black 1px solid;
 }
 
 .FOOTER .LET-s-STAY-CONNECTED {
@@ -77,8 +73,6 @@
 .FOOTER .logo {
   align-items: center;
   background-color: var(--white);
-  border: 1px solid;
-  border-color: var(--black);
   display: flex;
   gap: 257px;
   justify-content: center;
@@ -217,7 +211,15 @@
   position: relative;
   width: 124px;
 }
-
+@media only screen and (max-width: 950px){
+  .FOOTER .logo{
+    gap: 140px;
+    width: 60%;
+  }
+  .FOOTER .text{
+    width: 40%;
+  }
+}
 @media only screen and (max-width: 390px) {
   .FOOTER {
     align-items: flex-start;
@@ -265,6 +267,7 @@
     gap: 24px;
     position: relative;
     width: 100%;
+    
   }
   
   .FOOTER .social-media {
@@ -351,7 +354,7 @@
     line-height: var(--mobile-label-small-line-height);
     margin-top: -1px;
     position: relative;
-    width: 358px;
+    /* width: 358px; */
   }
   
   .FOOTER .frame {

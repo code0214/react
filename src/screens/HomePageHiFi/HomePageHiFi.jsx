@@ -188,10 +188,6 @@ function getCardResponse(){
       <div className="div-6">
         <Headline className="headline-instance" state="default" text="SERVICES" text1="THAT" text2="WE OFFER" />
         <div className="content-2">
-          <div className="service-line">
-            <img className="line-5" alt="Line" src="./img/line-23-2.svg" />
-            <img className="line-6" alt="Line" src="./img/line-24-2.svg" />
-          </div>
           <div className="title">
             <Number text="01" variant={getCardResponse()} />
             <div className="text-wrapper-21">DESIGN</div>
@@ -250,10 +246,6 @@ function getCardResponse(){
             <Number divClassName="design-component-instance-node-2" text="02" variant={getCardResponse()} />
             <div className="text-wrapper-21">BRANDING</div>
           </div>
-          <div className="service-line">
-            <img className="line-7" alt="Line" src="/img/line-23.svg" />
-            <img className="line-8" alt="Line" src="/img/line-24.svg" />
-          </div>
           <div className="services">
             <div className="content-4">
               <div className="text-wrapper-24">BRANDING DESIGN</div>
@@ -291,10 +283,6 @@ function getCardResponse(){
           <div className="title">
             <Number divClassName="design-component-instance-node-2" text="03" variant={getCardResponse()}/>
             <div className="text-wrapper-21">MOTION</div>
-          </div>
-          <div className="service-line">
-            <img className="line-7" alt="Line" src="/img/line-23.svg" />
-            <img className="line-8" alt="Line" src="/img/line-24.svg" />
           </div>
           <div className="services">
             <div className="content-4">
@@ -379,16 +367,24 @@ function getCardResponse(){
             <div className="industries">
               <div className="text-wrapper-28">INDUSTRIES:</div>
               <div className="frame-4">
-                <div className="text-wrapper-29">MANUFACTURING</div>
-                <div className="text-wrapper-29">F&amp;B</div>
-                <div className="text-wrapper-29">TECH</div>
-                <div className="text-wrapper-30">FINTECH</div>
-                <div className="text-wrapper-30">FINANCE</div>
-                <div className="text-wrapper-30">GAMING</div>
-                <div className="text-wrapper-30">HVAC</div>
-                <div className="text-wrapper-30">WATER, GAS, &amp; UTILITIES</div>
-                <div className="text-wrapper-30">EDUCATION</div>
-                <div className="text-wrapper-30">TRANSPORTATION</div>
+                <div style={{display:"flex"}}>
+                    <div className="text-wrapper-29">MANUFACTURING</div>
+                    <div style={{padding:"0 30px"}} className="text-wrapper-29">F&amp;B</div>
+                    <div className="text-wrapper-29">TECH</div>
+                </div>
+                <div style={{display:"flex"}}>
+                  <div className="text-wrapper-30">FINTECH</div>
+                  <div style={{padding:"0 30px"}} className="text-wrapper-30">FINANCE</div>
+                  <div className="text-wrapper-30">GAMING</div>                  
+                </div>
+                <div style={{display:"flex"}}>
+                  <div className="text-wrapper-30">HVAC</div>
+                  <div style={{paddingLeft:"30px"}} className="text-wrapper-30">WATER, GAS, &amp; UTILITIES</div>
+                </div>
+                <div style={{display:"flex"}}>
+                  <div className="text-wrapper-30">EDUCATION</div>
+                  <div style={{paddingLeft:"30px"}} className="text-wrapper-30">TRANSPORTATION</div>
+                </div>                
               </div>
             </div>
           </div>

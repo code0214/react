@@ -1150,10 +1150,14 @@
 }
 
 .FOOTER .social-media {
+  border: 1px solid #000;
   align-items: flex-start;
   width: 100%;
-  padding-top: 60px;
   display: inline-flex;
+}
+
+.FOOTER .social {
+  padding-top: 60px;
 }
 
 .FOOTER .footer-last {
@@ -1166,13 +1170,7 @@
 
 .FOOTER .text {
   background-color: var(--white);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-color: var(--black);
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-left-style: solid;
-  border-left-width: 1px;
+  border-right: 1px solid #000;
   flex: none;
   justify-content: center;
   align-items: center;
@@ -1198,8 +1196,6 @@
 
 .FOOTER .logo {
   background-color: var(--white);
-  border: 1px solid;
-  border-color: var(--black);
   justify-content: center;
   align-items: center;
   gap: 257px;
@@ -1337,6 +1333,17 @@
   position: relative;
 }
 
+@media only screen and (width <= 950px) {
+  .FOOTER .logo {
+    gap: 140px;
+    width: 60%;
+  }
+
+  .FOOTER .text {
+    width: 40%;
+  }
+}
+
 @media only screen and (width <= 390px) {
   .FOOTER {
     flex-direction: column;
@@ -1465,7 +1472,6 @@
     font-weight: var(--mobile-label-small-font-weight);
     letter-spacing: var(--mobile-label-small-letter-spacing);
     line-height: var(--mobile-label-small-line-height);
-    width: 358px;
     margin-top: -1px;
     position: relative;
   }
@@ -2481,11 +2487,11 @@
 }
 
 .home-page-hi-fi .content-2 {
+  border-bottom: 1px solid #000;
   flex: none;
   align-items: flex-start;
   gap: 24px;
   width: 100%;
-  padding: 0 0 40px;
   display: flex;
   position: relative;
 }
@@ -2530,11 +2536,13 @@
 }
 
 .home-page-hi-fi .services {
+  border-left: 1px solid #000;
   flex-direction: column;
   flex: 1;
   align-items: flex-start;
   gap: 60px;
   width: 50%;
+  padding: 0 0 20px 20px;
   display: flex;
   position: relative;
 }
@@ -2553,7 +2561,6 @@
 .home-page-hi-fi .text-wrapper-22 {
   color: var(--black);
   flex: 1;
-  width: 648px;
   margin-top: -1px;
   font-family: Montserrat;
   font-size: 32px;
@@ -2594,7 +2601,6 @@
   font-weight: var(--desktop-display-medium-font-weight);
   letter-spacing: var(--desktop-display-medium-letter-spacing);
   line-height: var(--desktop-display-medium-line-height);
-  width: 648px;
   height: 80px;
   margin-top: -1px;
   position: relative;
@@ -3027,7 +3033,6 @@
   justify-content: center;
   align-items: center;
   gap: 24px;
-  width: 648px;
   display: flex;
   position: relative;
 }
@@ -3186,7 +3191,6 @@
   flex: none;
   align-items: flex-start;
   gap: 12px;
-  width: 648px;
   display: flex;
   position: relative;
 }
@@ -3445,6 +3449,200 @@
 
 .home-page-hi-fi .how-we-think-headline {
   padding-right: 60px;
+}
+
+@media (width <= 1300px) {
+  .home-page-hi-fi .text-wrapper-27 {
+    width: 100%;
+  }
+
+  .home-page-hi-fi .div-8 {
+    align-items: flex-end;
+  }
+
+  .home-page-hi-fi .dropdown-container, .home-page-hi-fi .div-12 {
+    margin-left: 75px;
+  }
+
+  .home-page-hi-fi .date-text {
+    padding: 0;
+  }
+}
+
+@media (width <= 950px) {
+  .home-page-hi-fi .date-text-container {
+    padding: 0;
+  }
+
+  .home-page-hi-fi .date-text {
+    display: block;
+  }
+
+  .home-page-hi-fi .intro-text {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .home-page-hi-fi .quote-container, .home-page-hi-fi .we-transform-your {
+    width: 100%;
+  }
+
+  .home-page-hi-fi .content-2 {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .home-page-hi-fi .title, .home-page-hi-fi .services {
+    width: 100%;
+  }
+}
+
+@media (width <= 850px) {
+  .FOOTER .footer-last {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .home-page-hi-fi .content-6 {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .home-page-hi-fi .left-content {
+    gap: 0;
+  }
+
+  .FOOTER .div {
+    display: block;
+  }
+
+  .FOOTER .frame-section {
+    width: 90%;
+  }
+}
+
+@media (width >= 391px) and (width <= 800px) {
+  .home-page-hi-fi .headline-content {
+    display: none;
+    left: 0;
+  }
+
+  .home-page-hi-fi .text-wrapper-14, .home-page-hi-fi .text-wrapper-15, .home-page-hi-fi .text-wrapper-16 {
+    font-size: 70px;
+  }
+
+  .navigation-bar .navigation {
+    display: none;
+  }
+
+  .headline .headline-text {
+    align-items: flex-start;
+  }
+
+  .home-page-hi-fi .text-wrapper-37 {
+    font-size: 40px;
+  }
+
+  .home-page-hi-fi .service-list {
+    display: none;
+  }
+}
+
+@media (width <= 615px) {
+  .FOOTER .social-media {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .FOOTER .text {
+    border-bottom: 1px solid #000;
+    border-right: none;
+    width: 100%;
+  }
+
+  .FOOTER .logo {
+    gap: 95px;
+    width: 100%;
+  }
+
+  .home-page-hi-fi .THE-DIFFERENCE, .home-page-hi-fi .text-wrapper-21 {
+    font-size: 30px;
+  }
+
+  .home-page-hi-fi .text-wrapper-29, .home-page-hi-fi .text-wrapper-35, .home-page-hi-fi .text-wrapper-30 {
+    font-size: 20px;
+  }
+
+  .home-page-hi-fi .frame-4 {
+    width: 100%;
+  }
+
+  .FOOTER .footer-last {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .FOOTER .AVY-CONSULTANCY {
+    font-size: 15px;
+  }
+
+  .FOOTER .text-wrapper {
+    font-size: 13px;
+  }
+
+  .headline .TITLE, .headline .div {
+    font-size: 40px;
+  }
+}
+
+@media (width <= 575px) {
+  .FOOTER .frame-section {
+    width: 100%;
+  }
+
+  .FOOTER .footer-nav {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .FOOTER {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .home-page-hi-fi .div-8 {
+    width: 90%;
+  }
+
+  .home-page-hi-fi .div-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .home-page-hi-fi .intro-text {
+    width: 90%;
+  }
+
+  .home-page-hi-fi .text-wrapper-34 {
+    width: 230px;
+  }
+
+  .home-page-hi-fi .text-wrapper-24 {
+    font-size: 28px;
+  }
+
+  .home-page-hi-fi .contact-form {
+    padding: 10px;
+  }
+
+  .form-button {
+    padding: 18px 80px;
+  }
 }
 
 @media (width <= 390px) {
@@ -3771,6 +3969,7 @@
   }
 
   .home-page-hi-fi .content-2 {
+    border-left: none;
     flex-wrap: wrap;
     flex: none;
     align-items: flex-start;

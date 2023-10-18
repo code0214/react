@@ -27762,21 +27762,19 @@ const HomePageHiFi = ()=>{
                         className: "content-2",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "service-line",
+                                className: "title",
                                 children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        className: "line-5",
-                                        alt: "Line",
-                                        src: "./img/line-23-2.svg"
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _number.Number), {
+                                        text: "01",
+                                        variant: getCardResponse()
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
                                         lineNumber: 192,
                                         columnNumber: 13
                                     }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        className: "line-6",
-                                        alt: "Line",
-                                        src: "./img/line-24-2.svg"
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "text-wrapper-21",
+                                        children: "DESIGN"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
                                         lineNumber: 193,
@@ -27786,31 +27784,6 @@ const HomePageHiFi = ()=>{
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
                                 lineNumber: 191,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "title",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _number.Number), {
-                                        text: "01",
-                                        variant: getCardResponse()
-                                    }, void 0, false, {
-                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 196,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "text-wrapper-21",
-                                        children: "DESIGN"
-                                    }, void 0, false, {
-                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 197,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 195,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27824,7 +27797,7 @@ const HomePageHiFi = ()=>{
                                                 children: "EXHIBITION STAND DESIGN"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 201,
+                                                lineNumber: 197,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27832,13 +27805,13 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 202,
+                                                lineNumber: 198,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 200,
+                                        lineNumber: 196,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27850,14 +27823,14 @@ const HomePageHiFi = ()=>{
                                                     "POWERPOINT",
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 209,
+                                                        lineNumber: 205,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     "PRESENTATION DESIGN"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 207,
+                                                lineNumber: 203,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27865,13 +27838,13 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 212,
+                                                lineNumber: 208,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 206,
+                                        lineNumber: 202,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27883,14 +27856,14 @@ const HomePageHiFi = ()=>{
                                                     "POWERPOINT",
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 219,
+                                                        lineNumber: 215,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     "PRESENTATION DESIGN"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 217,
+                                                lineNumber: 213,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27898,13 +27871,13 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 222,
+                                                lineNumber: 218,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 216,
+                                        lineNumber: 212,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27916,14 +27889,14 @@ const HomePageHiFi = ()=>{
                                                     "POWERPOINT",
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 229,
+                                                        lineNumber: 225,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     "PRESENTATION DESIGN"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 227,
+                                                lineNumber: 223,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27931,13 +27904,13 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 232,
+                                                lineNumber: 228,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 226,
+                                        lineNumber: 222,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27949,14 +27922,14 @@ const HomePageHiFi = ()=>{
                                                     "POWERPOINT",
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 239,
+                                                        lineNumber: 235,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     "PRESENTATION DESIGN"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 237,
+                                                lineNumber: 233,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27964,19 +27937,19 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 242,
+                                                lineNumber: 238,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 236,
+                                        lineNumber: 232,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 199,
+                                lineNumber: 195,
                                 columnNumber: 11
                             }, undefined)
                         ]
@@ -27997,7 +27970,7 @@ const HomePageHiFi = ()=>{
                                         variant: getCardResponse()
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 250,
+                                        lineNumber: 246,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28005,40 +27978,13 @@ const HomePageHiFi = ()=>{
                                         children: "BRANDING"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 251,
+                                        lineNumber: 247,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 249,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "service-line",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        className: "line-7",
-                                        alt: "Line",
-                                        src: "/img/line-23.svg"
-                                    }, void 0, false, {
-                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 254,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        className: "line-8",
-                                        alt: "Line",
-                                        src: "/img/line-24.svg"
-                                    }, void 0, false, {
-                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 255,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 253,
+                                lineNumber: 245,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28052,7 +27998,7 @@ const HomePageHiFi = ()=>{
                                                 children: "BRANDING DESIGN"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 259,
+                                                lineNumber: 251,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28060,13 +28006,13 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 260,
+                                                lineNumber: 252,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 258,
+                                        lineNumber: 250,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28077,7 +28023,7 @@ const HomePageHiFi = ()=>{
                                                 children: "LOREM IPSUM"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 265,
+                                                lineNumber: 257,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28085,13 +28031,13 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 266,
+                                                lineNumber: 258,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 264,
+                                        lineNumber: 256,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28102,7 +28048,7 @@ const HomePageHiFi = ()=>{
                                                 children: "LOREM IPSUM"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 271,
+                                                lineNumber: 263,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28110,13 +28056,13 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 272,
+                                                lineNumber: 264,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 270,
+                                        lineNumber: 262,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28127,7 +28073,7 @@ const HomePageHiFi = ()=>{
                                                 children: "LOREM IPSUM"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 277,
+                                                lineNumber: 269,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28135,13 +28081,13 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 278,
+                                                lineNumber: 270,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 276,
+                                        lineNumber: 268,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28152,7 +28098,7 @@ const HomePageHiFi = ()=>{
                                                 children: "LOREM IPSUM"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 283,
+                                                lineNumber: 275,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28160,25 +28106,25 @@ const HomePageHiFi = ()=>{
                                                 children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 284,
+                                                lineNumber: 276,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 282,
+                                        lineNumber: 274,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 257,
+                                lineNumber: 249,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 248,
+                        lineNumber: 244,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28193,7 +28139,7 @@ const HomePageHiFi = ()=>{
                                         variant: getCardResponse()
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 292,
+                                        lineNumber: 284,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28201,40 +28147,13 @@ const HomePageHiFi = ()=>{
                                         children: "MOTION"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 293,
+                                        lineNumber: 285,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 291,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "service-line",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        className: "line-7",
-                                        alt: "Line",
-                                        src: "/img/line-23.svg"
-                                    }, void 0, false, {
-                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 296,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        className: "line-8",
-                                        alt: "Line",
-                                        src: "/img/line-24.svg"
-                                    }, void 0, false, {
-                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 297,
-                                        columnNumber: 13
-                                    }, undefined)
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 295,
+                                lineNumber: 283,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28246,6 +28165,56 @@ const HomePageHiFi = ()=>{
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                 className: "text-wrapper-24",
                                                 children: "MOTION DESIGN"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 289,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "text-wrapper-23",
+                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 290,
+                                                columnNumber: 15
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                        lineNumber: 288,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "content-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-24",
+                                                children: "LOREM IPSUM"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 295,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                className: "text-wrapper-23",
+                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 296,
+                                                columnNumber: 15
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                        lineNumber: 294,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "content-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-24",
+                                                children: "LOREM IPSUM"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
                                                 lineNumber: 301,
@@ -28314,67 +28283,17 @@ const HomePageHiFi = ()=>{
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
                                         lineNumber: 312,
                                         columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "content-4",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-24",
-                                                children: "LOREM IPSUM"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 319,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "text-wrapper-23",
-                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 320,
-                                                columnNumber: 15
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 318,
-                                        columnNumber: 13
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "content-4",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-24",
-                                                children: "LOREM IPSUM"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 325,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                                className: "text-wrapper-23",
-                                                children: "L\xf6rem ipsum diska kehysade. Bed\xe5v k\xf6ktigt. S\xe5na belingar h\xe5ligen f\xf6r att besk och nybitev."
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 326,
-                                                columnNumber: 15
-                                            }, undefined)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 324,
-                                        columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 299,
+                                lineNumber: 287,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 290,
+                        lineNumber: 282,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -28394,7 +28313,7 @@ const HomePageHiFi = ()=>{
                         text2: "THINGS"
                     }, void 0, false, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 334,
+                        lineNumber: 322,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28405,7 +28324,7 @@ const HomePageHiFi = ()=>{
                                 variant: "research"
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 336,
+                                lineNumber: 324,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardsHowWeDo.CardsHowWeDo), {
@@ -28413,7 +28332,7 @@ const HomePageHiFi = ()=>{
                                 variant: "design"
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 337,
+                                lineNumber: 325,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardsHowWeDo.CardsHowWeDo), {
@@ -28421,7 +28340,7 @@ const HomePageHiFi = ()=>{
                                 variant: "develop"
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 338,
+                                lineNumber: 326,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28437,12 +28356,12 @@ const HomePageHiFi = ()=>{
                                                     src: "/img/testing.jpg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 363,
+                                                    lineNumber: 351,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 362,
+                                                lineNumber: 350,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28450,13 +28369,13 @@ const HomePageHiFi = ()=>{
                                                 children: "TESTING"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 365,
+                                                lineNumber: 353,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 361,
+                                        lineNumber: 349,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28464,25 +28383,25 @@ const HomePageHiFi = ()=>{
                                         children: "L\xf6rem ipsum preteng teradat om metromani. Rera visa or vask. Vagt homossa p\xe5 destism visa vur\xe4ledes. Krong kuddbok. Barista press \xf6d byl jed\xe5de."
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 367,
+                                        lineNumber: 355,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 360,
+                                lineNumber: 348,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 335,
+                        lineNumber: 323,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 333,
+                lineNumber: 321,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28496,7 +28415,7 @@ const HomePageHiFi = ()=>{
                         text2: "WORKED WITH"
                     }, void 0, false, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 375,
+                        lineNumber: 363,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28510,7 +28429,7 @@ const HomePageHiFi = ()=>{
                                         children: "WHO WE'VE DONE IT FOR"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 378,
+                                        lineNumber: 366,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28521,108 +28440,164 @@ const HomePageHiFi = ()=>{
                                                 children: "INDUSTRIES:"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 380,
+                                                lineNumber: 368,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                 className: "frame-4",
                                                 children: [
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "text-wrapper-29",
-                                                        children: "MANUFACTURING"
-                                                    }, void 0, false, {
+                                                        style: {
+                                                            display: "flex"
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-29",
+                                                                children: "MANUFACTURING"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                                lineNumber: 371,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                style: {
+                                                                    padding: "0 30px"
+                                                                },
+                                                                className: "text-wrapper-29",
+                                                                children: "F&B"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                                lineNumber: 372,
+                                                                columnNumber: 21
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-29",
+                                                                children: "TECH"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                                lineNumber: 373,
+                                                                columnNumber: 21
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 382,
+                                                        lineNumber: 370,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "text-wrapper-29",
-                                                        children: "F&B"
-                                                    }, void 0, false, {
+                                                        style: {
+                                                            display: "flex"
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-30",
+                                                                children: "FINTECH"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                                lineNumber: 376,
+                                                                columnNumber: 19
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                style: {
+                                                                    padding: "0 30px"
+                                                                },
+                                                                className: "text-wrapper-30",
+                                                                children: "FINANCE"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                                lineNumber: 377,
+                                                                columnNumber: 19
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-30",
+                                                                children: "GAMING"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                                lineNumber: 378,
+                                                                columnNumber: 19
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 383,
+                                                        lineNumber: 375,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "text-wrapper-29",
-                                                        children: "TECH"
-                                                    }, void 0, false, {
+                                                        style: {
+                                                            display: "flex"
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-30",
+                                                                children: "HVAC"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                                lineNumber: 381,
+                                                                columnNumber: 19
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                style: {
+                                                                    paddingLeft: "30px"
+                                                                },
+                                                                className: "text-wrapper-30",
+                                                                children: "WATER, GAS, & UTILITIES"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                                lineNumber: 382,
+                                                                columnNumber: 19
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                        lineNumber: 380,
+                                                        columnNumber: 17
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        style: {
+                                                            display: "flex"
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-30",
+                                                                children: "EDUCATION"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                                lineNumber: 385,
+                                                                columnNumber: 19
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                style: {
+                                                                    paddingLeft: "30px"
+                                                                },
+                                                                className: "text-wrapper-30",
+                                                                children: "TRANSPORTATION"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                                lineNumber: 386,
+                                                                columnNumber: 19
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
                                                         lineNumber: 384,
-                                                        columnNumber: 17
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "text-wrapper-30",
-                                                        children: "FINTECH"
-                                                    }, void 0, false, {
-                                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 385,
-                                                        columnNumber: 17
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "text-wrapper-30",
-                                                        children: "FINANCE"
-                                                    }, void 0, false, {
-                                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 386,
-                                                        columnNumber: 17
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "text-wrapper-30",
-                                                        children: "GAMING"
-                                                    }, void 0, false, {
-                                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 387,
-                                                        columnNumber: 17
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "text-wrapper-30",
-                                                        children: "HVAC"
-                                                    }, void 0, false, {
-                                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 388,
-                                                        columnNumber: 17
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "text-wrapper-30",
-                                                        children: "WATER, GAS, & UTILITIES"
-                                                    }, void 0, false, {
-                                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 389,
-                                                        columnNumber: 17
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "text-wrapper-30",
-                                                        children: "EDUCATION"
-                                                    }, void 0, false, {
-                                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 390,
-                                                        columnNumber: 17
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "text-wrapper-30",
-                                                        children: "TRANSPORTATION"
-                                                    }, void 0, false, {
-                                                        fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 391,
                                                         columnNumber: 17
                                                     }, undefined)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 381,
+                                                lineNumber: 369,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 379,
+                                        lineNumber: 367,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 377,
+                                lineNumber: 365,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28633,6 +28608,38 @@ const HomePageHiFi = ()=>{
                                         children: [
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                 className: "text-wrapper-31",
+                                                children: "XXXXXX"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 393,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-32",
+                                                children: "XXXXXX"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 394,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-32",
+                                                children: "XXXXXX"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 395,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-32",
+                                                children: "XXXXXX"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
+                                                lineNumber: 396,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "text-wrapper-32",
                                                 children: "XXXXXX"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
@@ -28662,43 +28669,11 @@ const HomePageHiFi = ()=>{
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
                                                 lineNumber: 400,
                                                 columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-32",
-                                                children: "XXXXXX"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 401,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-32",
-                                                children: "XXXXXX"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 402,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-32",
-                                                children: "XXXXXX"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 403,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "text-wrapper-32",
-                                                children: "XXXXXX"
-                                            }, void 0, false, {
-                                                fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 404,
-                                                columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 396,
+                                        lineNumber: 392,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
@@ -28706,25 +28681,25 @@ const HomePageHiFi = ()=>{
                                         text: "WORK WITH US"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 406,
+                                        lineNumber: 402,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 395,
+                                lineNumber: 391,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 376,
+                        lineNumber: 364,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 374,
+                lineNumber: 362,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28735,7 +28710,7 @@ const HomePageHiFi = ()=>{
                         children: "INSIGHTS"
                     }, void 0, false, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 411,
+                        lineNumber: 407,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28757,7 +28732,7 @@ const HomePageHiFi = ()=>{
                                                             children: "30 June 2021"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 417,
+                                                            lineNumber: 413,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28765,18 +28740,18 @@ const HomePageHiFi = ()=>{
                                                             children: "AVY Pruthi, Nuneaton business owner – Coven..."
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 418,
+                                                            lineNumber: 414,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 416,
+                                                    lineNumber: 412,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 415,
+                                                lineNumber: 411,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28787,12 +28762,12 @@ const HomePageHiFi = ()=>{
                                                     src: "./img/web-narrow-button.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 422,
+                                                    lineNumber: 418,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 421,
+                                                lineNumber: 417,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28803,18 +28778,18 @@ const HomePageHiFi = ()=>{
                                                     src: "./img/mobile-narrow-button.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 425,
+                                                    lineNumber: 421,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 424,
+                                                lineNumber: 420,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 414,
+                                        lineNumber: 410,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28830,7 +28805,7 @@ const HomePageHiFi = ()=>{
                                                             children: "28 June 2021"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 431,
+                                                            lineNumber: 427,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28838,18 +28813,18 @@ const HomePageHiFi = ()=>{
                                                             children: "Daily Logo Challenge for 50 days"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 432,
+                                                            lineNumber: 428,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 430,
+                                                    lineNumber: 426,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 429,
+                                                lineNumber: 425,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28860,12 +28835,12 @@ const HomePageHiFi = ()=>{
                                                     src: "./img/web-narrow-button.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 436,
+                                                    lineNumber: 432,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 435,
+                                                lineNumber: 431,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28876,18 +28851,18 @@ const HomePageHiFi = ()=>{
                                                     src: "./img/mobile-narrow-button.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 439,
+                                                    lineNumber: 435,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 438,
+                                                lineNumber: 434,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 428,
+                                        lineNumber: 424,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28903,7 +28878,7 @@ const HomePageHiFi = ()=>{
                                                             children: "18 June 2021"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 445,
+                                                            lineNumber: 441,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28911,18 +28886,18 @@ const HomePageHiFi = ()=>{
                                                             children: "Bringing a Business to Life: Chamber of Comm..."
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 446,
+                                                            lineNumber: 442,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 444,
+                                                    lineNumber: 440,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 443,
+                                                lineNumber: 439,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28933,12 +28908,12 @@ const HomePageHiFi = ()=>{
                                                     src: "./img/web-narrow-button.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 450,
+                                                    lineNumber: 446,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 449,
+                                                lineNumber: 445,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28949,18 +28924,18 @@ const HomePageHiFi = ()=>{
                                                     src: "./img/mobile-narrow-button.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 453,
+                                                    lineNumber: 449,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 452,
+                                                lineNumber: 448,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 442,
+                                        lineNumber: 438,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28976,7 +28951,7 @@ const HomePageHiFi = ()=>{
                                                             children: "05 May 2021"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 459,
+                                                            lineNumber: 455,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28984,18 +28959,18 @@ const HomePageHiFi = ()=>{
                                                             children: "Our new Trustpilot partnership, and how it'll h..."
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 460,
+                                                            lineNumber: 456,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 458,
+                                                    lineNumber: 454,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 457,
+                                                lineNumber: 453,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29006,12 +28981,12 @@ const HomePageHiFi = ()=>{
                                                     src: "./img/web-narrow-button.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 464,
+                                                    lineNumber: 460,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 463,
+                                                lineNumber: 459,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29022,24 +28997,24 @@ const HomePageHiFi = ()=>{
                                                     src: "./img/mobile-narrow-button.svg"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 467,
+                                                    lineNumber: 463,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 466,
+                                                lineNumber: 462,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 456,
+                                        lineNumber: 452,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 413,
+                                lineNumber: 409,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
@@ -29047,19 +29022,19 @@ const HomePageHiFi = ()=>{
                                 text: "READ MORE"
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 471,
+                                lineNumber: 467,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 412,
+                        lineNumber: 408,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 410,
+                lineNumber: 406,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29073,14 +29048,14 @@ const HomePageHiFi = ()=>{
                                 "NOW LET'S FIND OUT ",
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                    lineNumber: 476,
+                                    lineNumber: 472,
                                     columnNumber: 65
                                 }, undefined),
                                 " ABOUT YOU"
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                            lineNumber: 476,
+                            lineNumber: 472,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29094,7 +29069,7 @@ const HomePageHiFi = ()=>{
                                             children: "L\xd6REM IPSUM"
                                         }, void 0, false, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 479,
+                                            lineNumber: 475,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29102,7 +29077,7 @@ const HomePageHiFi = ()=>{
                                             children: "L\xd6REM IPSUM"
                                         }, void 0, false, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 480,
+                                            lineNumber: 476,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29110,13 +29085,13 @@ const HomePageHiFi = ()=>{
                                             children: "L\xd6REM IPSUM"
                                         }, void 0, false, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 481,
+                                            lineNumber: 477,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                    lineNumber: 478,
+                                    lineNumber: 474,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
@@ -29124,24 +29099,24 @@ const HomePageHiFi = ()=>{
                                     text: "START SURVEY"
                                 }, void 0, false, {
                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                    lineNumber: 483,
+                                    lineNumber: 479,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                            lineNumber: 477,
+                            lineNumber: 473,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                    lineNumber: 475,
+                    lineNumber: 471,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 474,
+                lineNumber: 470,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29155,7 +29130,7 @@ const HomePageHiFi = ()=>{
                                 children: "ARE YOU READY TO"
                             }, void 0, false, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 489,
+                                lineNumber: 485,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29167,7 +29142,7 @@ const HomePageHiFi = ()=>{
                                         src: "/img/line-10.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 491,
+                                        lineNumber: 487,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29175,7 +29150,7 @@ const HomePageHiFi = ()=>{
                                         children: "WORK"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 492,
+                                        lineNumber: 488,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29184,13 +29159,13 @@ const HomePageHiFi = ()=>{
                                         src: "/img/line-10.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 493,
+                                        lineNumber: 489,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 490,
+                                lineNumber: 486,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29201,7 +29176,7 @@ const HomePageHiFi = ()=>{
                                         children: "WITH"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 496,
+                                        lineNumber: 492,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29210,7 +29185,7 @@ const HomePageHiFi = ()=>{
                                         src: "/img/line-9.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 497,
+                                        lineNumber: 493,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29223,12 +29198,12 @@ const HomePageHiFi = ()=>{
                                                     children: "US"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 500,
+                                                    lineNumber: 496,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 499,
+                                                lineNumber: 495,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29236,25 +29211,25 @@ const HomePageHiFi = ()=>{
                                                 children: "?"
                                             }, void 0, false, {
                                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                lineNumber: 502,
+                                                lineNumber: 498,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                        lineNumber: 498,
+                                        lineNumber: 494,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                lineNumber: 495,
+                                lineNumber: 491,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 488,
+                        lineNumber: 484,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29275,12 +29250,12 @@ const HomePageHiFi = ()=>{
                                                         children: "SUBJECT"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 511,
+                                                        lineNumber: 507,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 510,
+                                                    lineNumber: 506,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29294,7 +29269,7 @@ const HomePageHiFi = ()=>{
                                                                     children: "Select"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                    lineNumber: 515,
+                                                                    lineNumber: 511,
                                                                     columnNumber: 21
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29303,13 +29278,13 @@ const HomePageHiFi = ()=>{
                                                                     src: "/img/mdi-menu-down.svg"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                    lineNumber: 516,
+                                                                    lineNumber: 512,
                                                                     columnNumber: 21
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 514,
+                                                            lineNumber: 510,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29318,19 +29293,19 @@ const HomePageHiFi = ()=>{
                                                             src: "/img/line-2-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 518,
+                                                            lineNumber: 514,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 513,
+                                                    lineNumber: 509,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 509,
+                                            lineNumber: 505,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29343,12 +29318,12 @@ const HomePageHiFi = ()=>{
                                                         children: "NAME"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 523,
+                                                        lineNumber: 519,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 522,
+                                                    lineNumber: 518,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29359,7 +29334,7 @@ const HomePageHiFi = ()=>{
                                                             children: "Enter Your Name"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 526,
+                                                            lineNumber: 522,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29368,19 +29343,19 @@ const HomePageHiFi = ()=>{
                                                             src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 527,
+                                                            lineNumber: 523,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 525,
+                                                    lineNumber: 521,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 521,
+                                            lineNumber: 517,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29393,12 +29368,12 @@ const HomePageHiFi = ()=>{
                                                         children: "EMAIL"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 532,
+                                                        lineNumber: 528,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 531,
+                                                    lineNumber: 527,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29409,7 +29384,7 @@ const HomePageHiFi = ()=>{
                                                             children: "Enter Your Email"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 535,
+                                                            lineNumber: 531,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29418,19 +29393,19 @@ const HomePageHiFi = ()=>{
                                                             src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 536,
+                                                            lineNumber: 532,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 534,
+                                                    lineNumber: 530,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 530,
+                                            lineNumber: 526,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29443,12 +29418,12 @@ const HomePageHiFi = ()=>{
                                                         children: "PHONE"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 541,
+                                                        lineNumber: 537,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 540,
+                                                    lineNumber: 536,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29459,7 +29434,7 @@ const HomePageHiFi = ()=>{
                                                             children: "Enter Your Phone"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 544,
+                                                            lineNumber: 540,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29468,19 +29443,19 @@ const HomePageHiFi = ()=>{
                                                             src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 545,
+                                                            lineNumber: 541,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 543,
+                                                    lineNumber: 539,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 539,
+                                            lineNumber: 535,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29493,12 +29468,12 @@ const HomePageHiFi = ()=>{
                                                         children: "BUDGET"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 550,
+                                                        lineNumber: 546,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 549,
+                                                    lineNumber: 545,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29512,7 +29487,7 @@ const HomePageHiFi = ()=>{
                                                                     children: "What did you have in mind?"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                    lineNumber: 554,
+                                                                    lineNumber: 550,
                                                                     columnNumber: 21
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29521,13 +29496,13 @@ const HomePageHiFi = ()=>{
                                                                     src: "/img/mdi-menu-down.svg"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                                    lineNumber: 555,
+                                                                    lineNumber: 551,
                                                                     columnNumber: 21
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 553,
+                                                            lineNumber: 549,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29536,19 +29511,19 @@ const HomePageHiFi = ()=>{
                                                             src: "/img/line-2.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 557,
+                                                            lineNumber: 553,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 552,
+                                                    lineNumber: 548,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 548,
+                                            lineNumber: 544,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29561,12 +29536,12 @@ const HomePageHiFi = ()=>{
                                                         children: "MESSAGE"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                        lineNumber: 562,
+                                                        lineNumber: 558,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 561,
+                                                    lineNumber: 557,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29577,7 +29552,7 @@ const HomePageHiFi = ()=>{
                                                             children: "Tell us about your amazing idea!"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 565,
+                                                            lineNumber: 561,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -29586,25 +29561,25 @@ const HomePageHiFi = ()=>{
                                                             src: "/img/line-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                            lineNumber: 566,
+                                                            lineNumber: 562,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                                    lineNumber: 564,
+                                                    lineNumber: 560,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                            lineNumber: 560,
+                                            lineNumber: 556,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                    lineNumber: 508,
+                                    lineNumber: 504,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _formButton.FormButton), {
@@ -29613,29 +29588,29 @@ const HomePageHiFi = ()=>{
                                     text: "SEND"
                                 }, void 0, false, {
                                     fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                                    lineNumber: 570,
+                                    lineNumber: 566,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                            lineNumber: 507,
+                            lineNumber: 503,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                        lineNumber: 506,
+                        lineNumber: 502,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 487,
+                lineNumber: 483,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footer.Footer), {}, void 0, false, {
                 fileName: "src/screens/HomePageHiFi/HomePageHiFi.jsx",
-                lineNumber: 574,
+                lineNumber: 570,
                 columnNumber: 7
             }, undefined)
         ]
