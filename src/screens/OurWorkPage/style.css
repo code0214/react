@@ -43,6 +43,19 @@
   margin-top: -1px;
   position: relative;
   width: 100%;
+  animation-name: ourwork;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+@keyframes ourwork {
+  0% {left: 0px;
+      top: 700px;
+    }
+  100% {
+      left: 0px;
+      top: 0px;
+  }
 }
 
 .our-work-page .content {
@@ -68,6 +81,7 @@
   height: 800px;
   position: relative;
   width: 100%;
+  display: none;
 }
 
 .our-work-page .title {
@@ -114,8 +128,24 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 40px 10px 40px 40px;
+  padding: 80px 10px 40px 40px;
   position: relative;
+  width: 100%;
+}
+
+.our-work-page .content-default:hover {
+  height: 800px !important;
+}
+
+.our-work-page .content-default:hover .image {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 100%;
 }
 
@@ -775,9 +805,13 @@
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
-    padding: 24px 10px 24px 24px;
+    padding: 70px 10px 24px 24px;
     position: relative;
     width: 100%;
+  }
+
+  .our-work-page .content-default:hover {
+    height: 400px !important;
   }
   
   .our-work-page .title-2 {

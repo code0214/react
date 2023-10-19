@@ -468,6 +468,8 @@
   gap: 24px;
   position: relative;
   width: 50%;
+  position: sticky;
+  top: 0;
 }
 
 .home-page-hi-fi .text-wrapper-21 {

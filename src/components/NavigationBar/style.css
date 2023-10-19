@@ -15,6 +15,19 @@
   justify-content: space-between;
   position: relative;
   width: 100%;
+  animation-name: navigation-bar;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-timing-function: ease;
+}
+
+@keyframes navigation-bar {
+  0% {
+    top: -99px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 
 .navigation-bar .AVY-LOGO {

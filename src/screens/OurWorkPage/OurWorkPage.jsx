@@ -51,7 +51,7 @@ function getCardResponse(){
         <div className="OUR-WORK">
           <div className="our-work">OUR WORK</div>
           <div className="content">
-            <div className="content-hovered">
+            <div className="content-default">
               <img className="image" alt="Image" src="/img/image-15.png" />
               <div className="title">
                 <Number variant={getCardResponse()} />
@@ -62,7 +62,8 @@ function getCardResponse(){
               </div>
             </div>
             <div className="content-default">
-              <div className="title-2">
+              <img className="image" alt="Image" src="./img/image-15.png" />
+              <div className="title">
                 <Number divClassName="number-instance" text="02" variant={getCardResponse()} />
                 <div className="sub-title">
                   <div className="text-wrapper-3">SAMPLEY &amp; SONS</div>
@@ -71,7 +72,8 @@ function getCardResponse(){
               </div>
             </div>
             <div className="content-default">
-              <div className="title-2">
+              <img className="image" alt="Image" src="./img/image-15.png" />
+              <div className="title">
                 <Number divClassName="number-instance" text="03" variant={getCardResponse()} />
                 <div className="sub-title">
                   <div className="text-wrapper-3">LITTLE BOBBINS BOUTIQUE</div>
@@ -80,7 +82,8 @@ function getCardResponse(){
               </div>
             </div>
             <div className="content-default">
-              <div className="title-2">
+              <img className="image" alt="Image" src="./img/image-15.png" />
+              <div className="title">
                 <Number divClassName="number-2" text="04" variant={getCardResponse()} />
                 <div className="sub-title">
                   <div className="text-wrapper-3">LOREM IPSUM</div>
@@ -89,7 +92,8 @@ function getCardResponse(){
               </div>
             </div>
             <div className="content-default">
-              <div className="title-2">
+              <img className="image" alt="Image" src="./img/image-15.png" />
+              <div className="title">
                 <Number divClassName="number-instance" text="05" variant={getCardResponse()} />
                 <div className="sub-title">
                   <div className="text-wrapper-3">LOREM IPSUM</div>

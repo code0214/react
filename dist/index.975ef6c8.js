@@ -38800,7 +38800,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./screens/HomePageHiFi":"fDJx5","./screens/AboutUsPage":"daGOL","./screens/OurWorkPage/OurWorkPage":"ey0xB","./screens/InsightsPage/InsightsPage":"lDWFj","./screens/InsightsContent/InsightsContent":"j5coK","./screens/PageNotFound/PageNotFound":"hpTHP","./screens/WorkOverlay":"3xq6K","./screens/ContactUsOverlay/ContactUsOverlay":"g5dNU","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"daGOL":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","./screens/HomePageHiFi":"fDJx5","./screens/AboutUsPage":"daGOL","./screens/OurWorkPage/OurWorkPage":"ey0xB","./screens/InsightsPage/InsightsPage":"lDWFj","./screens/InsightsContent/InsightsContent":"j5coK","./screens/PageNotFound/PageNotFound":"hpTHP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./screens/WorkOverlay":"3xq6K","./screens/ContactUsOverlay/ContactUsOverlay":"g5dNU"}],"daGOL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "AboutUsPage", ()=>(0, _aboutUsPage.AboutUsPage));
@@ -41078,7 +41078,7 @@ const OurWorkPage = ()=>{
                                 className: "content",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "content-hovered",
+                                        className: "content-default",
                                         children: [
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                 className: "image",
@@ -41138,202 +41138,246 @@ const OurWorkPage = ()=>{
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         className: "content-default",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "title-2",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _number.Number), {
-                                                    divClassName: "number-instance",
-                                                    text: "02",
-                                                    variant: getCardResponse()
-                                                }, void 0, false, {
-                                                    fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 66,
-                                                    columnNumber: 17
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "sub-title",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "text-wrapper-3",
-                                                            children: "SAMPLEY & SONS"
-                                                        }, void 0, false, {
-                                                            fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 68,
-                                                            columnNumber: 19
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "text-wrapper-4",
-                                                            children: "BRANDING"
-                                                        }, void 0, false, {
-                                                            fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 69,
-                                                            columnNumber: 19
-                                                        }, undefined)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 67,
-                                                    columnNumber: 17
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 65,
-                                            columnNumber: 15
-                                        }, undefined)
-                                    }, void 0, false, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                className: "image",
+                                                alt: "Image",
+                                                src: "./img/image-15.png"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                lineNumber: 65,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "title",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _number.Number), {
+                                                        divClassName: "number-instance",
+                                                        text: "02",
+                                                        variant: getCardResponse()
+                                                    }, void 0, false, {
+                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                        lineNumber: 67,
+                                                        columnNumber: 17
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "sub-title",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-3",
+                                                                children: "SAMPLEY & SONS"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                                lineNumber: 69,
+                                                                columnNumber: 19
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-4",
+                                                                children: "BRANDING"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                                lineNumber: 70,
+                                                                columnNumber: 19
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                        lineNumber: 68,
+                                                        columnNumber: 17
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                lineNumber: 66,
+                                                columnNumber: 15
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                         lineNumber: 64,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         className: "content-default",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "title-2",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _number.Number), {
-                                                    divClassName: "number-instance",
-                                                    text: "03",
-                                                    variant: getCardResponse()
-                                                }, void 0, false, {
-                                                    fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 75,
-                                                    columnNumber: 17
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "sub-title",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "text-wrapper-3",
-                                                            children: "LITTLE BOBBINS BOUTIQUE"
-                                                        }, void 0, false, {
-                                                            fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 77,
-                                                            columnNumber: 19
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "text-wrapper-4",
-                                                            children: "BRANDING & PRINT"
-                                                        }, void 0, false, {
-                                                            fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 78,
-                                                            columnNumber: 19
-                                                        }, undefined)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 76,
-                                                    columnNumber: 17
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 74,
-                                            columnNumber: 15
-                                        }, undefined)
-                                    }, void 0, false, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                className: "image",
+                                                alt: "Image",
+                                                src: "./img/image-15.png"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                lineNumber: 75,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "title",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _number.Number), {
+                                                        divClassName: "number-instance",
+                                                        text: "03",
+                                                        variant: getCardResponse()
+                                                    }, void 0, false, {
+                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                        lineNumber: 77,
+                                                        columnNumber: 17
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "sub-title",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-3",
+                                                                children: "LITTLE BOBBINS BOUTIQUE"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                                lineNumber: 79,
+                                                                columnNumber: 19
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-4",
+                                                                children: "BRANDING & PRINT"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                                lineNumber: 80,
+                                                                columnNumber: 19
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                        lineNumber: 78,
+                                                        columnNumber: 17
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                lineNumber: 76,
+                                                columnNumber: 15
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 73,
+                                        lineNumber: 74,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         className: "content-default",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "title-2",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _number.Number), {
-                                                    divClassName: "number-2",
-                                                    text: "04",
-                                                    variant: getCardResponse()
-                                                }, void 0, false, {
-                                                    fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 84,
-                                                    columnNumber: 17
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "sub-title",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "text-wrapper-3",
-                                                            children: "LOREM IPSUM"
-                                                        }, void 0, false, {
-                                                            fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 86,
-                                                            columnNumber: 19
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "text-wrapper-4",
-                                                            children: "BRANDING"
-                                                        }, void 0, false, {
-                                                            fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 87,
-                                                            columnNumber: 19
-                                                        }, undefined)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 85,
-                                                    columnNumber: 17
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 83,
-                                            columnNumber: 15
-                                        }, undefined)
-                                    }, void 0, false, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                className: "image",
+                                                alt: "Image",
+                                                src: "./img/image-15.png"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                lineNumber: 85,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "title",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _number.Number), {
+                                                        divClassName: "number-2",
+                                                        text: "04",
+                                                        variant: getCardResponse()
+                                                    }, void 0, false, {
+                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                        lineNumber: 87,
+                                                        columnNumber: 17
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "sub-title",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-3",
+                                                                children: "LOREM IPSUM"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                                lineNumber: 89,
+                                                                columnNumber: 19
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-4",
+                                                                children: "BRANDING"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                                lineNumber: 90,
+                                                                columnNumber: 19
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                        lineNumber: 88,
+                                                        columnNumber: 17
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                lineNumber: 86,
+                                                columnNumber: 15
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 82,
+                                        lineNumber: 84,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         className: "content-default",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "title-2",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _number.Number), {
-                                                    divClassName: "number-instance",
-                                                    text: "05",
-                                                    variant: getCardResponse()
-                                                }, void 0, false, {
-                                                    fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 93,
-                                                    columnNumber: 17
-                                                }, undefined),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "sub-title",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "text-wrapper-3",
-                                                            children: "LOREM IPSUM"
-                                                        }, void 0, false, {
-                                                            fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 95,
-                                                            columnNumber: 19
-                                                        }, undefined),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                            className: "text-wrapper-4",
-                                                            children: "BRANDING"
-                                                        }, void 0, false, {
-                                                            fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 96,
-                                                            columnNumber: 19
-                                                        }, undefined)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 94,
-                                                    columnNumber: 17
-                                                }, undefined)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 92,
-                                            columnNumber: 15
-                                        }, undefined)
-                                    }, void 0, false, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                className: "image",
+                                                alt: "Image",
+                                                src: "./img/image-15.png"
+                                            }, void 0, false, {
+                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                lineNumber: 95,
+                                                columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "title",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _number.Number), {
+                                                        divClassName: "number-instance",
+                                                        text: "05",
+                                                        variant: getCardResponse()
+                                                    }, void 0, false, {
+                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                        lineNumber: 97,
+                                                        columnNumber: 17
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "sub-title",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-3",
+                                                                children: "LOREM IPSUM"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                                lineNumber: 99,
+                                                                columnNumber: 19
+                                                            }, undefined),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                                className: "text-wrapper-4",
+                                                                children: "BRANDING"
+                                                            }, void 0, false, {
+                                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                                lineNumber: 100,
+                                                                columnNumber: 19
+                                                            }, undefined)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                        lineNumber: 98,
+                                                        columnNumber: 17
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                lineNumber: 96,
+                                                columnNumber: 15
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 91,
+                                        lineNumber: 94,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
@@ -41364,7 +41408,7 @@ const OurWorkPage = ()=>{
                             children: "NOW LETS FIND OUT ABOUT YOU"
                         }, void 0, false, {
                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                            lineNumber: 105,
+                            lineNumber: 109,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41378,7 +41422,7 @@ const OurWorkPage = ()=>{
                                             children: "L\xd6REM IPSUM"
                                         }, void 0, false, {
                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 108,
+                                            lineNumber: 112,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41386,7 +41430,7 @@ const OurWorkPage = ()=>{
                                             children: "L\xd6REM IPSUM"
                                         }, void 0, false, {
                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 109,
+                                            lineNumber: 113,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41394,13 +41438,13 @@ const OurWorkPage = ()=>{
                                             children: "L\xd6REM IPSUM"
                                         }, void 0, false, {
                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 110,
+                                            lineNumber: 114,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                    lineNumber: 107,
+                                    lineNumber: 111,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
@@ -41408,24 +41452,24 @@ const OurWorkPage = ()=>{
                                     text: "START SURVEY"
                                 }, void 0, false, {
                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                    lineNumber: 112,
+                                    lineNumber: 116,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                            lineNumber: 106,
+                            lineNumber: 110,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                    lineNumber: 104,
+                    lineNumber: 108,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                lineNumber: 103,
+                lineNumber: 107,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41439,7 +41483,7 @@ const OurWorkPage = ()=>{
                                 children: "ARE YOU READY TO"
                             }, void 0, false, {
                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                lineNumber: 118,
+                                lineNumber: 122,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41451,7 +41495,7 @@ const OurWorkPage = ()=>{
                                         src: "/img/line-10.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 120,
+                                        lineNumber: 124,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41459,7 +41503,7 @@ const OurWorkPage = ()=>{
                                         children: "WORK"
                                     }, void 0, false, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 121,
+                                        lineNumber: 125,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -41468,13 +41512,13 @@ const OurWorkPage = ()=>{
                                         src: "/img/line-10.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 122,
+                                        lineNumber: 126,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                lineNumber: 119,
+                                lineNumber: 123,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41485,7 +41529,7 @@ const OurWorkPage = ()=>{
                                         children: "WITH"
                                     }, void 0, false, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 125,
+                                        lineNumber: 129,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -41494,7 +41538,7 @@ const OurWorkPage = ()=>{
                                         src: "/img/line-9.svg"
                                     }, void 0, false, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 126,
+                                        lineNumber: 130,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41507,12 +41551,12 @@ const OurWorkPage = ()=>{
                                                     children: "US"
                                                 }, void 0, false, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 129,
+                                                    lineNumber: 133,
                                                     columnNumber: 17
                                                 }, undefined)
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 128,
+                                                lineNumber: 132,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41520,25 +41564,25 @@ const OurWorkPage = ()=>{
                                                 children: "?"
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 131,
+                                                lineNumber: 135,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 127,
+                                        lineNumber: 131,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                lineNumber: 124,
+                                lineNumber: 128,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                        lineNumber: 117,
+                        lineNumber: 121,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41559,12 +41603,12 @@ const OurWorkPage = ()=>{
                                                         children: "SUBJECT"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 140,
+                                                        lineNumber: 144,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 139,
+                                                    lineNumber: 143,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41578,7 +41622,7 @@ const OurWorkPage = ()=>{
                                                                     children: "Select"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                                    lineNumber: 144,
+                                                                    lineNumber: 148,
                                                                     columnNumber: 21
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -41587,13 +41631,13 @@ const OurWorkPage = ()=>{
                                                                     src: "/img/mdi-menu-down.svg"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                                    lineNumber: 145,
+                                                                    lineNumber: 149,
                                                                     columnNumber: 21
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 143,
+                                                            lineNumber: 147,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -41602,19 +41646,19 @@ const OurWorkPage = ()=>{
                                                             src: "/img/line-2-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 147,
+                                                            lineNumber: 151,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 142,
+                                                    lineNumber: 146,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 138,
+                                            lineNumber: 142,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41627,12 +41671,12 @@ const OurWorkPage = ()=>{
                                                         children: "NAME"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 152,
+                                                        lineNumber: 156,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 151,
+                                                    lineNumber: 155,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41643,7 +41687,7 @@ const OurWorkPage = ()=>{
                                                             children: "Enter Your Name"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 155,
+                                                            lineNumber: 159,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -41652,19 +41696,19 @@ const OurWorkPage = ()=>{
                                                             src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 156,
+                                                            lineNumber: 160,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 154,
+                                                    lineNumber: 158,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 150,
+                                            lineNumber: 154,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41677,12 +41721,12 @@ const OurWorkPage = ()=>{
                                                         children: "EMAIL"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 161,
+                                                        lineNumber: 165,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 160,
+                                                    lineNumber: 164,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41693,7 +41737,7 @@ const OurWorkPage = ()=>{
                                                             children: "Enter Your Email"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 164,
+                                                            lineNumber: 168,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -41702,19 +41746,19 @@ const OurWorkPage = ()=>{
                                                             src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 165,
+                                                            lineNumber: 169,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 163,
+                                                    lineNumber: 167,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 159,
+                                            lineNumber: 163,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41727,12 +41771,12 @@ const OurWorkPage = ()=>{
                                                         children: "PHONE"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 170,
+                                                        lineNumber: 174,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 169,
+                                                    lineNumber: 173,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41743,7 +41787,7 @@ const OurWorkPage = ()=>{
                                                             children: "Enter Your Phone"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 173,
+                                                            lineNumber: 177,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -41752,19 +41796,19 @@ const OurWorkPage = ()=>{
                                                             src: "/img/line-1-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 174,
+                                                            lineNumber: 178,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 172,
+                                                    lineNumber: 176,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 168,
+                                            lineNumber: 172,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41777,12 +41821,12 @@ const OurWorkPage = ()=>{
                                                         children: "BUDGET"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 179,
+                                                        lineNumber: 183,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 178,
+                                                    lineNumber: 182,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41796,7 +41840,7 @@ const OurWorkPage = ()=>{
                                                                     children: "What did you have in mind?"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                                    lineNumber: 183,
+                                                                    lineNumber: 187,
                                                                     columnNumber: 21
                                                                 }, undefined),
                                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -41805,13 +41849,13 @@ const OurWorkPage = ()=>{
                                                                     src: "/img/mdi-menu-down.svg"
                                                                 }, void 0, false, {
                                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                                    lineNumber: 184,
+                                                                    lineNumber: 188,
                                                                     columnNumber: 21
                                                                 }, undefined)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 182,
+                                                            lineNumber: 186,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -41820,19 +41864,19 @@ const OurWorkPage = ()=>{
                                                             src: "/img/line-2.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 186,
+                                                            lineNumber: 190,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 181,
+                                                    lineNumber: 185,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 177,
+                                            lineNumber: 181,
                                             columnNumber: 15
                                         }, undefined),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41845,12 +41889,12 @@ const OurWorkPage = ()=>{
                                                         children: "MESSAGE"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 191,
+                                                        lineNumber: 195,
                                                         columnNumber: 19
                                                     }, undefined)
                                                 }, void 0, false, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 190,
+                                                    lineNumber: 194,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41861,7 +41905,7 @@ const OurWorkPage = ()=>{
                                                             children: "Tell us about your amazing idea!"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 194,
+                                                            lineNumber: 198,
                                                             columnNumber: 19
                                                         }, undefined),
                                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -41870,25 +41914,25 @@ const OurWorkPage = ()=>{
                                                             src: "/img/line-1.svg"
                                                         }, void 0, false, {
                                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                            lineNumber: 195,
+                                                            lineNumber: 199,
                                                             columnNumber: 19
                                                         }, undefined)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 193,
+                                                    lineNumber: 197,
                                                     columnNumber: 17
                                                 }, undefined)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 189,
+                                            lineNumber: 193,
                                             columnNumber: 15
                                         }, undefined)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                    lineNumber: 137,
+                                    lineNumber: 141,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _formButton.FormButton), {
@@ -41897,24 +41941,24 @@ const OurWorkPage = ()=>{
                                     text: "SEND"
                                 }, void 0, false, {
                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                    lineNumber: 199,
+                                    lineNumber: 203,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                            lineNumber: 136,
+                            lineNumber: 140,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                        lineNumber: 135,
+                        lineNumber: 139,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                lineNumber: 116,
+                lineNumber: 120,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41934,12 +41978,12 @@ const OurWorkPage = ()=>{
                                             src: "/img/avy-logo-4.png"
                                         }, void 0, false, {
                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 207,
+                                            lineNumber: 211,
                                             columnNumber: 15
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 206,
+                                        lineNumber: 210,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -41947,13 +41991,13 @@ const OurWorkPage = ()=>{
                                         children: "AVY\xa9 CONSULTANCY.DESIGN, BRAND & MOTION"
                                     }, void 0, false, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 209,
+                                        lineNumber: 213,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                lineNumber: 205,
+                                lineNumber: 209,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -41970,37 +42014,12 @@ const OurWorkPage = ()=>{
                                                         children: "ABOUT"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 216,
-                                                        columnNumber: 17
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "text-wrapper-11",
-                                                        children: "OUR WORK"
-                                                    }, void 0, false, {
-                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 217,
-                                                        columnNumber: 17
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 215,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "div-5",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "text-wrapper-10",
-                                                        children: "INSIGHTS"
-                                                    }, void 0, false, {
-                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                                         lineNumber: 220,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                         className: "text-wrapper-11",
-                                                        children: "SHOP"
+                                                        children: "OUR WORK"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                                         lineNumber: 221,
@@ -42011,11 +42030,36 @@ const OurWorkPage = ()=>{
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                                 lineNumber: 219,
                                                 columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "div-5",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "text-wrapper-10",
+                                                        children: "INSIGHTS"
+                                                    }, void 0, false, {
+                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                        lineNumber: 224,
+                                                        columnNumber: 17
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "text-wrapper-11",
+                                                        children: "SHOP"
+                                                    }, void 0, false, {
+                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                        lineNumber: 225,
+                                                        columnNumber: 17
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                lineNumber: 223,
+                                                columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 214,
+                                        lineNumber: 218,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42029,37 +42073,12 @@ const OurWorkPage = ()=>{
                                                         children: "CONTACT US"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 226,
+                                                        lineNumber: 230,
                                                         columnNumber: 17
                                                     }, undefined),
                                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                         className: "text-wrapper-13",
                                                         children: "TESTIMONIALS"
-                                                    }, void 0, false, {
-                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 227,
-                                                        columnNumber: 17
-                                                    }, undefined)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 225,
-                                                columnNumber: 15
-                                            }, undefined),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "div-5",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "text-wrapper-10",
-                                                        children: "Hello@avy.me"
-                                                    }, void 0, false, {
-                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                        lineNumber: 230,
-                                                        columnNumber: 17
-                                                    }, undefined),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "text-wrapper-11",
-                                                        children: "+44 7365 536 636"
                                                     }, void 0, false, {
                                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                                         lineNumber: 231,
@@ -42070,23 +42089,48 @@ const OurWorkPage = ()=>{
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
                                                 lineNumber: 229,
                                                 columnNumber: 15
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "div-5",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "text-wrapper-10",
+                                                        children: "Hello@avy.me"
+                                                    }, void 0, false, {
+                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                        lineNumber: 234,
+                                                        columnNumber: 17
+                                                    }, undefined),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "text-wrapper-11",
+                                                        children: "+44 7365 536 636"
+                                                    }, void 0, false, {
+                                                        fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                        lineNumber: 235,
+                                                        columnNumber: 17
+                                                    }, undefined)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
+                                                lineNumber: 233,
+                                                columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 224,
+                                        lineNumber: 228,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                lineNumber: 213,
+                                lineNumber: 217,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                        lineNumber: 204,
+                        lineNumber: 208,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42103,19 +42147,19 @@ const OurWorkPage = ()=>{
                                                 "LET’S STAY",
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                                                     fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                    lineNumber: 241,
+                                                    lineNumber: 245,
                                                     columnNumber: 17
                                                 }, undefined),
                                                 "CONNECTED"
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                            lineNumber: 239,
+                                            lineNumber: 243,
                                             columnNumber: 15
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 238,
+                                        lineNumber: 242,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42126,7 +42170,7 @@ const OurWorkPage = ()=>{
                                                 color: "#1A1A1A"
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 246,
+                                                lineNumber: 250,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _riBehanceFill.RiBehanceFill), {
@@ -42134,7 +42178,7 @@ const OurWorkPage = ()=>{
                                                 color: "#1A1A1A"
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 247,
+                                                lineNumber: 251,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mdiInstagram1.MdiInstagram1), {
@@ -42142,19 +42186,19 @@ const OurWorkPage = ()=>{
                                                 color: "#1A1A1A"
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 248,
+                                                lineNumber: 252,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 245,
+                                        lineNumber: 249,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                lineNumber: 237,
+                                lineNumber: 241,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42165,7 +42209,7 @@ const OurWorkPage = ()=>{
                                         children: "AVY\xa9 CONSULTANCY.DESIGN, BRAND & MOTION"
                                     }, void 0, false, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 252,
+                                        lineNumber: 256,
                                         columnNumber: 13
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42176,7 +42220,7 @@ const OurWorkPage = ()=>{
                                                 children: "TERMS & CONDITIONS"
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 256,
+                                                lineNumber: 260,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
@@ -42185,7 +42229,7 @@ const OurWorkPage = ()=>{
                                                 src: "/img/line-21.svg"
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 257,
+                                                lineNumber: 261,
                                                 columnNumber: 15
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -42193,31 +42237,31 @@ const OurWorkPage = ()=>{
                                                 children: "PRIVACY POLICY"
                                             }, void 0, false, {
                                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                                lineNumber: 258,
+                                                lineNumber: 262,
                                                 columnNumber: 15
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                        lineNumber: 255,
+                                        lineNumber: 259,
                                         columnNumber: 13
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                                lineNumber: 251,
+                                lineNumber: 255,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                        lineNumber: 236,
+                        lineNumber: 240,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/screens/OurWorkPage/OurWorkPage.jsx",
-                lineNumber: 203,
+                lineNumber: 207,
                 columnNumber: 7
             }, undefined)
         ]

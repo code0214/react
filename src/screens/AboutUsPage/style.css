@@ -38,7 +38,7 @@
   flex: 0 0 auto;
   gap: 16px;
   width: 100%;
-  display: flex;
+
 }
 
 .about-us-page .text-wrapper-7 {
@@ -53,6 +53,19 @@
   white-space: nowrap;
   width: fit-content;
   display:flex;
+  position: relative;
+  animation-name: aboutavy;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+@keyframes aboutavy {
+  0% {
+      top: 700px;
+    }
+  100% {
+      top: 0px;
+  }
 }
 
 .about-us-page .text-wrapper-8 {
@@ -140,6 +153,15 @@
   display: flex;
   height: 747px;
   width: 50%;
+  animation-name: img;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-timing-function: ease;
+}
+
+@keyframes img {
+  0% { transform: translateX(100%);}
+  100% {transform: translateX(0);}
 }
 
 .about-us-page .unsplash {
