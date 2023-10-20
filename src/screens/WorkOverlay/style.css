@@ -1,5 +1,232 @@
 .work-overlay {
-    width: 70%;
+  width: 70%;
+}
+.work-overlay .headline {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  position: relative;
+  width: 100%;
+}
+
+.work-overlay .content-container {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--surface);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 240px;
+  padding: 60px 60px 88px;
+  position: relative;
+  width: 100%;
+}
+
+.work-overlay .title-button {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  /* width: 100%; */
+}
+
+.work-overlay .project-title {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.work-overlay .text-wrapper {
+  color: white;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+.work-overlay .text-wrapper2 {
+  color: black;
+  font-family: var(--desktop-display-large-font-family);
+  font-size: var(--desktop-display-large-font-size);
+  font-style: var(--desktop-display-large-font-style);
+  font-weight: var(--desktop-display-large-font-weight);
+  letter-spacing: var(--desktop-display-large-letter-spacing);
+  line-height: var(--desktop-display-large-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.work-overlay .div {
+  color: var(--secondary);
+  font-family: var(--desktop-body-medium-font-family);
+  font-size: var(--desktop-body-medium-font-size);
+  font-style: var(--desktop-body-medium-font-style);
+  font-weight: var(--desktop-body-medium-font-weight);
+  letter-spacing: var(--desktop-body-medium-letter-spacing);
+  line-height: var(--desktop-body-medium-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.work-overlay .button-instance {
+  flex: 0 0 auto !important;
+}
+
+.work-overlay .rectangle {
+  align-self: stretch;
+  background-color: var(--black);
+  height: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.work-overlay .div-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 60px;
+  padding: 0px 60px;
+  padding-top: 47px;
+  position: relative;
+  width: 100%;
+}
+
+.work-overlay .project-overview {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 120px;
+  position: relative;
+  width: 100%;
+}
+
+.work-overlay .div-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 12px;
+  position: relative;
+}
+
+.work-overlay .text-wrapper-2 {
+  align-self: stretch;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  position: relative;
+}
+
+.work-overlay .text-wrapper-3 {
+  align-self: stretch;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  position: relative;
+}
+
+.work-overlay .div-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.work-overlay .element-image {
+  align-items: flex-start;
+  align-self: stretch;
+  /* display: flex; */
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.work-overlay .image {
+  /* height: 531.28px; */
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.work-overlay .img {
+  /* height: 258.36px; */
+  position: relative;
+  width:  50%;
+  height: auto;
+}
+
+.work-overlay .image-2 {
+  align-self: stretch;
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.work-overlay .text-wrapper-4 {
+  align-self: stretch;
+  color: #000000;
+  font-family: var(--desktop-display-large-font-family);
+  font-size: var(--desktop-display-large-font-size);
+  font-style: var(--desktop-display-large-font-style);
+  font-weight: var(--desktop-display-large-font-weight);
+  letter-spacing: var(--desktop-display-large-letter-spacing);
+  line-height: var(--desktop-display-large-line-height);
+  position: relative;
+  text-align: center;
+}
+
+.work-overlay .if-it-s-a-website {
+  color: var(--primary);
+  font-family: var(--desktop-body-small-font-family);
+  font-size: var(--desktop-body-small-font-size);
+  font-style: var(--desktop-body-small-font-style);
+  font-weight: var(--desktop-body-small-font-weight);
+  /* left: 709px; */
+  letter-spacing: var(--desktop-body-small-letter-spacing);
+  line-height: var(--desktop-body-small-line-height);
+  /* position: absolute; */
+  /* top: 2275px; */
+}
+
+.work-overlay .workoverlay-footer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+@media only screen and (max-width: 390px) {
+  .work-overlay {
+    width: 100%;
 }
 .work-overlay .headline {
     align-items: flex-start;
@@ -18,8 +245,8 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: 240px;
-    padding: 60px 60px 88px;
+    height: 180px;
+    padding: 40px 16px 80px 16px;
     position: relative;
     width: 100%;
   }
@@ -45,11 +272,12 @@
   
   .work-overlay .text-wrapper {
     color: white;
+    text-align: center;
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 20px;
     margin-top: -1px;
     position: relative;
     white-space: nowrap;
@@ -57,12 +285,11 @@
   }
   .work-overlay .text-wrapper2 {
     color: black;
-    font-family: var(--desktop-display-large-font-family);
-    font-size: var(--desktop-display-large-font-size);
-    font-style: var(--desktop-display-large-font-style);
-    font-weight: var(--desktop-display-large-font-weight);
-    letter-spacing: var(--desktop-display-large-letter-spacing);
-    line-height: var(--desktop-display-large-line-height);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
     margin-top: -1px;
     position: relative;
     white-space: nowrap;
@@ -71,12 +298,11 @@
   
   .work-overlay .div {
     color: var(--secondary);
-    font-family: var(--desktop-body-medium-font-family);
-    font-size: var(--desktop-body-medium-font-size);
-    font-style: var(--desktop-body-medium-font-style);
-    font-weight: var(--desktop-body-medium-font-weight);
-    letter-spacing: var(--desktop-body-medium-letter-spacing);
-    line-height: var(--desktop-body-medium-line-height);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
     position: relative;
     white-space: nowrap;
     width: fit-content;
@@ -100,8 +326,8 @@
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
-    gap: 60px;
-    padding: 0px 60px;
+    gap: 24px;
+    padding: 0px 12px;
     position: relative;
     width: 100%;
   }
@@ -109,9 +335,9 @@
   .work-overlay .project-overview {
     align-items: flex-start;
     align-self: stretch;
-    display: flex;
+    display: grid;
     flex: 0 0 auto;
-    gap: 120px;
+    gap: 24px;
     position: relative;
     width: 100%;
   }
@@ -134,6 +360,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
+    margin-top: -1px;
     position: relative;
   }
   
@@ -141,10 +368,11 @@
     align-self: stretch;
     color: #000000;
     font-family: Montserrat;
+    font-family: Montserrat;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; 
+    line-height: 24px;
     position: relative;
   }
   
@@ -186,7 +414,7 @@
   
   .work-overlay .image-2 {
     align-self: stretch;
-    height: 524px;
+    height: auto;
     position: relative;
     width: 100%;
   }
@@ -194,14 +422,14 @@
   .work-overlay .text-wrapper-4 {
     align-self: stretch;
     color: #000000;
-    font-family: var(--desktop-display-large-font-family);
-    font-size: var(--desktop-display-large-font-size);
-    font-style: var(--desktop-display-large-font-style);
-    font-weight: var(--desktop-display-large-font-weight);
-    letter-spacing: var(--desktop-display-large-letter-spacing);
-    line-height: var(--desktop-display-large-line-height);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
     position: relative;
     text-align: center;
+    justify-content: center;
   }
   
   .work-overlay .if-it-s-a-website {
@@ -213,6 +441,7 @@
     /* left: 709px; */
     letter-spacing: var(--desktop-body-small-letter-spacing);
     line-height: var(--desktop-body-small-line-height);
+    display: none;
     /* position: absolute; */
     /* top: 2275px; */
   }
@@ -220,235 +449,6 @@
   .work-overlay .workoverlay-footer {
     width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
   }
-
-  @media only screen and (max-width: 390px) {
-    .work-overlay {
-      width: 100%;
-  }
-  .work-overlay .headline {
-      align-items: flex-start;
-      align-self: stretch;
-      display: flex;
-      flex-direction: column;
-      height: 250px;
-      position: relative;
-      width: 100%;
-    }
-    
-    .work-overlay .content-container {
-      align-items: flex-start;
-      align-self: stretch;
-      background-color: var(--surface);
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      height: 180px;
-      padding: 40px 16px 80px 16px;
-      position: relative;
-      width: 100%;
-    }
-    
-    .work-overlay .title-button {
-      align-items: flex-start;
-      align-self: stretch;
-      display: flex;
-      flex: 0 0 auto;
-      justify-content: space-between;
-      position: relative;
-      /* width: 100%; */
-    }
-    
-    .work-overlay .project-title {
-      align-items: flex-start;
-      display: inline-flex;
-      flex: 0 0 auto;
-      flex-direction: column;
-      gap: 12px;
-      position: relative;
-    }
-    
-    .work-overlay .text-wrapper {
-      color: white;
-      text-align: center;
-      font-family: Montserrat;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 20px;
-      margin-top: -1px;
-      position: relative;
-      white-space: nowrap;
-      width: fit-content;
-    }
-    .work-overlay .text-wrapper2 {
-      color: black;
-      font-family: Montserrat;
-      font-size: 22px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 28px; 
-      margin-top: -1px;
-      position: relative;
-      white-space: nowrap;
-      width: fit-content;
-    }
-    
-    .work-overlay .div {
-      color: var(--secondary);
-      font-family: Montserrat;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 20px;
-      position: relative;
-      white-space: nowrap;
-      width: fit-content;
-    }
-    
-    .work-overlay .button-instance {
-      flex: 0 0 auto !important;
-    }
-    
-    .work-overlay .rectangle {
-      align-self: stretch;
-      background-color: var(--black);
-      height: 10px;
-      position: relative;
-      width: 100%;
-    }
-    
-    .work-overlay .div-2 {
-      align-items: center;
-      align-self: stretch;
-      display: flex;
-      flex: 0 0 auto;
-      flex-direction: column;
-      gap: 24px;
-      padding: 0px 12px;
-      position: relative;
-      width: 100%;
-    }
-    
-    .work-overlay .project-overview {
-      align-items: flex-start;
-      align-self: stretch;
-      display: grid;
-      flex: 0 0 auto;
-      gap: 24px;
-      position: relative;
-      width: 100%;
-    }
-    
-    .work-overlay .div-3 {
-      align-items: flex-start;
-      display: flex;
-      flex: 1;
-      flex-direction: column;
-      flex-grow: 1;
-      gap: 12px;
-      position: relative;
-    }
-    
-    .work-overlay .text-wrapper-2 {
-      align-self: stretch;
-      color: #000000;
-      font-family: var(--desktop-display-medium-font-family);
-      font-size: var(--desktop-display-medium-font-size);
-      font-style: var(--desktop-display-medium-font-style);
-      font-weight: var(--desktop-display-medium-font-weight);
-      letter-spacing: var(--desktop-display-medium-letter-spacing);
-      line-height: var(--desktop-display-medium-line-height);
-      margin-top: -1px;
-      position: relative;
-    }
-    
-    .work-overlay .text-wrapper-3 {
-      align-self: stretch;
-      color: #000000;
-      font-family: Montserrat;
-      font-family: Montserrat;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 24px;
-      position: relative;
-    }
-    
-    .work-overlay .div-4 {
-      align-items: flex-start;
-      align-self: stretch;
-      display: flex;
-      flex: 0 0 auto;
-      flex-direction: column;
-      gap: 24px;
-      position: relative;
-      width: 100%;
-    }
-    
-    .work-overlay .element-image {
-      align-items: flex-start;
-      align-self: stretch;
-      /* display: flex; */
-      flex: 0 0 auto;
-      flex-wrap: wrap;
-      gap: 24px 24px;
-      position: relative;
-      width: 100%;
-    }
-    
-    .work-overlay .image {
-      /* height: 531.28px; */
-      position: relative;
-      width: 100%;
-      height: auto;
-    }
-    
-    .work-overlay .img {
-      /* height: 258.36px; */
-      position: relative;
-      width:  50%;
-      height: auto;
-    }
-    
-    .work-overlay .image-2 {
-      align-self: stretch;
-      height: 524px;
-      position: relative;
-      width: 100%;
-    }
-    
-    .work-overlay .text-wrapper-4 {
-      align-self: stretch;
-      color: #000000;
-      font-family: Montserrat;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 24px;
-      position: relative;
-      text-align: center;
-      justify-content: center;
-    }
-    
-    .work-overlay .if-it-s-a-website {
-      color: var(--primary);
-      font-family: var(--desktop-body-small-font-family);
-      font-size: var(--desktop-body-small-font-size);
-      font-style: var(--desktop-body-small-font-style);
-      font-weight: var(--desktop-body-small-font-weight);
-      /* left: 709px; */
-      letter-spacing: var(--desktop-body-small-letter-spacing);
-      line-height: var(--desktop-body-small-line-height);
-      display: none;
-      /* position: absolute; */
-      /* top: 2275px; */
-    }
-  
-    .work-overlay .workoverlay-footer {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-    }
-  }
+}

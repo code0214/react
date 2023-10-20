@@ -7,6 +7,7 @@ import React from "react";
 import { MdiInstagram1 } from "../../icons/MdiInstagram1";
 import { RiBehanceFill } from "../../icons/RiBehanceFill";
 import { StateDefault2 } from "../../icons/StateDefault2";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 export const Footer = () => {
@@ -19,12 +20,12 @@ export const Footer = () => {
         <div className="div">
           <div className="frame-section">
             <div className="div-2">
-              <div className="text-wrapper-2">ABOUT</div>
-              <div className="text-wrapper-3">OUR WORK</div>
+              <Link to="/aboutus"> <div className="text-wrapper-2">ABOUT</div></Link>
+              <Link to="/ourwork"><div className="text-wrapper-3">OUR WORK</div></Link>
             </div>
             <div className="div-2">
-              <div className="text-wrapper-2">INSIGHTS</div>
-              <div className="text-wrapper-3">SHOP</div>
+              <Link to="/insight"><div className="text-wrapper-2">INSIGHTS</div></Link>
+              <Link to="/pagenotfound"><div className="text-wrapper-3">SHOP</div></Link>
             </div>
           </div>
           <div className="frame-section">

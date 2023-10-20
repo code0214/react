@@ -41,6 +41,7 @@
   padding-left: 40px;
   padding-top: 24px;
   padding-right: 40px;
+  padding-bottom: 100px;
   justify-content: space-between;
   display: flex;
 }
@@ -211,6 +212,7 @@
   position: relative;
   width: 124px;
 }
+
 @media only screen and (max-width: 950px){
   .FOOTER .logo{
     gap: 140px;

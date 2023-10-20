@@ -1,12 +1,234 @@
 .contact-us-overlay {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+  padding: 0px 0px 100px;
+  position: relative;
+  width: 70%;
+}
+
+.contact-us-overlay .headline {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  position: relative;
+  width: 100%;
+}
+
+.contact-us-overlay .content-container {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--surface);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 240px;
+  padding: 60px 60px 88px;
+  position: relative;
+  width: 100%;
+}
+
+.contact-us-overlay .title-button {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  margin-bottom: -20px;
+  position: relative;
+  width: 100%;
+}
+
+.contact-us-overlay .LET-s-GET-IN-TOUCH {
+  color: #000000;
+  font-family: var(--desktop-display-large-font-family);
+  font-size: var(--desktop-display-large-font-size);
+  font-style: var(--desktop-display-large-font-style);
+  font-weight: var(--desktop-display-large-font-weight);
+  letter-spacing: var(--desktop-display-large-letter-spacing);
+  line-height: var(--desktop-display-large-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.contact-us-overlay .design-component-instance-node {
+  flex: 0 0 auto !important;
+}
+
+.contact-us-overlay .rectangle {
+  align-self: stretch;
+  background-color: var(--black);
+  height: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.contact-us-overlay .contact-form {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px 24px;
+  position: relative;
+  width: 90%;
+}
+
+.contact-us-overlay .content {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.contact-us-overlay .form {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.contact-us-overlay .div {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.contact-us-overlay .title {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: 100px;
+}
+
+.contact-us-overlay .text-wrapper-2 {
+  color: var(--black);
+  font-family: var(--desktop-body-large-font-family);
+  font-size: var(--desktop-body-large-font-size);
+  font-style: var(--desktop-body-large-font-style);
+  font-weight: var(--desktop-body-large-font-weight);
+  letter-spacing: var(--desktop-body-large-letter-spacing);
+  line-height: var(--desktop-body-large-line-height);
+  margin-right: -20px;
+  margin-top: -1px;
+  position: relative;
+  width: 120px;
+}
+
+.contact-us-overlay .div-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  position: relative;
+}
+
+.contact-us-overlay .select-dropdown {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.contact-us-overlay .text-wrapper-3 {
+  color: var(--black);
+  flex: 1;
+  font-family: var(--desktop-body-large-font-family);
+  font-size: var(--desktop-body-large-font-size);
+  font-style: var(--desktop-body-large-font-style);
+  font-weight: var(--desktop-body-large-font-weight);
+  letter-spacing: var(--desktop-body-large-letter-spacing);
+  line-height: var(--desktop-body-large-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.contact-us-overlay .mdi-menu-down {
+  height: 30px;
+  position: relative;
+  width: 30px;
+}
+
+.contact-us-overlay .line {
+  align-self: stretch;
+  height: 1px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.contact-us-overlay .div-wrapper {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: 99px;
+}
+
+.contact-us-overlay .text-wrapper-4 {
+  color: var(--black);
+  font-family: var(--desktop-body-large-font-family);
+  font-size: var(--desktop-body-large-font-size);
+  font-style: var(--desktop-body-large-font-style);
+  font-weight: var(--desktop-body-large-font-weight);
+  letter-spacing: var(--desktop-body-large-letter-spacing);
+  line-height: var(--desktop-body-large-line-height);
+  margin-right: -20px;
+  margin-top: -1px;
+  position: relative;
+  width: 119px;
+}
+
+.contact-us-overlay .text-wrapper-5 {
+  align-self: stretch;
+  color: var(--black);
+  font-family: var(--desktop-body-large-font-family);
+  font-size: var(--desktop-body-large-font-size);
+  font-style: var(--desktop-body-large-font-style);
+  font-weight: var(--desktop-body-large-font-weight);
+  letter-spacing: var(--desktop-body-large-letter-spacing);
+  line-height: var(--desktop-body-large-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+@media screen and (max-width: 390px) {
+  .contact-us-overlay {
     align-items: center;
     background-color: var(--white);
     display: flex;
     flex-direction: column;
-    gap: 47px;
-    padding: 0px 0px 100px;
+    gap: 40px;
+    padding: 0px 0px 40px;
     position: relative;
-    width: 70%;
+    width: 100%;
   }
   
   .contact-us-overlay .headline {
@@ -27,7 +249,7 @@
     flex-direction: column;
     gap: 10px;
     height: 240px;
-    padding: 60px 60px 88px;
+    padding: 40px 16px 84px 16px;
     position: relative;
     width: 100%;
   }
@@ -45,12 +267,11 @@
   
   .contact-us-overlay .LET-s-GET-IN-TOUCH {
     color: #000000;
-    font-family: var(--desktop-display-large-font-family);
-    font-size: var(--desktop-display-large-font-size);
-    font-style: var(--desktop-display-large-font-style);
-    font-weight: var(--desktop-display-large-font-weight);
-    letter-spacing: var(--desktop-display-large-letter-spacing);
-    line-height: var(--desktop-display-large-line-height);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
     margin-top: -1px;
     position: relative;
     width: fit-content;
@@ -218,3 +439,4 @@
     margin-top: -1px;
     position: relative;
   }
+}

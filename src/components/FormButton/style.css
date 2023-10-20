@@ -29,6 +29,12 @@
 
 .form-button.state-default {
   background-color: var(--primary);
+  color: var(--white);
+}
+.form-button.state-default:hover {
+  background-color: var(--white);
+  color: var(--primary);
+  border: 1px solid var(--primary);
 }
 
 .form-button.state-hovered .div {

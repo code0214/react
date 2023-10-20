@@ -7,13 +7,34 @@ import { FormButton } from "../../components/FormButton";
 import { Headline } from "../../components/Headline";
 import { Number } from "../../components/Number";
 import { NavigationBar } from "../../components/NavigationBar";
+import { NavigationBarSimple } from "../../components/NavigationBarSimple/NavigationBarSimple";
 import { Menu } from '../../components/Menu';
+import { Link } from 'react-router-dom';
 import "./style.css";
 
 export const HomePageHiFi = () => {
   const [showBurgerMenu, setShowBurgerMenu] = useState(true);
+  const [isSticky, setIsSticky] = useState(false);
 
-  // useEffect(() => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const secondSection = document.getElementsByClassName('HERO');
+      const rect = secondSection.clientHeight;
+      console.log('-----------', rect);
+      const scrollTop = window.scrollY;
+      console.log('---ddddddddddddd----', scrollTop);
+      if(scrollTop > 940) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return() => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [isSticky]);
+  // useEffect () => {
   //   function handleScroll() {
   //     if(window.scrollY > 0) {
   //       setShowBurgerMenu(false);
@@ -130,7 +151,8 @@ function getCardResponse(){
           ): (
             <Menu state="show" />
           )} */}
-          <NavigationBar className="design-component-instance-node" state="burger" />
+          {/* <NavigationBar className="design-component-instance-node" state="burger" /> */}
+            <NavigationBarSimple className={`design-component-instance-node ${isSticky? 'sticky' : ''}`} state="white"/>
           <Menu state="hide" />
         </div>
         <div className="ABOUT">
@@ -464,7 +486,7 @@ function getCardResponse(){
               </div>
             </div>
           </div>
-          <Button className="design-component-instance-node" text="READ MORE" />
+          <Link to="/insight"><Button className="design-component-instance-node" text="READ MORE" /></Link>
         </div>
       </div>
       <div className="SURVEY">

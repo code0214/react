@@ -1,4 +1,113 @@
 .element {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  
+}
+
+.element .overlap-wrapper {
+  background-color: var(--surface);
+  height: 100%;
+  width: 100%;
+}
+
+.element .overlap {
+  height: 95.7vh;
+  width:100%;
+  display: flex;
+  /* display: flex; */
+  /* position: relative; */
+  /* top: 82px; */
+}
+
+.element .overlap-group {
+  /* left: 0; */
+  /* position: absolute; */
+  /* top: 0; */
+  width: 50%;
+  display: flex ;
+  padding-top: 82px;
+  justify-content: end;
+}
+
+.element .text-section-404 {
+  /* padding-top: 98px;
+  padding-left:208px; */
+  width: 50%;
+  /* text-align: center; */
+  padding-left: 204px;
+  justify-content: none;
+
+}
+
+.element .avy-website-banner {
+  height: 816px;
+  /* right: 0; */
+  /* position: absolute; */
+  /* top: 22px; */
+  width: 204px;
+  padding-top: 104px;
+}
+
+.element .rectangle {
+  background-color: var(--black);
+  height: 4.3vh;
+  /* left: 0; */
+  /* position: absolute; */
+  /* top: 96.5%; */
+  width: 100%;
+}
+
+.element .unsplash {
+  height: 838px;
+  right: 96px;
+  /* position: absolute; */
+  top: 0;
+  width: 624px;
+  z-index: 1;
+}
+
+.element .button-instance {
+  left: 45% !important;
+  position: absolute !important;
+  top: 80% !important;
+  z-index: 1;
+}
+
+.element .number404 {
+  padding-top: 98px;
+  color: var(--black);
+  font-family: var(--desktop-headline-h1-font-family);
+  font-size: var(--desktop-headline-h1-font-size);
+  font-style: var(--desktop-headline-h1-font-style);
+  font-weight: var(--desktop-headline-h1-font-weight);
+  /* left: 11%; */
+  letter-spacing: var(--desktop-headline-h1-letter-spacing);
+  line-height: var(--desktop-headline-h1-line-height);
+  /* position: absolute;
+  top: 15px; */
+
+  width: 512px;
+ }
+
+.element .div {
+  color: var(--black);
+  font-family: var(--desktop-headline-h2-font-family);
+  font-size: var(--desktop-headline-h2-font-size);
+  font-style: var(--desktop-headline-h2-font-style);
+  font-weight: var(--desktop-headline-h2-font-weight);
+  /* left: 11%; */
+  letter-spacing: var(--desktop-headline-h2-letter-spacing);
+  line-height: var(--desktop-headline-h2-line-height);
+  /* position: absolute;
+  top: 211px; */
+  width: 512px; 
+}
+
+@media screen and (max-width: 390px) {
+  .element {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -7,14 +116,17 @@
   
   .element .overlap-wrapper {
     background-color: var(--surface);
-    height: 920px;
-    width: 100%;
+    height: 100%;
+    width: 100vh;
   }
   
   .element .overlap {
-    height: 838px;
-    position: relative;
-    top: 82px;
+    /* position: relative; */
+    /* background-color: var(--surface); */
+    height: 95.7vh;
+    width: 100%;
+    display: block;
+    /* top: 0; */
   }
   
   .element .overlap-group {
@@ -22,6 +134,16 @@
     /* position: absolute; */
     /* top: 0; */
     width: 100%;
+    display: none;
+  }
+
+  .element .text-section-404 {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 108px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
   }
   
   .element .avy-website-banner {
@@ -30,14 +152,18 @@
     position: absolute;
     top: 22px;
     width: 204px;
+    display: none;
+  }
+  .element .button {
+
   }
   
   .element .rectangle {
     background-color: var(--black);
-    height: 40px;
+    height: 4.3vh;
     /* left: 0; */
-    position: absolute;
-    top: 96.5%;
+    /* position: absolute; */
+    /* top: 96.5%; */
     width: 100%;
   }
   
@@ -48,39 +174,42 @@
     top: 0;
     width: 624px;
     z-index: 1;
+    display: none;
   }
   
   .element .button-instance {
-    left: 45% !important;
+    left: 20% !important;
     position: absolute !important;
-    top: 80% !important;
+    top: 60%!important;
   }
   
   .element .number404 {
     color: var(--black);
-    font-family: var(--desktop-headline-h1-font-family);
-    font-size: var(--desktop-headline-h1-font-size);
-    font-style: var(--desktop-headline-h1-font-style);
-    font-weight: var(--desktop-headline-h1-font-weight);
-    left: 11%;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
     letter-spacing: var(--desktop-headline-h1-letter-spacing);
-    line-height: var(--desktop-headline-h1-line-height);
-    position: absolute;
-    top: 15px;
-    width: 512px;
+    width: 100%;
+    /* top: 255px;
+    left: 24%; */
   }
   
   .element .div {
     color: var(--black);
-    font-family: var(--desktop-headline-h2-font-family);
-    font-size: var(--desktop-headline-h2-font-size);
-    font-style: var(--desktop-headline-h2-font-style);
-    font-weight: var(--desktop-headline-h2-font-weight);
-    left: 11%;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
     letter-spacing: var(--desktop-headline-h2-letter-spacing);
-    line-height: var(--desktop-headline-h2-line-height);
-    position: absolute;
-    top: 211px;
-    width: 512px;
-  }
+    position: relative;
+    width: 212px;
+    top: 0px;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+  } 
   
+}

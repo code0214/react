@@ -6,6 +6,14 @@
     position: relative;
     display: flex;
   }
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--white);
+    z-index: 2;
+  }
   
   .navigation-bar .content {
     align-items: center;
