@@ -20,9 +20,7 @@ export const HomePageHiFi = () => {
     const handleScroll = () => {
       const secondSection = document.getElementsByClassName('HERO');
       const rect = secondSection.clientHeight;
-      console.log('-----------', rect);
       const scrollTop = window.scrollY;
-      console.log('---ddddddddddddd----', scrollTop);
       if(scrollTop > 940) {
         setIsSticky(true);
       } else {
@@ -152,7 +150,7 @@ function getCardResponse(){
             <Menu state="show" />
           )} */}
           {/* <NavigationBar className="design-component-instance-node" state="burger" /> */}
-            <NavigationBarSimple className={`design-component-instance-node ${isSticky? 'sticky' : ''}`} state="white"/>
+            <NavigationBarSimple className={`design-component-instance-node ${isSticky? 'nav-sticky' : ''}`} state="white"/>
           <Menu state="hide" />
         </div>
         <div className="ABOUT">

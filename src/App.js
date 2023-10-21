@@ -6,7 +6,7 @@ import { InsightsPage } from './screens/InsightsPage/InsightsPage';
 import { InsightsContent } from './screens/InsightsContent/InsightsContent';
 import { PageNotFound } from './screens/PageNotFound/PageNotFound';
 import { WorkOverlay } from './screens/WorkOverlay';
-import { ContactUsOverlay } from './screens/ContactUsOverlay/ContactUsOverlay';
+// import { ContactUsOverlay } from './screens/ContactUsOverlay/ContactUsOverlay';
 
 export const App = () => {
     return(
@@ -19,7 +19,7 @@ export const App = () => {
                 <Route path="/insightContent" element={<InsightsContent />} />
                 <Route path="/pagenotfound" element={<PageNotFound />} />
                 <Route path="/workoverlay" element={<WorkOverlay />} />
-                <Route path="/contactus" element={<ContactUsOverlay/>}/>
+                {/* <Route path="/contactus" element={<ContactUsOverlay/>}/> */}
             </Routes>
         </BrowserRouter>
       
